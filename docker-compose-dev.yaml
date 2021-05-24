@@ -92,7 +92,9 @@ services:
     ports:
       - "21751:3306"
     volumes:
-      - woocommerce-mysql-volume:/var/lib/mysql
+      - ./docker-compose/mysql/dump:/docker-entrypoint-initdb.d
+      - ./docker-compose/mysql/conf:/etc/mysql/conf.d
+      - ./docker-compose/mysql/mysql:/var/lib/mysql
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
