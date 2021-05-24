@@ -11,10 +11,10 @@ services:
       - woocommerce-mysql-service
     deploy:
       replicas: 1
-      resources:
-        limits:
-          cpus: "1"
-          memory: 1024M
+#      resources:
+#        limits:
+#          cpus: "1"
+#          memory: 1024M
       restart_policy:
         condition: on-failure
     environment:
@@ -50,10 +50,10 @@ services:
       - woocommerce-mysql-service
     deploy:
       replicas: 1
-      resources:
-        limits:
-          cpus: "0.9"
-          memory: 768M
+#      resources:
+#        limits:
+#          cpus: "0.9"
+#          memory: 768M
       restart_policy:
         condition: on-failure
     image: wordpress:cli-2-php7.4

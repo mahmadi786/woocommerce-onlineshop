@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Jetpack &#8211; WP Security, Backup, Speed, &amp; Growth - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-19 01:14:41+0000\n"
+"PO-Revision-Date: 2021-05-22 00:55:53+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -71,13 +71,13 @@ msgstr "Kostenlos"
 msgid "Stats by %s"
 msgstr "Statistik nach %s"
 
-#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:97
-msgid "WP Admin"
-msgstr "WP Admin"
-
 #: modules/masterbar/admin-menu/class-atomic-admin-menu.php:238
 msgid "Theme Editor"
 msgstr "Theme-Editor"
+
+#: modules/masterbar/admin-menu/class-jetpack-admin-menu.php:97
+msgid "WP Admin"
+msgstr "WP-Admin"
 
 #: _inc/lib/core-api/wpcom-endpoints/class-wpcom-rest-api-v2-endpoint-podcast-player.php:65
 msgid "Whether we should return the episodes list for use in the selection UI"
@@ -831,10 +831,6 @@ msgstr "Anti-Spam"
 msgid "Jetpack Anti-Spam"
 msgstr "Jetpack Anti-Spam"
 
-#: class.jetpack.php:1775
-msgid "The jetpack_offline_mode filter is set to true."
-msgstr "Der Filter jetpack_offline_mode ist auf „wahr“ festgelegt."
-
 #: class.jetpack.php:1770
 msgid "The site URL is a known local development environment URL (e.g. http://localhost)."
 msgstr "Die Website-URL ist die URL einer bekannten lokalen Entwicklungsumgebung (z. B. http://localhost)."
@@ -846,6 +842,10 @@ msgstr "Die Konstante WP_LOCAL_DEV wird in wp-config.php oder anderweitig defini
 #: class.jetpack.php:1762
 msgid "Jetpack is not in Offline Mode."
 msgstr "Jetpack ist nicht im Offlinemodus."
+
+#: class.jetpack.php:1775
+msgid "The jetpack_offline_mode filter is set to true."
+msgstr "Der Filter jetpack_offline_mode ist auf „True“ festgelegt."
 
 #: modules/infinite-scroll/infinity.php:1955
 #: _inc/build/instant-search/jp-search-main.bundle.js:9
@@ -2762,13 +2762,6 @@ msgstr "Methode %s muss überschrieben werden."
 msgid "You are not allowed to access the '%s' field."
 msgstr "Du bist nicht berechtigt, das Feld %s aufzurufen."
 
-#. translators: %s: get_permission_check()
-#. translators: %s: update_permission_check()
-#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:123
-#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:153
-msgid "Method '%s' must return either true or WP_Error."
-msgstr "Methode %s muss entweder „Wahr“ oder „WP_Error“ zurückgeben."
-
 #. translators: %s: object_type
 #. translators: %s: field_name
 #: _inc/lib/core-api/class-wpcom-rest-field-controller.php:23
@@ -2791,6 +2784,13 @@ msgstr "Der API-Key, der von diesem Dienst genutzt wird. Leer, wenn bisher noch 
 #: _inc/lib/core-api/wpcom-endpoints/service-api-keys.php:83
 msgid "Displays success if the operation was successfully executed and an error code if it was not"
 msgstr "Zeigt „success“ an, wenn ein Vorgang erfolgreich ausgeführt wurde, bzw. einen Fehlercode, wenn er nicht erfolgreich war"
+
+#. translators: %s: get_permission_check()
+#. translators: %s: update_permission_check()
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:123
+#: _inc/lib/core-api/class-wpcom-rest-field-controller.php:153
+msgid "Method '%s' must return either true or WP_Error."
+msgstr "Methode %s muss entweder „True“ oder „WP_Error“ zurückgeben."
 
 #: _inc/lib/core-api/wpcom-endpoints/publicize-connections.php:187
 #: _inc/lib/core-api/wpcom-endpoints/publicize-services.php:148
@@ -3318,18 +3318,18 @@ msgstr "Deine Website wandelt Weiterleitungen fälschlicherweise von http in htt
 msgid "View all stats"
 msgstr "Alle Statistiken anzeigen"
 
-#: class.jetpack.php:1766
-msgid "The JETPACK_DEV_DEBUG constant is defined in wp-config.php or elsewhere."
-msgstr "Die Konstante JETPACK_DEV_DEBUG wird in wp-config.php oder anderweitig definiert."
-
-#: class.jetpack.php:1773
-msgid "The jetpack_development_mode filter is set to true."
-msgstr "Der Filter „jetpack_development_mode“ ist auf „Wahr“ festgelegt."
-
 #. translators: %s is a URL
 #: class.jetpack.php:1790
 msgid "In <a href=\"%s\" target=\"_blank\">Offline Mode</a>:"
 msgstr "Im <a href=\"%s\" target=\"_blank\">Offlinemodus</a>:"
+
+#: class.jetpack.php:1766
+msgid "The JETPACK_DEV_DEBUG constant is defined in wp-config.php or elsewhere."
+msgstr "Die Konstante JETPACK_DEV_DEBUG wurde in wp-config.php oder anderweitig definiert."
+
+#: class.jetpack.php:1773
+msgid "The jetpack_development_mode filter is set to true."
+msgstr "Der Filter „jetpack_development_mode“ ist auf „True“ festgelegt."
 
 #: modules/widgets/simple-payments.php:309
 msgid "Invalid parameters."
@@ -6787,10 +6787,6 @@ msgstr "Die Verbindung der Website konnte nicht aufgehoben werden. Bitte versuch
 msgid "Unable to build the connect URL.  Please reload the page and try again."
 msgstr "Die Verbindungs-URL konnte nicht erzeugt werden. Bitte Seite neu laden und erneut versuchen."
 
-#: _inc/lib/class.core-rest-api-endpoints.php:1781
-msgid "Was not able to unlink the user.  Please try again."
-msgstr "Die Verknüpfung des Nutzers konnte nicht aufgehoben werden. Bitte versuche es erneut."
-
 #: _inc/lib/class.core-rest-api-endpoints.php:1915
 msgid "Site data correctly received."
 msgstr "Der Daten der Website wurden abgerufen."
@@ -6954,6 +6950,10 @@ msgstr "%1$s muss eines von %2$s sein"
 #: _inc/lib/class.core-rest-api-endpoints.php:2306
 msgid "Send email notification when someone likes a post"
 msgstr "Sende eine E-Mail-Benachrichtigung, wenn jemandem ein Beitrag gefällt."
+
+#: _inc/lib/class.core-rest-api-endpoints.php:1781
+msgid "Was not able to unlink the user.  Please try again."
+msgstr "Die Verknüpfung des Benutzers konnte nicht aufgehoben werden. Bitte versuche es erneut."
 
 #: modules/related-posts/jetpack-related-posts.php:1064 _inc/build/admin.js:52
 msgid "The WordPress for Android App Gets a Big Facelift"

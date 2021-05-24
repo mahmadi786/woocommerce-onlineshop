@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-02-28 16:01:37+0000\n"
+"PO-Revision-Date: 2021-05-23 09:26:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1364,7 +1364,7 @@ msgstr "Varsayılan dil"
 
 #: wp-admin/network/settings.php:402
 msgid "Max upload file size"
-msgstr "Maksimum dosya yükleme boyutu"
+msgstr "Yüklenebilecek en büyük dosya boyutu"
 
 #: wp-admin/network/settings.php:362
 msgid "First Comment URL"
