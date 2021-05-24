@@ -1,0 +1,58 @@
+.block-texts {
+    p {
+        @apply my-3;
+
+        @apply text-lg;
+
+        @apply leading-relaxed;
+    }
+
+    strong {
+        font-family: "Proxima Nova W02 Bold", sans-serif;
+        font-weight: bold;
+        @apply text-lg;
+    }
+
+    ul {
+        list-style: disc;
+        @apply px-2;
+        @apply mx-8;
+        li {
+            list-style: disc;
+        }
+    }
+
+    h1 {
+        font-family: "Proxima Nova W02 Bold", sans-serif;
+        @apply text-4xl;
+    }
+
+    h2 {
+        font-family: "Proxima Nova W02 Bold", sans-serif;
+        @apply text-3xl;
+    }
+
+    h3 {
+        font-family: "Proxima Nova W02 Bold", sans-serif;
+        @apply text-2xl;
+    }
+
+    h4 {
+        font-family: "Proxima Nova W02 Bold", sans-serif;
+        @apply text-2xl;
+    }
+
+    h5 {
+        font-family: "Proxima Nova W02 Bold", sans-serif;
+        @apply text-2xl;
+    }
+
+    .russian-font-style{
+        font-family: "Nova W02 Bold", sans-serif !important;
+    }
+
+    a {
+        text-decoration: underline;
+        color: #006685;
+    }
+}

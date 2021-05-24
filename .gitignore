@@ -1,0 +1,6 @@
+.DS_Store
+desktop.ini
+
+/.idea
+
+docker-compose.yaml

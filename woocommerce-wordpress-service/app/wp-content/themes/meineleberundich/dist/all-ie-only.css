@@ -1,0 +1,39 @@
+.rtl-section {
+	margin-left: 20px !important;
+}
+
+.header-ltr{
+	width: 90% !important;
+}
+
+.header-rtl{
+	width: 90% !important;
+}
+
+.footer{
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 768px) {
+	.header-ltr{
+		width: 100% !important;
+	}
+
+	.header-rtl{
+		width: 100% !important;
+	}
+
+	.rtl-section {
+		width: 100%;
+		margin-left: 0px !important;
+	}
+	.w-full {
+		width: 100% !important;
+	}
+}
+
+.w-full p {
+	width: 100% !important;
+}
+

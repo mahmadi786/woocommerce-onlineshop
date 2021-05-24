@@ -1,0 +1,43 @@
+body {
+    background: #f5f5f5;
+}
+
+h1 {
+    font-family: "Proxima Nova W02 Bold", sans-serif;
+    @apply leading-none tracking-tight;
+}
+
+h2 {
+    font-family: "Proxima Nova W02 Light", sans-serif;
+    @apply leading-none tracking-tighter;
+}
+
+p {
+    @apply my-5;
+}
+
+strong {
+    @apply font-extrabold;
+    @apply text-2xl;
+    @apply my-5;
+    display: inline-block;
+}
+
+.wpml-ls-legacy-dropdown {
+    max-width: 170px;
+}
+
+.wpml-ls-legacy-dropdown a {
+    border: 0px;
+}
+
+.wpml-ls-legacy-dropdown a.wpml-ls-item-toggle {
+    @apply pt-2;
+    @apply pb-2;
+}
+
+.current_page_item a {
+    font-family: "Proxima Nova W02 Bold", sans-serif !important;
+    @apply font-bold;
+    color: #000;
+}

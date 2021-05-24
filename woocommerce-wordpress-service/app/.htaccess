@@ -1,0 +1,41 @@
+### Override php.ini setttings if mod_php is used
+
+<IfModule mod_php7.c>
+    php_value post_max_size 128M
+    php_value upload_max_filesize 128M
+</IfModule>
+
+### Enable rewrites
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+</IfModule>
+
+### Rewrite non www to www.
+
+#<IfModule mod_rewrite.c>
+#    RewriteCond %{HTTP_HOST} !127.0.0.1
+#    RewriteCond %{HTTP_HOST} !10.0.2.2
+#    RewriteCond %{HTTP_HOST} !^192.168.
+#    RewriteCond %{HTTP_HOST} !localhost
+#    RewriteCond %{HTTP_HOST} !.local$
+#    RewriteCond %{HTTP_HOST} !spital.digital$
+#    RewriteCond %{HTTP_HOST} !-kunden.digitalspital.de$
+#    RewriteCond %{HTTP_HOST} !^www\.
+#    RewriteRule ^(.*)$ %{REQUEST_SCHEME}://www.%{HTTP_HOST}/$1 [R=301,L]
+#</IfModule>
+
+### Rewrite HTTP connections to HTTPS
+
+#<IfModule mod_rewrite.c>
+#    RewriteCond %{HTTPS} off
+#    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [NC,L]
+#</IfModule>
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+
+# END WordPress

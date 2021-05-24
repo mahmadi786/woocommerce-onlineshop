@@ -1,0 +1,45 @@
+#footer-menu {
+    @apply flex-1;
+
+    .current_page_item {
+        a {
+            color: #fff !important;
+        }
+    }
+
+    li {
+        display: inline-block;
+        list-style: none;
+        @apply me-4;
+
+        a {
+            color: #fff;
+            font-weight: 500;
+            border-bottom: 2px solid #fff;
+            @apply pb-1;
+            @apply px-2;
+            @apply mt-4;
+            display: inline-block;
+            font-family: "Proxima Nova W02 Regular", sans-serif;
+        }
+        a:hover {
+            border-bottom: 0px !important;
+        }
+
+        @media (max-width: 1024px) {
+            display: block !important;
+
+            a {
+                display: block !important;
+                margin-bottom: 5px !important;
+            }
+        }
+    }
+}
+
+.email-icon {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    max-height: 20px;
+}

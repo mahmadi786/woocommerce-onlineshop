@@ -1,0 +1,9 @@
+//Hero-Banner
+
+.hero-banner-img {
+    @apply w-screen;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    z-index: -1;
+}

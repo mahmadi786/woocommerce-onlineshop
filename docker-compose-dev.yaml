@@ -1,0 +1,113 @@
+version: "3"
+
+networks:
+  woocommerce-network:
+
+services:
+
+  woocommerce-wordpress-service:
+    container_name: woocommerce-wordpress-service
+    depends_on:
+      - woocommerce-mysql-service
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "1"
+          memory: 1024M
+      restart_policy:
+        condition: on-failure
+    environment:
+
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_HOME', getenv('WP_HOME'));
+        define('WP_SITEURL', getenv('WP_SITEURL'));
+      WORDPRESS_DB_HOST: "woocommerce-mysql-service:3306"
+      WORDPRESS_DB_NAME: "ds_woocommerce"
+      WORDPRESS_DB_PASSWORD: "SOXFxIGH48BioCthFYBK96Et"
+      WORDPRESS_DB_USER: "ds_woocommerce"
+      WORDPRESS_DEBUG: 1
+#      WORDPRESS_TABLE_PREFIX: ""
+
+      WP_HOME: "http://localhost:21151"
+      WP_SITEURL: "http://localhost:21151"
+
+    image: wordpress:5.7.2-php7.4
+    networks:
+      - woocommerce-network
+    ports:
+#      - "21750:443"
+      - "21151:80"
+    volumes:
+      - ./woocommerce-wordpress-service/app/wp-content:/var/www/html/wp-content
+      - ./woocommerce-wordpress-service/app/.htaccess:/var/www/html/.htaccess
+      - woocommerce-wordpress-volume:/var/www/html
+
+  woocommerce-wpcli-service:
+    container_name: woocommerce-wpcli-service
+    depends_on:
+      - woocommerce-wordpress-service
+      - woocommerce-mysql-service
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.9"
+          memory: 768M
+      restart_policy:
+        condition: on-failure
+    image: wordpress:cli-2-php7.4
+    networks:
+      - woocommerce-network
+    volumes:
+      - ./woocommerce-wordpress-service/app/wp-content:/var/www/html/wp-content
+      - ./woocommerce-wordpress-service/app/.htaccess:/var/www/html/.htaccess
+      - woocommerce-wordpress-volume:/var/www/html
+
+  woocommerce-mysql-service:
+    image: mysql:8.0
+    cap_add:
+      - SYS_NICE  # CAP_SYS_NICE
+    command: --default-authentication-plugin=mysql_native_password
+    container_name: woocommerce-mysql-service
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "1"
+          memory: 512M
+      restart_policy:
+        condition: on-failure
+    environment:
+
+      # NOTE: MySQL 8 requires that a password is set for both the root and the database user. If no credentials are
+      # provided, the connection to the database can not be established.
+
+      MYSQL_DATABASE: "ds_woocommerce"
+      MYSQL_PASSWORD: "SOXFxIGH48BioCthFYBK96Et"
+      MYSQL_ROOT_PASSWORD: "k3My0YcJxB1wk53G4Z8g0bOc"
+      MYSQL_USER: "ds_woocommerce"
+    networks:
+      - woocommerce-network
+    ports:
+      - "21751:3306"
+    volumes:
+      - woocommerce-mysql-volume:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: woocommerce-phpmyadmin-service
+    links:
+      - woocommerce-mysql-service:woocommerce-mysql-service
+    ports:
+      - "21752:80"
+    networks:
+      - woocommerce-network
+    environment:
+      MYSQL_USER: "ds_woocommerce"
+      MYSQL_PASSWORD: "k3My0YcJxB1wk53G4Z8g0bOc"
+      MYSQL_ROOT_PASSWORD: "k3My0YcJxB1wk53G4Z8g0bOc"
+
+volumes:
+  woocommerce-wordpress-volume:
+  woocommerce-mysql-volume:

@@ -1,0 +1,14 @@
+/*
+Theme Name: MeineLeberUndIch
+Theme URI: https://www.digitalspital.de/
+Author: Peyman GhaderKourehpaz
+Author URI: https://www.digitalspital.de/
+Description: A multi language theme designed for MeineLeberUndIch
+Tags: MeineLeberUndIch , Theme , Company
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+Text Domain: meineleberundich
+ */
+@import "dist/app.css";
