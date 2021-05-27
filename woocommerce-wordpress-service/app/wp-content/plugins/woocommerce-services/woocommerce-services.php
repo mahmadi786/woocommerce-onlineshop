@@ -7,11 +7,11 @@
  * Author URI: https://woocommerce.com/
  * Text Domain: woocommerce-services
  * Domain Path: /i18n/languages/
- * Version: 1.25.12
- * WC requires at least: 3.0.0
+ * Version: 1.25.13
+ * WC requires at least: 3.5.5
  * WC tested up to: 5.0
  *
- * Copyright (c) 2017-2020 Automattic
+ * Copyright (c) 2017-2021 Automattic
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -225,6 +225,10 @@ if ( ! class_exists( 'WC_Connect_Loader' ) ) {
 		 * @return bool true|false.
 		 */
 		public static function can_add_wc_admin_notice() {
+			if ( ! class_exists( 'WC_Data_Store' ) ) {
+				return false;
+			}
+
 			try {
 				WC_Data_Store::load( 'admin-note' );
 			} catch ( Exception $e ) {
@@ -1596,8 +1600,11 @@ if ( ! class_exists( 'WC_Connect_Loader' ) ) {
 				)
 			);
 
+			$encoded_arguments = wp_json_encode( $extra_args );
+			$escaped_arguments = function_exists( 'wc_esc_json' ) ? wc_esc_json( $encoded_arguments ) : esc_attr( $encoded_arguments );
+
 			?>
-				<div class="wcc-root woocommerce <?php echo esc_attr( $root_view ); ?>" data-args="<?php echo esc_attr( wp_json_encode( $extra_args ) ); ?>">
+				<div class="wcc-root woocommerce <?php echo esc_attr( $root_view ); ?>" data-args="<?php echo $escaped_arguments; ?>">
 					<span class="form-troubles" style="opacity: 0">
 						<?php printf( __( 'Section not loading? Visit the <a href="%s">status page</a> for troubleshooting steps.', 'woocommerce-services' ), $debug_page_uri ); ?>
 					</span>

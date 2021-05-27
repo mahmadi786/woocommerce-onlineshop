@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-04 16:47:49+0000\n"
+"PO-Revision-Date: 2021-05-26 08:29:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -203,11 +203,11 @@ msgstr "Przykro nam, ale nie masz uprawnień, pozwalających na usuwanie motywó
 
 #: wp-admin/network/themes.php:14
 msgid "Sorry, you are not allowed to manage network themes."
-msgstr "Przepraszamy, nie posiadasz uprawnienia do zarządzania motywami sieci."
+msgstr "Brak uprawnień do zarządzania motywami sieci."
 
 #: wp-admin/network/sites.php:320
 msgid "Sorry, you are not allowed to delete that site."
-msgstr "Przepraszamy, nie posiadasz uprawnienia do skasowania tej witryny."
+msgstr "Brak uprawnień do skasowania wybranej witryny."
 
 #: wp-admin/network/site-themes.php:14
 msgid "Sorry, you are not allowed to manage themes for this site."
@@ -882,7 +882,7 @@ msgstr "Nieprawidłowy identyfikator witryny."
 #. translators: %s: Site URL.
 #: wp-admin/network/sites.php:167
 msgid "Sorry, you are not allowed to delete the site %s."
-msgstr "Przepraszamy, ale nie posiadasz uprawnień do usunięcia witryny %s."
+msgstr "Brak uprawnień do usunięcia witryny %s."
 
 #: wp-admin/network/sites.php:39
 msgid "Clicking on bold headings can re-sort this table."
@@ -1256,7 +1256,7 @@ msgstr "Witryny zostały usunięte."
 
 #: wp-admin/network/sites.php:105 wp-admin/network/sites.php:223
 msgid "Sorry, you are not allowed to change the current site."
-msgstr "Przepraszamy, ale nie posiadasz uprawnień do wprowadzania zmian w tej witrynie."
+msgstr "Brak uprawnień do wprowadzania zmian w używanej witrynie."
 
 #: wp-admin/network/site-new.php:126
 msgid "There was an error creating the user."

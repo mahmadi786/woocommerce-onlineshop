@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-11 23:04:30+0000\n"
+"PO-Revision-Date: 2021-05-22 15:44:34+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1068,11 +1068,6 @@ msgstr "Город/почтовое отделение"
 msgid "Please choose product options by visiting <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
 msgstr "Перейдите в <a href=\"%1$s\" title=\"%2$s\">%2$s</a>, чтобы выбрать опции товара."
 
-#. translators: 1: opening link tag, 2: closing tag
-#: packages/woocommerce-admin/src/Notes/WooCommercePayments.php:108
-msgid "By clicking \"Get started\", you agree to our %1$sTerms of Service%2$s"
-msgstr "Нажимая кнопку «Начать», вы соглашаетесь с нашими %1$sУсловиями предоставления услуг%2$s"
-
 #: packages/woocommerce-blocks/src/Domain/Services/Email/CustomerNewAccount.php:60
 msgid "Customer \"new account\" emails are sent to the customer when a customer signs up via checkout or account blocks."
 msgstr "Письма о создании учетной записи отправляются клиенту после создания учетной записи на странице оформления заказа или в блоках учетных записей."
@@ -1177,6 +1172,11 @@ msgstr "Ярлык для ресурса."
 #: includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php:1299
 msgid "Parent product name if the product is a variation."
 msgstr "Название родительского товара, если товар является вариацией."
+
+#. translators: 1: opening link tag, 2: closing tag
+#: packages/woocommerce-admin/src/Notes/WooCommercePayments.php:108
+msgid "By clicking \"Get started\", you agree to our %1$sTerms of Service%2$s"
+msgstr "Нажимая кнопку «Приступить», вы соглашаетесь с нашими %1$sУсловиями предоставления услуг%2$s"
 
 #: i18n/states.php:1583
 msgctxt "district"
@@ -3291,10 +3291,6 @@ msgstr "Неверный код купона."
 msgid "Unique identifier (key) for the cart item to update."
 msgstr "Уникальный идентификатор (ключ) для обновления позиции в корзине."
 
-#: packages/woocommerce-blocks/src/StoreApi/Routes/AbstractCartRoute.php:134
-msgid "Missing the X-WC-Store-API-Nonce header. This endpoint requires a valid nonce."
-msgstr "Отсутствует заголовок X-WC-Store-API-Nonce. Для этого эндпоинта требуется действительный одноразовый номер."
-
 #: packages/woocommerce-blocks/src/StoreApi/Routes/ProductReviews.php:212
 msgid "Limit result set to reviews from specific product IDs."
 msgstr "Ограничение результатов отзывами о товарах с конкретными ID."
@@ -3311,6 +3307,10 @@ msgstr "Сортировка по возрастанию или убыванию
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ProductSchema.php:89
 msgid "Product short description in HTML format."
 msgstr "Краткое описание товара в формате HTML."
+
+#: packages/woocommerce-blocks/src/StoreApi/Routes/AbstractCartRoute.php:134
+msgid "Missing the X-WC-Store-API-Nonce header. This endpoint requires a valid nonce."
+msgstr "Отсутствует заголовок X-WC-Store-API-Nonce. Для этого эндпоинта требуется действительный одноразовый код."
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php:568
 msgid "Database verified successfully."
@@ -4049,7 +4049,7 @@ msgstr "Ваш магазин настроен для обслуживания �
 #: packages/woocommerce-admin/src/Notes/GoogleAdsAndMarketing.php:74
 #: packages/woocommerce-admin/src/Notes/WooCommercePayments.php:118
 msgid "Get started"
-msgstr "Начать"
+msgstr "Приступить"
 
 #: packages/woocommerce-admin/src/Notes/SetUpAdditionalPaymentTypes.php:94
 msgid "Set up payments"
@@ -23039,10 +23039,6 @@ msgstr "callback_url должен проводиться через SSL"
 msgid "An error occurred in the request and at the time were unable to send the consumer data"
 msgstr "По причине ошибки в процессе обработки запроса пользовательские данные не были отправлены"
 
-#: includes/class-wc-auth.php:376
-msgid "Invalid nonce verification"
-msgstr "Некорректный код верификации"
-
 #: includes/class-wc-breadcrumb.php:117
 msgid "Error 404"
 msgstr "Ошибка 404"
@@ -24029,6 +24025,10 @@ msgstr "Создание ловушек"
 #: includes/admin/class-wc-admin-webhooks-table-list.php:37
 msgid "No webhooks found."
 msgstr "Ловушек не обнаружено."
+
+#: includes/class-wc-auth.php:376
+msgid "Invalid nonce verification"
+msgstr "Некорректная верификация одноразового кода"
 
 #: includes/admin/views/html-admin-page-status-report.php:59
 msgid "The root URL of your site."
