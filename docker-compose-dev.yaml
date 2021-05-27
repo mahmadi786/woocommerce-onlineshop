@@ -29,7 +29,7 @@ services:
       WORDPRESS_DEBUG: 1
 #      WORDPRESS_TABLE_PREFIX: ""
 
-      WP_HOME: "http://localhost:21151"
+      WP_HOME: ""
       WP_SITEURL: "http://localhost:21151"
 
     image: wordpress:5.7.2-php7.4
