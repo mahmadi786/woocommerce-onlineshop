@@ -221,3 +221,9 @@
 [21-Jun-2021 21:43:50 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/http.php on line 424
 [21-Jun-2021 21:43:50 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/http.php on line 423
 [21-Jun-2021 21:43:50 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/http.php on line 424
+[21-Jun-2021 21:44:50 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/http.php on line 423
+[21-Jun-2021 21:44:50 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/http.php on line 424
+[21-Jun-2021 21:45:52 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/http.php on line 423
+[21-Jun-2021 21:45:52 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/http.php on line 424
+[21-Jun-2021 21:47:52 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/http.php on line 423
+[21-Jun-2021 21:47:52 UTC] PHP Notice:  Undefined index: host in /var/www/html/wp-includes/http.php on line 424
