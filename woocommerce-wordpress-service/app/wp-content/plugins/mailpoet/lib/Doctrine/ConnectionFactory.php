@@ -32,6 +32,7 @@ class ConnectionFactory {
   ];
 
   public function createConnection() {
+    global $wpdb;
     $platformClass = self::PLATFORM_CLASS;
     $connectionParams = [
       'wrapperClass' => SerializableConnection::class,
@@ -52,7 +53,11 @@ class ConnectionFactory {
       $connectionParams['unix_socket'] = Env::$dbSocket;
     } else {
       $connectionParams['host'] = Env::$dbIsIpv6 ? ('[' . Env::$dbHost . ']') : Env::$dbHost;
-      $connectionParams['port'] = Env::$dbPort;
+      if (!empty(Env::$dbPort)) {
+        $connectionParams['port'] = Env::$dbPort;
+      } else {
+        $connectionParams['port'] = $wpdb->get_var('SELECT @@port');
+      }
     }
 
     $this->setupTypes();

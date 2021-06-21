@@ -11,10 +11,11 @@ $title_class = $active_plugin_count == 0 ? 'ce4wp-body2' : 'ce4wp-plugin-support
 ?>
 <script type="application/javascript">
     function showPluginModal(name, url) {
-        if (url === null && url === undefined)
+        if (url == null) {
             return
+        }
         // Check if url is relative
-        if (url[0] === '/') {
+        if (url.indexOf('plugin-install.php') >= 0) {
             document.getElementById('plugin-store-title').textContent = name;
             document.getElementById('plugin-store-iframe').src = url;
             document.getElementById('plugin-store-iframe').title = name;

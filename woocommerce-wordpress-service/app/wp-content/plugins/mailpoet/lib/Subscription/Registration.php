@@ -17,12 +17,17 @@ class Registration {
   /** @var SubscriberActions */
   private $subscriberActions;
 
+  /** @var WPFunctions */
+  private $wp;
+
   public function __construct(
     SettingsController $settings,
+    WPFunctions $wp,
     SubscriberActions $subscriberActions
   ) {
     $this->settings = $settings;
     $this->subscriberActions = $subscriberActions;
+    $this->wp = $wp;
   }
 
   public function extendForm() {
@@ -31,7 +36,7 @@ class Registration {
       WPFunctions::get()->__('Yes, please add me to your mailing list.', 'mailpoet')
     );
 
-    print '<p class="registration-form-mailpoet">
+    $form = '<p class="registration-form-mailpoet">
       <label for="mailpoet_subscribe_on_register">
         <input
           type="hidden"
@@ -47,6 +52,10 @@ class Registration {
         />&nbsp;' . esc_attr($label) . '
       </label>
     </p>';
+
+    $this->wp->applyFilters('mailpoet_register_form_extend', $form);
+
+    print $form;
   }
 
   public function onMultiSiteRegister($result) {

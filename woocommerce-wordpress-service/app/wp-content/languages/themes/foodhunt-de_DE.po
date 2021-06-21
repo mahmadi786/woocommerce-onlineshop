@@ -1,0 +1,735 @@
+# Translation of Themes - FoodHunt in German
+# This file is distributed under the same license as the Themes - FoodHunt package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-22 18:27:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Themes - FoodHunt\n"
+
+#. Description of the theme
+msgid "FoodHunt is modern style multi purpose theme specially focus for Restaurant websites. However, due to its flexibility and easiness it can be used to create any types of sites."
+msgstr "FoodHunt ist ein vielseitiges, modernes Theme mit dem Fokus auf Webseiten für Restaurants.  Wie auch immer, aufgrund seiner Flexibilität und Leichtigkeit kann es für jede Art von Webseiten genutzt werden."
+
+#. Theme Name of the theme
+#: inc/foodhunt.php:391
+msgid "FoodHunt"
+msgstr "FoodHunt"
+
+#: inc/widgets/class-foodhunt-service-widget.php:60
+#: inc/widgets/class-foodhunt-our-team-widget.php:61
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:60
+msgid "Select an Image"
+msgstr "Wähle ein Bild"
+
+#: inc/widgets/class-foodhunt-service-widget.php:60
+#: inc/widgets/class-foodhunt-our-team-widget.php:61
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:60
+msgid "Use image"
+msgstr "Verwende Bild"
+
+#: inc/widgets/class-foodhunt-service-widget.php:60
+#: inc/widgets/class-foodhunt-our-team-widget.php:61
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:60
+msgid "Choose an image"
+msgstr "Wähle ein Bild"
+
+#: inc/admin/class-foodhunt-dashboard.php:112
+#: inc/admin/class-foodhunt-theme-review-notice.php:95
+msgid "Got theme support question?"
+msgstr "Hast du Fragen zum Theme?"
+
+#: inc/admin/class-foodhunt-notice.php:63
+#: inc/admin/class-foodhunt-notice.php:82
+#: inc/admin/class-foodhunt-welcome-notice.php:81
+msgid "Cheatin&#8217; huh?"
+msgstr "Schummeln, was?"
+
+#: inc/admin/class-foodhunt-notice.php:59
+#: inc/admin/class-foodhunt-notice.php:78
+#: inc/admin/class-foodhunt-welcome-notice.php:77
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Aktion fehlgeschlagen. Bitte aktualisiere die Seite und wiederhole den Vorgang."
+
+#. Template Name of the theme
+msgid "Our Team Template"
+msgstr "„Unser Team“ Template"
+
+#. Template Name of the theme
+msgid "Service Template"
+msgstr "Service Template"
+
+#. Template Name of the theme
+msgid "Restaurant Template"
+msgstr "Restaurant Template"
+
+#. Template Name of the theme
+msgid "Portfolio Template"
+msgstr "Portfolio Template"
+
+#: template-parts/content-slider.php:52
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: template-parts/content-page.php:21 template-parts/content.php:68
+#: template-parts/content-single.php:57
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Es sieht so aus, als ob wir nicht das finden konnten, wonach du gesucht hast. Möglicherweise hilft die Suchfunktion."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, aber es konnte nichts passendes gefunden werden. Bitte versuche es mit einem anderen Suchbegriff."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bereit, um deinen ersten Beitrag zu veröffentlichen? <a href=\"%1$s\">Starte hier</a>."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: sidebar.php:20
+msgid "This is an example widget to show how the Right Sidebar looks by default. You can add custom widgets from the %swidgets screen%s in the admin. If custom widgets is added than this will be replaced by those widgets."
+msgstr "Dies ist ein Beispiel-Widget, dass dir zeigt, wie die rechte Seitenleiste Standardmäßig aussieht. Du kannst individuelle Widgets aus dem %swidgets screen%s im Admin-Bereich hinzufügen. Das Beispiel-Widget wird beim hinzufügen eines individuellen Widgets durch das jeweilige Widget ersetzt."
+
+#: sidebar-left.php:20
+msgid "This is an example widget to show how the Left Sidebar looks by default. You can add custom widgets from the %swidgets screen%s in the admin. If custom widgets is added than this will be replaced by those widgets."
+msgstr "Dies ist ein Beispiel-Widget, dass dir zeigt, wie die linke Seitenleiste Standardmäßig aussieht. Du kannst individuelle Widgets aus dem %swidgets screen%s im Admin-Bereich hinzufügen. Das Beispiel-Widget wird beim hinzufügen eines individuellen Widgets durch das jeweilige Widget ersetzt."
+
+#: sidebar-left.php:19 sidebar.php:19
+msgid "Example Widget"
+msgstr "Beispiel-Widget"
+
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr "Suchen"
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Suchen &hellip;"
+
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: navigation.php:33
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: navigation.php:32
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: navigation.php:23
+msgid "Next &rarr;"
+msgstr "Nächster &rarr;"
+
+#: navigation.php:22
+msgid "&larr; Previous"
+msgstr "&larr; Zurück"
+
+#: inc/widgets/class-foodhunt-contact-widget.php:43
+msgid "Select a Contact page:"
+msgstr "Wähle eine Kontakt-Seite:"
+
+#: inc/widgets/class-foodhunt-contact-widget.php:38
+msgid "Shortcode:"
+msgstr "Shortcode:"
+
+#: inc/widgets/class-foodhunt-contact-widget.php:36
+msgid "Install the Contact Form 7 Plugin and paste the shortcode here:"
+msgstr "Installiere das Plugin Contact Form 7 und füge den Shortcode hier ein:"
+
+#: inc/widgets/class-foodhunt-contact-widget.php:10
+msgid "TG: Contact Us"
+msgstr "TG: Kontaktiere uns"
+
+#: inc/widgets/class-foodhunt-contact-widget.php:8
+msgid "Show your Contact page."
+msgstr "Zeige deine Kontakt-Seite."
+
+#: inc/widgets/class-foodhunt-portfolio-widget.php:38
+msgid "Note: Create the pages and select Gallery Template to display Gallery pages. The Recommended size for featured image is 340px by 340px."
+msgstr "Hinweis: Erstelle die Seiten und wähle das Gallerie-Template um in den Seiten Gallerien zu zeigen. Die empfohlene Größe für das Beitragsbild ist 340px x 340px."
+
+#: inc/widgets/class-foodhunt-portfolio-widget.php:11
+msgid "TG: Portfolio"
+msgstr "TG: Portfolio"
+
+#: inc/widgets/class-foodhunt-portfolio-widget.php:9
+msgid "Display some pages as Portfolio or Gallery."
+msgstr "Einige Seiten als Portfolio oder Gallerie anzeigen."
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:51
+msgid "Info: To display posts from specific category, select the Category in above radio option than select the category from the drop-down list."
+msgstr "Info: Um Beitrage einer bestimmten Kategorie zu zeigen, wähle oben „Kategorie“ und wähle dann die Kategorie in der Dropdown-Liste aus."
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:47
+msgid "Select category"
+msgstr "Kategorie auswählen"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:43
+msgid "Show posts from a category"
+msgstr "Beiträge einer Kategorie anzeigen"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:42
+msgid "Show latest Posts"
+msgstr "Die letzten Beiträge anzeigen"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:37
+msgid "Number of posts to display:"
+msgstr "Anzahl der Beiträge, die gezeigt werden sollen:"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:33
+msgid "Description"
+msgstr "Beschreibung"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:11
+msgid "TG: Featured Posts"
+msgstr "TG: Hervorgehobene Beiträge"
+
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:9
+msgid "Display latest posts or posts of specific category."
+msgstr "Letzte Beiträge oder Beiträge einer bestimmten Kategorie anzeigen."
+
+#: inc/widgets/class-foodhunt-our-team-widget.php:46
+msgid "Note: Create the pages and select Our Team Template to display Our Team pages. The Recommended size for featured image is 380px by 380px."
+msgstr "Hinweis: Erstelle die Seiten und wähle das „Unser Team“-Template um die Team-Seiten zu zeigen. Die empfohlene Größe für das Beitragsbild ist 380px x 380px."
+
+#: inc/widgets/class-foodhunt-our-team-widget.php:10
+msgid "TG: Our Team"
+msgstr "TG: Unser Team"
+
+#: inc/widgets/class-foodhunt-our-team-widget.php:8
+msgid "Show your Team Members."
+msgstr "Zeige deine Team-Mitglieder."
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:35
+msgid "Call to Action Main Text:"
+msgstr "Haupttext für „Call To Action“:"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:10
+msgid "TG: Call To Action"
+msgstr "TG: Call To Action"
+
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:8
+msgid "Use this widget to show the call to action section."
+msgstr "Verwende dieses Widget um den „Call To Action“-Bereich anzuzeigen."
+
+#: template-parts/content.php:59 template-parts/content.php:64
+#: template-parts/content-search.php:43
+#: inc/widgets/class-foodhunt-service-widget.php:178
+#: inc/widgets/class-foodhunt-our-team-widget.php:176
+msgid "Read More"
+msgstr "Weiterlesen"
+
+#: inc/widgets/class-foodhunt-service-widget.php:69
+#: inc/widgets/class-foodhunt-our-team-widget.php:70
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:81
+msgid "Note: Background image (if used) will override the background color."
+msgstr "Hinweis: Das Hintergrundbild (wenn es verwendet wird) wird die Hintergrundfarbe überlagern."
+
+#: inc/widgets/class-foodhunt-service-widget.php:65
+#: inc/widgets/class-foodhunt-our-team-widget.php:66
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:65
+msgid "Background Color:"
+msgstr "Hintergrundfarbe:"
+
+#: inc/widgets/class-foodhunt-service-widget.php:52
+#: inc/widgets/class-foodhunt-our-team-widget.php:53
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:52
+msgid "Background Image:"
+msgstr "Hintergrundbild:"
+
+#: inc/widgets/class-foodhunt-service-widget.php:48
+#: inc/widgets/class-foodhunt-our-team-widget.php:49
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:48
+msgid "DESIGN SETTINGS :"
+msgstr "Design-Einstellungen:"
+
+#: inc/widgets/class-foodhunt-service-widget.php:45
+msgid "Note: Create the pages and select Services Template to display Services pages. The Recommended size for featured image is 290px by 290px."
+msgstr "Hinweis: Erstelle die Seiten und wähle das Services-Template um die Service-Seiten zu zeigen. Die empfohlene Größe für das Beitragsbild ist 290px x 290px."
+
+#: inc/widgets/class-foodhunt-portfolio-widget.php:34
+#: inc/widgets/class-foodhunt-service-widget.php:41
+#: inc/widgets/class-foodhunt-our-team-widget.php:42
+msgid "Number of pages to display:"
+msgstr "Anzahl der Seiten, die gezeigt werden sollen:"
+
+#: inc/widgets/class-foodhunt-service-widget.php:29
+#: inc/widgets/class-foodhunt-our-team-widget.php:31
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:32
+msgid "Widget SETTINGS :"
+msgstr "Widget-Einstellungen:"
+
+#: inc/widgets/class-foodhunt-service-widget.php:10
+msgid "TG: Service"
+msgstr "TG: Service"
+
+#: inc/widgets/class-foodhunt-service-widget.php:8
+msgid "Display some pages as services."
+msgstr "Einige Seiten als Services/Dienstleistungen anzeigen."
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:66
+msgid "Note: Leave Button Redirect Link empty to redirect it to the respective page."
+msgstr "Hinweis: Lasse das Feld für den Button-Link leer um auf die entsprechende Seite weiterzuleiten."
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:65
+msgid "Info: The Recommended size for featured image is 530px by 440px."
+msgstr "Info: Die empfohlene Größe für das Beitragsbild ist 530px x 440px."
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:61
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:76
+msgid "For Icon Class <a href=\"%s\" target=\"_blank\">Refer here</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Klicke hier</a> für die Icon Class"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:54
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:69
+msgid "Button Icon Class:"
+msgstr "Icon Class für den Button:"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:49
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:43
+msgid "Button Redirect Link:"
+msgstr "Link für den Button:"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:44
+#: inc/widgets/class-foodhunt-call-to-action-widget.php:38
+msgid "Button Text:"
+msgstr "Button-Text:"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:40
+msgid "Page"
+msgstr "Seite"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:39
+msgid "Select a page to display Title, Excerpt and Featured image."
+msgstr "Wähle eine Seite um den Tiel, den Auszug und das Beitragsbild anzuzeigen."
+
+#: inc/widgets/class-foodhunt-portfolio-widget.php:30
+#: inc/widgets/class-foodhunt-contact-widget.php:32
+#: inc/widgets/class-foodhunt-service-widget.php:37
+#: inc/widgets/class-foodhunt-about-us-widget.php:36
+#: inc/widgets/class-foodhunt-our-team-widget.php:38
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: inc/widgets/class-foodhunt-portfolio-widget.php:26
+#: inc/widgets/class-foodhunt-contact-widget.php:28
+#: inc/widgets/class-foodhunt-service-widget.php:33
+#: inc/widgets/class-foodhunt-about-us-widget.php:32
+#: inc/widgets/class-foodhunt-our-team-widget.php:35
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:30
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:10
+msgid "TG: Featured Single Page"
+msgstr "TG: Hervorgehobene Seite"
+
+#: inc/widgets/class-foodhunt-about-us-widget.php:8
+msgid "Suitable for About Us page."
+msgstr "Geeignet für die „Über uns“-Seite."
+
+#: inc/widgets.php:49
+msgid "Show widgets at Footer section."
+msgstr "Zeigt Widgets im Footer."
+
+#: inc/widgets.php:47
+msgid "Footer Sidebar "
+msgstr "Footer Seitenleiste "
+
+#: inc/widgets.php:38
+msgid "Shows widgets On the Restaurant Template."
+msgstr "Zeige Widgets im Restaurant-Template."
+
+#: inc/widgets.php:36
+msgid "Restaurant Template Sidebar"
+msgstr "Restaurant Template Seitenleiste"
+
+#: inc/widgets.php:28
+msgid "Shows widgets at Left side."
+msgstr "Widgets auf der linken Seite zeigen."
+
+#: inc/widgets.php:18
+msgid "Shows widgets at Right side."
+msgstr "Widgets auf der rechten Seite zeigen."
+
+#: inc/foodhunt.php:572
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: inc/foodhunt.php:497
+msgid "Designation field for Team Member"
+msgstr "Bezeichnung der Team-Mitglieder"
+
+#: inc/foodhunt.php:450
+msgid "team designation"
+msgstr "Team-Bezeichnung"
+
+#: inc/foodhunt.php:443
+msgid "No Sidebar Content Centered"
+msgstr "Keine Seitenleiste, Inhalt zentriert"
+
+#: inc/foodhunt.php:438
+msgid "No Sidebar Full Width"
+msgstr "Keine Seitenleiste, ganze Breite"
+
+#: inc/foodhunt.php:433 inc/widgets.php:26
+msgid "Left Sidebar"
+msgstr "Linke Seitenleiste"
+
+#: inc/foodhunt.php:428 inc/widgets.php:16
+msgid "Right Sidebar"
+msgstr "Rechte Seitenleiste"
+
+#: inc/foodhunt.php:423
+msgid "Default Layout"
+msgstr "Standard-Layout"
+
+#: inc/foodhunt.php:413
+msgid "Our Team Designation"
+msgstr "„Unser Team“ Bezeichnung"
+
+#: inc/foodhunt.php:409 inc/foodhunt.php:411
+msgid "Select Layout"
+msgstr "Wähle ein Layout"
+
+#: inc/foodhunt.php:393
+msgid "Powered by %s"
+msgstr "Bereitgestellt von %s"
+
+#: inc/foodhunt.php:393
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: inc/foodhunt.php:393
+msgid "Copyright &copy; %1$s %2$s."
+msgstr "Copyright &copy; %1$s %2$s."
+
+#: inc/foodhunt.php:389
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/foodhunt.php:204
+msgid ", "
+msgstr ", "
+
+#: inc/foodhunt.php:199
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:169
+msgid "Comments (%)"
+msgstr "Kommentare (%)"
+
+#: inc/foodhunt.php:199
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:169
+msgid "Comment (1)"
+msgstr "Kommentar (1)"
+
+#: inc/foodhunt.php:199
+#: inc/widgets/class-foodhunt-featured-posts-widget.php:169
+msgid "Leave a comment"
+msgstr "Hinterlasse einen Kommentar"
+
+#: inc/customizer.php:82
+msgid "View PRO version"
+msgstr "Die Pro-Version ansehen"
+
+#: inc/customizer.php:805
+msgid "Check to hide Tags."
+msgstr "Markieren um die Tags zu verbergen."
+
+#: inc/customizer.php:786
+msgid "Check to hide Category."
+msgstr "Markieren um die Kategorie zu verbergen."
+
+#: inc/customizer.php:767
+msgid "Check to hide Comment."
+msgstr "Markieren um Kommentare zu verbergen."
+
+#: inc/customizer.php:748
+msgid "Check to hide Author."
+msgstr "Markieren um den Autor zu verbergen."
+
+#: inc/customizer.php:729
+msgid "Check to hide Date."
+msgstr "Markieren um das Datum zu verbergen."
+
+#: inc/customizer.php:710
+msgid "Check to All the Meta."
+msgstr "Markieren für alle Meta-Daten."
+
+#: inc/customizer.php:692
+msgid "Hide specific or all the meta/information from the Blog posts and Single post"
+msgstr "Verberge bestimmte oder alle Meta-Daten/Informationen von Beiträgen"
+
+#: inc/customizer.php:635
+msgid "Display Full Content"
+msgstr "Vollständigen Inhalt anzeigen"
+
+#: inc/customizer.php:634
+msgid "Display Excerpt"
+msgstr "Auszug anzeigen"
+
+#: inc/customizer.php:630
+msgid "Choose to show Excerpt or Full Post"
+msgstr "Wähle ob der Auszug oder der vollständige Beitrag angezeigt werden soll"
+
+#: inc/customizer.php:613
+msgid "Display full content or short description/excerpt on the Posts Page"
+msgstr "Vollständigen Inhalt oder den Auszug auf Beitragsseite anzeigen"
+
+#: inc/customizer.php:574
+msgid "Additional Options"
+msgstr "Zusätzliche Optionen"
+
+#: inc/customizer.php:572
+msgid "Contain all Additional settings"
+msgstr "Beinhaltet alle zusätzlichen Optionen"
+
+#: inc/customizer.php:557
+msgid "Write your custom css"
+msgstr "Schreibe dein eigenes CSS"
+
+#: inc/customizer.php:545
+msgid "Custom CSS"
+msgstr "Individuelles CSS"
+
+#: inc/customizer.php:536
+msgid "This will reflect in links, buttons and many others. Choose a color to match your site"
+msgstr "Das ändert die Farbe der Links, Buttons, etc. Wähle eine passende Farbe für deine Website"
+
+#: inc/customizer.php:523
+msgid "Primary color option"
+msgstr "Option für die Hauptfarbe"
+
+#: inc/customizer.php:508
+msgid "Select default layout for single posts. This layout will be reflected in all single posts unless unique layout is set for specific post"
+msgstr "Wähle das Standardlayout für Beiträge. Das Layout wird für alle Beiträge gesetzt, es sei denn, im Beitrag wurde ein anderes ausgewählt"
+
+#: inc/customizer.php:490
+msgid "Default layout for single posts only"
+msgstr "Standard-Layout für Beiträge"
+
+#: inc/customizer.php:473
+msgid "Select default layout for pages. This layout will be reflected in all pages unless unique layout is \tset for specific page"
+msgstr "Wähle das Standardlayout für Seiten. Das Layout wird für alle Seiten gesetzt, es sei denn, für die Seite wurde ein anderes Layout gesetzt"
+
+#: inc/customizer.php:455
+msgid "Default layout for pages only"
+msgstr "Standard-Layout für Seiten"
+
+#: inc/customizer.php:438
+msgid "Select default layout. This layout will be reflected in whole site archives, categories, search\tpage etc. The layout for a single post and page can be controlled from below options"
+msgstr "Wähle das Standardlayout. Diese Änderung ist im Seitenarchiv, der Suche, etc sichtbar. Das Layout für eine Seite oder Beitrag kann durch die folgenden Optionen geändert werden"
+
+#: inc/customizer.php:420
+msgid "Default layout"
+msgstr "Standard-Layout"
+
+#: inc/customizer.php:411
+msgid "Design Options"
+msgstr "Design-Optionen"
+
+#: inc/customizer.php:409
+msgid "Contain all the Design related settings"
+msgstr "Beinhaltet alle Einstellungen zum Design"
+
+#: inc/customizer.php:395
+msgid "Hide slider navigation Buttons"
+msgstr "Verberge die Navigation-Buttons im Slider"
+
+#: inc/customizer.php:376
+msgid "Hide slider Left/Right Arrows"
+msgstr "Verberge die Links/Rechts-Pfeile im Slider"
+
+#: inc/customizer.php:358
+msgid "Option to hide the slider controls"
+msgstr "Option um die Slider-Steuerung zu verbergen"
+
+#: inc/customizer.php:344
+msgid "Slide "
+msgstr "Slide "
+
+#: inc/customizer.php:324
+msgid "Enter Icon Class"
+msgstr "Icon Class eingeben"
+
+#: inc/customizer.php:296
+msgid "Enable Slider"
+msgstr "Slider aktivieren"
+
+#: inc/customizer.php:277
+msgid "Slider displays the Title, Content and Featured image of the page. The recommended size for slider image is 1920px by 1000px. Select the pages in the option provided below"
+msgstr "Der Slider zeigt den Titel, den Inhalt und das Beitragsbild der Seite. Die empfohlene Größe für die Sliderbilder ist 1920px. Wähle unten die Seiten"
+
+#: inc/customizer.php:267
+msgid "Slider Options"
+msgstr "Slider-Optionen"
+
+#: inc/customizer.php:265
+msgid "Contain all the Slider related settings"
+msgstr "Beinhaltet alle Einstellungen zum Slider"
+
+#: inc/customizer.php:250
+msgid "Upload Image"
+msgstr "Lade ein Bild hoch"
+
+#: inc/customizer.php:230
+msgid "Display image as background just below the main Menu on Home page, archive and single pages."
+msgstr "Bild als Hintergrund direkt unter dem Hauptmenü auf der Startseite, den Archiven und Seiten anzeigen."
+
+#: inc/customizer.php:229
+msgid "Header Title Bar"
+msgstr "Header Title Bar"
+
+#: inc/customizer.php:219
+msgid "None"
+msgstr "Keiner"
+
+#: inc/customizer.php:218
+msgid "Show both Logo and Text"
+msgstr "Logo und Text anteigen"
+
+#: inc/customizer.php:217
+msgid "Header Text Only"
+msgstr "Nur den Header Text"
+
+#: inc/customizer.php:216
+msgid "Header Logo Only"
+msgstr "Nur das Header Logo"
+
+#: inc/customizer.php:212
+msgid "Choose the required option"
+msgstr "Wähle die erforderliche Option"
+
+#: inc/customizer.php:194
+msgid "Header Logo"
+msgstr "Header Logo"
+
+#: inc/customizer.php:183
+msgid "Check to make Header Non-sticky"
+msgstr "Markieren um den Header nicht anzuheften"
+
+#: inc/customizer.php:166
+msgid "Header Sticky Option"
+msgstr "Header Optionen zum anheften"
+
+#: inc/customizer.php:165
+msgid "Header is Sticky by default"
+msgstr "Standardmäßig ist der Header angeheftet"
+
+#: inc/customizer.php:154
+msgid "Text before Post Titles:"
+msgstr "Text vor dem Beitrags-Titel:"
+
+#: inc/customizer.php:145
+msgid "Special:"
+msgstr "Spezial:"
+
+#: inc/customizer.php:127
+msgid "Enable Header News"
+msgstr "News im Header aktivieren"
+
+#: inc/customizer.php:108
+msgid "Header News"
+msgstr "Header News"
+
+#: inc/customizer.php:107
+msgid "Display Latest post Titles in the Header Top Bar."
+msgstr "Titel der letzten Beiträge in der Header Top-Bar anzeigen."
+
+#: inc/customizer.php:98
+msgid "Header Options"
+msgstr "Header Optionen"
+
+#: inc/customizer.php:96
+msgid "Contain all the Header related settings"
+msgstr "Beinhaltet alle Einstellungen zum Header"
+
+#: inc/admin/class-foodhunt-dashboard.php:103
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: header.php:69
+msgid "Menu"
+msgstr "Menü"
+
+#: functions.php:62
+msgid "Footer Menu"
+msgstr "Footer-Menü"
+
+#: functions.php:61
+msgid "Social Menu"
+msgstr "Social Media Menü"
+
+#: functions.php:60
+msgid "Primary Right Menu"
+msgstr "Rechtes Hauptmenü"
+
+#: functions.php:59
+msgid "Primary Left Menu"
+msgstr "Linkes Hauptmenü"
+
+#: footer.php:43
+msgid "close me"
+msgstr "Schliess mich"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "Die Kommentare sind geschlossen."
+
+#: comments.php:46 comments.php:67
+msgid "Newer Comments"
+msgstr "Neuere Kommentare"
+
+#: comments.php:45 comments.php:66
+msgid "Older Comments"
+msgstr "Ältere Kommentare"
+
+#: comments.php:42 comments.php:63
+msgid "Comment navigation"
+msgstr "Navigation durch die Kommentare"
+
+#: comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Ein Gedanke zu &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Gedanken zu &ldquo;%2$s&rdquo;"
+
+#: 404.php:29
+msgid "Page Not Found"
+msgstr "Seite nicht gefunden"
+
+#: 404.php:28
+msgid "Oops!!"
+msgstr "Oops!!"
+
+#: 404.php:24
+msgid "404"
+msgstr "404"
+
+#. Author URI of the theme
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#. Theme URI of the theme
+msgid "https://themegrill.com/themes/foodhunt/"
+msgstr "https://themegrill.com/themes/foodhunt/"
+
+#. Author of the theme
+msgid "ThemeGrill"
+msgstr "ThemeGrill"

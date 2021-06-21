@@ -2,5 +2,6 @@
 desktop.ini
 
 /.idea
-
+/docker-compose/mysql/mysql
+/docker-compose/mysql/mysql/*
 docker-compose.yaml

@@ -1,1 +1,0 @@
-(window.mailpoetJsonp=window.mailpoetJsonp||[]).push([[3],{4:function(o,n){o.exports=jQuery}},[[791,0,1]]]);

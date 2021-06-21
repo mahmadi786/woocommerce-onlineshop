@@ -11,7 +11,7 @@
  *
  * @package Restaurantz
  */
-
+error_reporting(0);
 get_header(); ?>
 
 	<div id="primary" class="content-area">

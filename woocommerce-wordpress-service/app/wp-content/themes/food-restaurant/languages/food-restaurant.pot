@@ -1,0 +1,538 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Food Restaurant\n"
+"Last-Translator: \n"
+"Language-Team: logicalThemes <support@logicalthemes.com>\n"
+"Language: English\n"
+"MIME-Version: 1.2.4\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:13
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:14
+msgid "Looks like you have taken a wrong turn"
+msgstr ""
+
+#: 404.php:15
+#: no-results.php:18
+msgid "Dont worry &hellip it happens to the best of us."
+msgstr ""
+
+#: 404.php:17
+#: no-results.php:20
+msgid 'Return to Home Page'
+msgstr ""
+
+#: comments.php:22
+msgid 'One thought on &ldquo;%s&rdquo;'
+msgstr ""
+
+#: comments.php:32
+msgid 'comments title'
+msgstr ""
+
+#: comments.php:63
+msgid 'Comments are closed.'
+msgstr ""
+
+#: header.php:25
+msgid 'Skip to content'
+msgstr ""
+
+#: header.php:44
+msgid 'Open Menu'
+msgstr ""
+
+#: header.php:47
+msgid 'Top Menu'
+msgstr ""
+
+#: header.php:57
+msgid 'Close Menu'
+msgstr ""
+
+#: footer.php:29
+msgid 'By LogicalThemes'
+msgstr ""
+
+#: functions.php:28
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:57
+msgid 'Warm Greetings to you!!'
+msgstr ""
+
+#: functions.php:58
+msgid ' Our sincere thanks for choosing our food restaurant theme. We assure you a high performing theme for your food business. Please proceed towards welcome section to start an amazing journey with us. '
+msgstr ""
+
+#: functions.php:59
+msgid 'Welcome...'
+msgstr ""
+
+#: functions.php:66
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:67
+msgid 'Appears on blog page sidebar'
+msgstr ""
+
+#: functions.php:77
+#: functions.php:87
+msgid "Appears on posts and pages"
+msgstr ""
+
+#: functions.php:76
+msgid "Posts and Pages Sidebar"
+msgstr ""
+
+#: functions.php:86
+msgid 'Third Column Sidebar'
+msgstr ""
+
+#: functions.php:96
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:106
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:116
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:126
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:97
+#: functions.php:107
+#: functions.php:117
+#: functions.php:127
+msgid "Appears in footer"
+msgstr ""
+
+#: functions.php:367
+msgid "Restaurant WordPress Theme"
+msgstr ""
+
+#: image.php:37
+#: image.php:73
+#: image.php:108
+#: image.php:143
+#: image.php:181
+#: image.php:219
+#: image.php:256
+#: template-parts/single-post.php:45
+msgid "Pages:"
+msgstr ""
+
+#: image.php:42
+#: image.php:78
+#: image.php:113
+#: image.php:148
+#: image.php:186
+#: image.php:224
+#: image.php:261
+#: template-parts/single-post.php:77
+msgid "Edit"
+msgstr ""
+
+#: archive.php:35
+#: archive.php:65
+#: archive.php:94
+#: archive.php:123
+#: archive.php:154
+#: archive.php:186
+#: archive.php:217
+#: index.php:36
+#: index.php:62
+#: index.php:87
+#: index.php:112
+#: index.php:139
+#: index.php:166
+#: index.php:191
+#: search.php:33
+#: search.php:60
+#: search.php:86
+#: search.php:112
+#: search.php:140
+#: search.php:168
+#: search.php:196
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:36
+#: archive.php:66
+#: archive.php:95
+#: archive.php:124
+#: archive.php:155
+#: archive.php:187
+#: archive.php:218
+#: index.php:37
+#: index.php:63
+#: index.php:88
+#: index.php:113
+#: index.php:140
+#: index.php:167
+#: index.php:192
+#: search.php:34
+#: search.php:61
+#: search.php:87
+#: search.php:113
+#: search.php:141
+#: search.php:169
+#: search.php:197
+msgid "Next page"
+msgstr ""
+
+#: archive.php:37
+#: archive.php:67
+#: archive.php:96
+#: archive.php:125
+#: archive.php:156
+#: archive.php:188
+#: archive.php:219
+#: index.php:38
+#: index.php:64
+#: index.php:89
+#: index.php:114
+#: index.php:141
+#: index.php:168
+#: index.php:193
+#: search.php:35
+#: search.php:62
+#: search.php:88
+#: search.php:114
+#: search.php:142
+#: search.php:170
+#: search.php:198
+#: template-parts/single-post.php:49
+msgid "page"
+msgstr ""
+
+#: no-results.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:13
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:15
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: searchform.php:10
+msgid 'Search for:'
+msgstr ""
+
+#: searchform.php:11
+#: searchform.php:13
+msgid 'Search'
+msgstr ""
+
+#: searchform.php:11
+msgid 'placeholder'
+msgstr ""
+
+#: searchform.php:13
+msgid 'submit button'
+msgstr ""
+
+#: sidebar.php:11
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:17
+msgid "Meta"
+msgstr ""
+
+#: template-parts/single-post.php:20
+msgid '0 Comments'
+msgstr ""
+
+#: template-parts/single-post.php:56
+msgid "Parent post link"
+msgstr ""
+
+#: template-parts/single-post.php:61
+page-template/home-custom.php:59
+msgid "Next"
+msgstr ""
+
+#: template-parts/single-post.php:62
+msgid "Next post:"
+msgstr ""
+
+#: template-parts/single-post.php:64
+page-template/home-custom.php:56
+msgid "Previous"
+msgstr ""
+
+#: template-parts/single-post.php:65
+msgid "Previous post:"
+msgstr ""
+
+#: template-parts/single-post.php:46
+msgid 'Parent post link'
+msgstr ""
+
+#: page-template/home-custom.php:42
+msgid "READ MORE"
+msgstr ""
+
+#: page-template/home-custom.php:82
+msgid "Border Image"
+msgstr ""
+
+#: page-template/home-custom.php:88
+msgid "Featured Product Image"
+msgstr ""
+
+#: inc/customizer.php:19
+msgid "LT Settings"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Description of what this panel does."
+msgstr ""
+
+#: inc/customizer.php:24
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:34
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid 'Do you want this section'
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:40
+#: inc/customizer.php:50
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid "One Column"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid "Three Columns"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Four Columns"
+msgstr ""
+
+#: inc/customizer.php:54
+msgid "Grid Layout"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid 'Typography'
+msgstr ""
+
+#: inc/customizer.php:166
+msgid 'Paragraph Color'
+msgstr ""
+
+#: inc/customizer.php:180
+msgid 'Paragraph Fonts'
+msgstr ""
+
+#: inc/customizer.php:190
+msgid 'Paragraph Font Size'
+msgstr ""
+
+#: inc/customizer.php:202
+msgid '"a" Tag Color'
+msgstr ""
+
+#: inc/customizer.php:216
+msgid '"a" Tag Fonts'
+msgstr ""
+
+#: inc/customizer.php:227
+msgid '"li" Tag Color'
+msgstr ""
+
+#: inc/customizer.php:241
+msgid '"li" Tag Fonts'
+msgstr ""
+
+#: inc/customizer.php:252
+msgid 'H1 Color'
+msgstr ""
+
+#: inc/customizer.php:266
+msgid 'H1 Fonts'
+msgstr ""
+
+#: inc/customizer.php:277
+msgid 'H1 Font Size'
+msgstr ""
+
+#: inc/customizer.php:289
+msgid 'H2 Color'
+msgstr ""
+
+#: inc/customizer.php:303
+msgid 'H2 Fonts'
+msgstr ""
+
+#: inc/customizer.php:314
+msgid 'H2 Font Size'
+msgstr ""
+
+#: inc/customizer.php:326
+msgid 'H3 Color'
+msgstr ""
+
+#: inc/customizer.php:340
+msgid 'H3 Fonts'
+msgstr ""
+
+#: inc/customizer.php:351
+msgid 'H3 Font Size'
+msgstr ""
+
+#: inc/customizer.php:363
+msgid 'H4 Color'
+msgstr ""
+
+#: inc/customizer.php:377
+msgid 'H4 Fonts'
+msgstr ""
+
+#: inc/customizer.php:388
+msgid 'H4 Font Size'
+msgstr ""
+
+#: inc/customizer.php:400
+msgid 'H5 Color'
+msgstr ""
+
+#: inc/customizer.php:414
+msgid 'H5 Fonts'
+msgstr ""
+
+#: inc/customizer.php:425
+msgid 'H5 Font Size'
+msgstr ""
+
+#: inc/customizer.php:437
+msgid 'H6 Color'
+msgstr ""
+
+#: inc/customizer.php:451
+msgid 'H6 Fonts'
+msgstr ""
+
+#: inc/customizer.php:462
+msgid 'H6 Font Size'
+msgstr ""
+
+#: inc/customizer.php:470
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:481
+msgid "Show / Hide slider"
+msgstr ""
+
+#: inc/customizer.php:492
+msgid "Select Slide Image Page"
+msgstr ""
+
+#: inc/customizer.php:500
+msgid 'Food Products'
+msgstr ""
+
+#: inc/customizer.php:501
+msgid "This section will appear below the slider."
+msgstr ""
+
+#: inc/customizer.php:510
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:521
+msgid "Sub Title"
+msgstr ""
+
+#: inc/customizer.php:532
+msgid "Short Line"
+msgstr ""
+
+#: inc/customizer.php:543
+msgid "Product Leftside Image"
+msgstr ""
+
+#: inc/customizer.php:544
+msgid "Image size (480px x 720px)"
+msgstr ""
+
+#: inc/customizer.php:554
+msgid "Select Product Page"
+msgstr ""
+
+#: inc/customizer.php:561
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:562
+msgid "Add some text for footer like copyright etc."
+msgstr ""
+
+#: inc/customizer.php:571
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:582
+msgid 'Woocommerce Shop Page'
+msgstr ""
+
+#: inc/customizer.php:592
+msgid 'Product Per Columns'
+msgstr ""
+
+#: inc/customizer.php:593
+msgid 'How many products should be shown per Column?'
+msgstr ""
+
+#: inc/customizer.php:609
+msgid 'Product Per Page'
+msgstr ""
+
+#: inc/customizer.php:610
+msgid 'How many products should be shown per page?'
+msgstr ""
+
+#: inc/customizer.php:621
+msgid 'Display Site Title and Tagline in Header'
+msgstr ""
+
+#: inc/customizer.php:702
+msgid "Food Restaurant Pro"
+msgstr ""
+
+#: inc/customizer.php:703
+msgid "Go Pro"
+msgstr ""

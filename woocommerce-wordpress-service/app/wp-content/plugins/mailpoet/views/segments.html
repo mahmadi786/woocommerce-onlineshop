@@ -21,6 +21,7 @@
     var mailpoet_has_valid_api_key = <%= has_valid_api_key ? 'true' : 'false' %>;
     var mailpoet_mss_key_invalid = <%= mss_key_invalid ? 'true' : 'false' %>;
     var mailpoet_subscribers_count = <%= subscriber_count %>;
+    var mailpoet_custom_fields = <%= json_encode(custom_fields) %>;
     var mailpoet_has_premium_support = <%= has_premium_support ? 'true' : 'false' %>;
     var wordpress_editable_roles_list = <%= json_encode(wordpress_editable_roles_list)  %>;
     var mailpoet_newsletters_list = <%= json_encode(newsletters_list)  %>;
@@ -139,6 +140,7 @@
     'selectNewsletterPlaceholder': __('Select email'),
     'selectActionPlaceholder': __('Select action'),
     'selectUserRolePlaceholder': __('Select user role'),
+    'selectCustomFieldPlaceholder': __('Select custom field'),
     'emailActionOpened': _x('opened', 'Dynamic segment creation: when newsletter was opened'),
     'emailActionOpensAbsoluteCount': __('# of opens'),
     'emailActionOpens': __('opens'),
@@ -147,6 +149,12 @@
     'emailActionOpensDaysSentence': _x('in the last {days} days', 'The result will be "in the last 5 days"'),
     'moreThan': __('more than'),
     'lessThan': __('less than'),
+    'equals': __('equals'),
+    'contains': __('contains'),
+    'value': __('value'),
+    'selectValue': __('Select value'),
+    'checked': __('checked'),
+    'unchecked': __('unchecked'),
 
     'before': _x('before', 'Meaning: "Subscriber subscribed before Aprile"'),
     'after': _x('after', 'Meaning: "Subscriber subscribed after April'),
@@ -163,7 +171,8 @@
     'segmentsTipText': __('segments allow you to group your subscribers by other criteria, such as events and actions.'),
     'segmentsTipLink': __('Read more.'),
     'subscribedDate': __('subscribed date'),
-    'segmentsSubscriber': __('has WordPress user role'),
+    'segmentsSubscriber': __('WordPress user role'),
+    'mailpoetCustomField': __('MailPoet custom field'),
     'segmentsActiveSubscription': __('has an active subscription'),
     'woocommerceSubscriptions': _x('WooCommerce Subscriptions', 'Dynamic segment creation: User selects this to use any WooCommerce Subscriptions filters'),
     'selectWooSubscription': __('Search subscriptions'),

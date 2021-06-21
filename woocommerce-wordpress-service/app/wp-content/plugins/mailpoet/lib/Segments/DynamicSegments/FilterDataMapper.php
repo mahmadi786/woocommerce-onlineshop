@@ -9,6 +9,7 @@ use MailPoet\Entities\DynamicSegmentFilterData;
 use MailPoet\Segments\DynamicSegments\Exceptions\InvalidFilterException;
 use MailPoet\Segments\DynamicSegments\Filters\EmailAction;
 use MailPoet\Segments\DynamicSegments\Filters\EmailOpensAbsoluteCountAction;
+use MailPoet\Segments\DynamicSegments\Filters\MailPoetCustomFields;
 use MailPoet\Segments\DynamicSegments\Filters\SubscriberSubscribedDate;
 use MailPoet\Segments\DynamicSegments\Filters\WooCommerceCategory;
 use MailPoet\Segments\DynamicSegments\Filters\WooCommerceCountry;
@@ -55,6 +56,21 @@ class FilterDataMapper {
         'value' => $data['value'],
         'operator' => $data['operator'] ?? SubscriberSubscribedDate::BEFORE,
       ]);
+    }
+    if ($data['action'] === MailPoetCustomFields::TYPE) {
+      if (empty($data['custom_field_id'])) throw new InvalidFilterException('Missing custom field id', InvalidFilterException::MISSING_VALUE);
+      if (empty($data['custom_field_type'])) throw new InvalidFilterException('Missing custom field type', InvalidFilterException::MISSING_VALUE);
+      if (!isset($data['value'])) throw new InvalidFilterException('Missing value', InvalidFilterException::MISSING_VALUE);
+      $filterData = [
+        'segmentType' => DynamicSegmentFilterData::TYPE_USER_ROLE,
+        'action' => $data['action'],
+        'value' => $data['value'],
+        'custom_field_id' => $data['custom_field_id'],
+        'custom_field_type' => $data['custom_field_type'],
+      ];
+      if (!empty($data['date_type'])) $filterData['date_type'] = $data['date_type'];
+      if (!empty($data['operator'])) $filterData['operator'] = $data['operator'];
+      return new DynamicSegmentFilterData($filterData);
     }
     if (empty($data['wordpressRole'])) throw new InvalidFilterException('Missing role', InvalidFilterException::MISSING_ROLE);
     return new DynamicSegmentFilterData([

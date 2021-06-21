@@ -1,0 +1,39 @@
+0000.138 (R) [notice] Suche nach plugins Archiv: Dateiname: backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-plugins.zip
+0000.138 (R) [notice] Die zu erwartene Archivgröße: 25435.5 KB: Okay
+0000.139 (R) [notice] Suche nach themes Archiv: Dateiname: backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-themes.zip
+0000.139 (R) [notice] Die zu erwartene Archivgröße: 5754.2 KB: Okay
+0000.139 (R) [notice] Suche nach uploads Archiv: Dateiname: backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-uploads.zip
+0000.139 (R) [notice] Die zu erwartene Archivgröße: 9767.9 KB: Okay
+0000.140 (R) [notice] Suche nach others Archiv: Dateiname: backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-others.zip
+0000.140 (R) [notice] Die zu erwartene Archivgröße: 8471.3 KB: Okay
+0000.140 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.236 (R) [notice] Entpacke Sicherung... (backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-plugins.zip, 24.8 MB)
+0000.546 (R) [notice] Fortschritt des Entpackens: 1098 aus 7700 Dateien (2.8 KB, plugins/akismet/class.akismet-widget.php)
+0000.761 (R) [notice] Fortschritt des Entpackens: 2099 aus 7700 Dateien (11.3 MB, plugins/akismet/class.akismet-cli.php)
+0001.039 (R) [notice] Fortschritt des Entpackens: 3100 aus 7700 Dateien (32.3 MB, plugins/wordpress-seo/src/models/seo-meta.php)
+0001.252 (R) [notice] Fortschritt des Entpackens: 4101 aus 7700 Dateien (43 MB, plugins/woocommerce/assets/css/photoswipe/photoswipe.css)
+0001.450 (R) [notice] Fortschritt des Entpackens: 5102 aus 7700 Dateien (45.4 MB, plugins/woocommerce/vendor/symfony/css-selector/Node/FunctionNode.php)
+0001.673 (R) [notice] Fortschritt des Entpackens: 6103 aus 7700 Dateien (56.2 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/img/no-products.svg)
+0001.910 (R) [notice] Fortschritt des Entpackens: 7104 aus 7700 Dateien (76.3 MB, plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/AsgardInstaller.php)
+0002.047 (R) [notice] Fortschritt des Entpackens: 7700 aus 7700 Dateien (79.1 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/Common/Exception/OverflowException.php)
+0002.050 (R) [notice] Entferne alte Daten ...
+0003.414 (R) [notice] Verschiebe entpackte Sicherung an Stelle ...
+0005.478 (R) [notice] Räume auf ...
+0005.597 (R) [notice] Entpacke Sicherung... (backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-themes.zip, 5.6 MB)
+0005.717 (R) [notice] Fortschritt des Entpackens: 331 aus 331 Dateien (9.5 MB, themes/index.php)
+0005.718 (R) [notice] Entferne alte Daten ...
+0005.820 (R) [notice] Verschiebe entpackte Sicherung an Stelle ...
+0005.897 (R) [notice] Räume auf ...
+0006.094 (R) [notice] Entpacke Sicherung... (backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-uploads.zip, 9.5 MB)
+0006.237 (R) [notice] Fortschritt des Entpackens: 137 aus 137 Dateien (9.5 MB, uploads/2021/05/logo.png)
+0006.237 (R) [notice] Entferne alte Daten ...
+0006.241 (R) [notice] Verschiebe entpackte Sicherung an Stelle ...
+0006.268 (R) [notice] Räume auf ...
+0006.374 (R) [notice] Entpacke Sicherung... (backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-others.zip, 8.3 MB)
+0006.577 (R) [notice] Fortschritt des Entpackens: 1002 aus 4424 Dateien (2 MB, mu-plugins/gd-system-plugin/plugins/limit-login-attempts-reloaded/assets/img/flags/FR.png)
+0006.765 (R) [notice] Fortschritt des Entpackens: 2003 aus 4424 Dateien (9.2 MB, mu-plugins/gd-system-plugin/plugins/mwc-core/languages/mwc-core-de_DE.mo)
+0006.946 (R) [notice] Fortschritt des Entpackens: 3004 aus 4424 Dateien (13.1 MB, mu-plugins/gd-system-plugin/plugins/nextgen/languages/nextgen-pt_BR-e40b6c576283fcb3a457acacfd0b424a.json)
+0007.132 (R) [notice] Fortschritt des Entpackens: 4005 aus 4424 Dateien (21.5 MB, mu-plugins/gd-system-plugin/plugins/nextgen/languages/nextgen-hi_IN-4dd1cd3d06831cc971e0479b83091941.json)
+0007.251 (R) [notice] Fortschritt des Entpackens: 4424 aus 4424 Dateien (24.7 MB, languages/plugins/woocommerce-de_DE-618d9334759c77cb27125cffd0883721.json)
+0007.257 (R) [notice] Räume auf ...
+0007.361 (R) [notice] Restore successful!

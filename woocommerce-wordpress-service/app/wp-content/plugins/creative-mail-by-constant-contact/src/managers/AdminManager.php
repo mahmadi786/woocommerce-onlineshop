@@ -66,9 +66,6 @@ class AdminManager
         add_action(self::ADMIN_MENU_HOOK, array( $this, 'build_menu' ));
         add_action(self::ADMIN_ENQUEUE_SCRIPTS_HOOK, array( $this, 'add_assets' ));
         add_action(self::ADMIN_NOTICES_HOOK,  array($this, 'add_admin_notice_permalink' ));
-        if (in_array('password-protected/password-protected.php', apply_filters('active_plugins', get_option('active_plugins')))) {
-            add_action(self::ADMIN_NOTICES_HOOK, array($this, 'add_admin_notice_password_protected'));
-        }
         add_action(self::ADMIN_NOTICES_HOOK,  array($this, 'add_admin_notice_review' ));
         add_action(self::ADMIN_NOTICES_HOOK,  array($this, 'add_admin_get_started_banner' ));
         add_action(self::ADMIN_NOTICES_HOOK,  array($this, 'add_admin_feedback_notice' ));

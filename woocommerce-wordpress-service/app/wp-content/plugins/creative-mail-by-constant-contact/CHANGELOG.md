@@ -1,6 +1,9 @@
 Changelog
 =========
 
+#### 1.3.9 - May 26 2021
+- Include notice when you have enabled a password protection plugin.
+
 #### 1.3.8 - May 18 2021
 - Fixes an issue with WooCommerce recommendations.
 

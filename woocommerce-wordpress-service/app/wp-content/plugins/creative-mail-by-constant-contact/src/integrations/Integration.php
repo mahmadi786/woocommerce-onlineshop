@@ -37,7 +37,7 @@ class Integration
         $this->class = $class;
         $this->integrationHandler = $integration_handler;
         $this->hide_from_suggestions = $hide_from_suggestions;
-        $this->url = is_null($url) ? "/wordpress/wp-admin/plugin-install.php?tab=plugin-information&plugin=$slug&TB_iframe=true&width=772&height=1144" : $url;
+        $this->url = is_null($url) ? admin_url("plugin-install.php?tab=plugin-information&plugin=$slug&TB_iframe=true&width=772&height=1144") : $url;
         $this->has_multiple_plugins = $has_multiple_plugins;
     }
 

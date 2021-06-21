@@ -42,13 +42,13 @@ class IntegrationManager
             new Integration('contact-form-7', 'Contact Form 7', 'contact-form-7/wp-contact-form-7.php', ContactFormSevenPluginHandler::class, false),
             new Integration('newsletter', 'Newsletter', 'newsletter/plugin.php', NewsLetterContactFormPluginHandler::class, false),
             new Integration('wpforms', 'WPForms', 'wpforms/wpforms.php', WpFormsPluginHandler::class, false, 'https://wpforms.com/'),
-            new Integration('wpformslite', 'WPForms Lite', 'wpforms-lite/wpforms.php', WpFormsPluginHandler::class, true, '/wordpress/wp-admin/plugin-install.php?tab=plugin-information&plugin=wpforms-lite&TB_iframe=true&width=772&height=1144'),
+            new Integration('wpformslite', 'WPForms Lite', 'wpforms-lite/wpforms.php', WpFormsPluginHandler::class, true, admin_url('plugin-install.php?tab=plugin-information&plugin=wpforms-lite&TB_iframe=true&width=772&height=1144')),
             new Integration('gravityforms', 'Gravity Forms', 'gravityforms/gravityforms.php', GravityFormsPluginHandler::class, false, 'https://www.gravityforms.com/'),
             new Integration('elementor', 'Elementor', 'elementor/elementor.php', ElementorPluginHandler::class, false),
-            new Integration('ninjaforms', 'Ninja Forms', 'ninja-forms/ninja-forms.php', NinjaFormsPluginHandler::class, false, '/wordpress/wp-admin/plugin-install.php?tab=plugin-information&plugin=ninja-forms&TB_iframe=true&width=772&height=1144'),
-            new Integration('caldera', 'Caldera Forms', 'caldera-forms/caldera-core.php', CalderaPluginHandler::class, false, '/wordpress/wp-admin/plugin-install.php?tab=plugin-information&plugin=caldera-forms&TB_iframe=true&width=772&height=1144'),
+            new Integration('ninjaforms', 'Ninja Forms', 'ninja-forms/ninja-forms.php', NinjaFormsPluginHandler::class, false, admin_url('plugin-install.php?tab=plugin-information&plugin=ninja-forms&TB_iframe=true&width=772&height=1144')),
+            new Integration('caldera', 'Caldera Forms', 'caldera-forms/caldera-core.php', CalderaPluginHandler::class, false, admin_url('plugin-install.php?tab=plugin-information&plugin=caldera-forms&TB_iframe=true&width=772&height=1144')),
             new Integration('bluehost', 'Bluehost Builder', 'wb4wp-wordpress-plugin-bluehost/wb4wp-plugin.php', BlueHostBuilderPluginHandler::class, false, 'https://www.bluehost.com/'),
-            new Integration('formidable', 'Formidable', 'formidable/formidable.php', FormidablePluginHandler::class, false, '/wordpress/wp-admin/plugin-install.php?tab=plugin-information&plugin=formidable&TB_iframe=true&width=772&height=1144\'')
+            new Integration('formidable', 'Formidable', 'formidable/formidable.php', FormidablePluginHandler::class, false, admin_url('plugin-install.php?tab=plugin-information&plugin=formidable&TB_iframe=true&width=772&height=1144'))
         );
     }
 

@@ -8,7 +8,7 @@
  *
  * @package Restaurantz
  */
-
+error_reporting(0);
 ?><?php
 	/**
 	 * Hook - restaurantz_action_doctype.

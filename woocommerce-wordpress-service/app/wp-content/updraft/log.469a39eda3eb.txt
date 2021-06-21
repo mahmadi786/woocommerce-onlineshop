@@ -1,0 +1,64 @@
+0000.096 () Opened log file at time: Sun, 30 May 2021 06:58:39 +0000 on https://ffm-food.de
+0000.096 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.56 WP: 5.7.2 PHP: 7.4.16 (fpm-fcgi, Linux host.7ganj.com 3.10.0-1062.4.1.el7.x86_64 #1 SMP Fri Oct 18 17:15:30 UTC 2019 x86_64) MySQL: 5.7.33 WPLANG: de_DE Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 57.8M | 6.5M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.096 () Free space on disk containing Updraft's temporary directory: 1383854.9 MB
+0000.155 () Restore setup, now closing connection and starting restore over AJAX.
+0000.070 () Opened log file at time: Sun, 30 May 2021 06:58:41 +0000 on https://ffm-food.de
+0000.070 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.56 WP: 5.7.2 PHP: 7.4.16 (fpm-fcgi, Linux host.7ganj.com 3.10.0-1062.4.1.el7.x86_64 #1 SMP Fri Oct 18 17:15:30 UTC 2019 x86_64) MySQL: 5.7.33 WPLANG: de_DE Server: Apache/2 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 56.3M | 30.5M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.070 () Free space on disk containing Updraft's temporary directory: 1383854.9 MB
+0000.078 () Ensuring WP_Filesystem is setup for a restore
+0000.079 () WP_Filesystem is setup and ready for a restore
+0000.138 () Restore job started. Entities to restore: plugins, themes, uploads, others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.140 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.236 () Entity: plugins
+0000.236 () restore_backup(backup_file=backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:67:"/home/mahmadi786/domains/ffm-food.de/public_html/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.236 () Entpacke Sicherung... (backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-plugins.zip, 24.8 MB)
+0000.237 () Unzipping backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-plugins.zip to /home/mahmadi786/domains/ffm-food.de/public_html/wp-content/upgrade/7a68ea53/ using UpdraftPlus_ZipArchive, starting index 0
+0000.546 () Unzip progress: 1098 out of 7700 files (2.8 KB, plugins/akismet/class.akismet-widget.php)
+0000.761 () Unzip progress: 2099 out of 7700 files (11.3 MB, plugins/akismet/class.akismet-cli.php)
+0001.039 () Unzip progress: 3100 out of 7700 files (32.3 MB, plugins/wordpress-seo/src/models/seo-meta.php)
+0001.252 () Unzip progress: 4101 out of 7700 files (43 MB, plugins/woocommerce/assets/css/photoswipe/photoswipe.css)
+0001.450 () Unzip progress: 5102 out of 7700 files (45.4 MB, plugins/woocommerce/vendor/symfony/css-selector/Node/FunctionNode.php)
+0001.673 () Unzip progress: 6103 out of 7700 files (56.2 MB, plugins/woocommerce/packages/woocommerce-blocks/assets/img/no-products.svg)
+0001.910 () Unzip progress: 7104 out of 7700 files (76.3 MB, plugins/woocommerce/packages/woocommerce-admin/vendor/composer/installers/src/Composer/Installers/AsgardInstaller.php)
+0002.047 () Unzip progress: 7700 out of 7700 files (79.1 MB, plugins/updraftplus/vendor/aws/aws-sdk-php/src/Aws/Common/Exception/OverflowException.php)
+0002.050 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.050 () Moving old data: can potentially use wp_filesystem method / -old
+0002.050 () Entferne alte Daten ...
+0003.412 () Top-level entities being moved: hello.php, akismet, index.php, woocommerce, updraftplus
+0003.414 () Verschiebe entpackte Sicherung an Stelle ...
+0005.475 () Top-level entities being moved: wordpress-seo, wp101-video-tutorial, akismet, index.php, sucuri-scanner, classic-editor, gravityforms, coblocks, woocommerce, updraftplus
+0005.478 () Räume auf ...
+0005.596 () Entity: themes
+0005.596 () restore_backup(backup_file=backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-themes.zip, type=themes, info=a:2:{s:4:"path";s:66:"/home/mahmadi786/domains/ffm-food.de/public_html/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0005.597 () Entpacke Sicherung... (backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-themes.zip, 5.6 MB)
+0005.597 () Unzipping backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-themes.zip to /home/mahmadi786/domains/ffm-food.de/public_html/wp-content/upgrade/576933a0/ using UpdraftPlus_ZipArchive, starting index 0
+0005.717 () Unzip progress: 331 out of 331 files (9.5 MB, themes/index.php)
+0005.718 () Moving old data: filesystem method / updraft_dir is potentially possible
+0005.718 () Moving old data: can potentially use wp_filesystem method / -old
+0005.718 () Entferne alte Daten ...
+0005.819 () Top-level entities being moved: twentynineteen, twentytwentyone, twentytwenty, index.php
+0005.820 () Verschiebe entpackte Sicherung an Stelle ...
+0005.896 () Top-level entities being moved: food-restaurant, restaurantz, index.php, restaurant-zone
+0005.897 () Räume auf ...
+0006.094 () Entity: uploads
+0006.094 () restore_backup(backup_file=backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:67:"/home/mahmadi786/domains/ffm-food.de/public_html/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0006.094 () Entpacke Sicherung... (backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-uploads.zip, 9.5 MB)
+0006.095 () Unzipping backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-uploads.zip to /home/mahmadi786/domains/ffm-food.de/public_html/wp-content/upgrade/62fe1518/ using UpdraftPlus_ZipArchive, starting index 0
+0006.237 () Unzip progress: 137 out of 137 files (9.5 MB, uploads/2021/05/logo.png)
+0006.237 () Moving old data: filesystem method / updraft_dir is potentially possible
+0006.237 () Moving old data: can potentially use wp_filesystem method / -old
+0006.237 () Entferne alte Daten ...
+0006.241 () Verschiebe entpackte Sicherung an Stelle ...
+0006.268 () Räume auf ...
+0006.374 () Entity: others
+0006.374 () restore_backup(backup_file=backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-others.zip, type=others, info=a:2:{s:4:"path";s:59:"/home/mahmadi786/domains/ffm-food.de/public_html/wp-content";s:11:"description";s:6:"Andere";}, last_one=1)
+0006.374 () Entpacke Sicherung... (backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-others.zip, 8.3 MB)
+0006.374 () Unzipping backup_2021-05-24-0933_FFMFood_0f67ecdf6a08-others.zip to /home/mahmadi786/domains/ffm-food.de/public_html/wp-content/upgrade/729e4b1e/ using UpdraftPlus_ZipArchive, starting index 0
+0006.577 () Unzip progress: 1002 out of 4424 files (2 MB, mu-plugins/gd-system-plugin/plugins/limit-login-attempts-reloaded/assets/img/flags/FR.png)
+0006.765 () Unzip progress: 2003 out of 4424 files (9.2 MB, mu-plugins/gd-system-plugin/plugins/mwc-core/languages/mwc-core-de_DE.mo)
+0006.946 () Unzip progress: 3004 out of 4424 files (13.1 MB, mu-plugins/gd-system-plugin/plugins/nextgen/languages/nextgen-pt_BR-e40b6c576283fcb3a457acacfd0b424a.json)
+0007.132 () Unzip progress: 4005 out of 4424 files (21.5 MB, mu-plugins/gd-system-plugin/plugins/nextgen/languages/nextgen-hi_IN-4dd1cd3d06831cc971e0479b83091941.json)
+0007.251 () Unzip progress: 4424 out of 4424 files (24.7 MB, languages/plugins/woocommerce-de_DE-618d9334759c77cb27125cffd0883721.json)
+0007.257 () Räume auf ...
+0007.361 () Restore successful!
+0007.361 () Restore successful

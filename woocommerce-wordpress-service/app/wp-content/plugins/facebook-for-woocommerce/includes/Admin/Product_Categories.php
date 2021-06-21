@@ -59,7 +59,7 @@ class Product_Categories {
 
 			wp_enqueue_script(
 				'wc-facebook-product-categories',
-				facebook_for_woocommerce()->get_plugin_url() . '/assets/js/admin/product-categories.min.js',
+				facebook_for_woocommerce()->get_asset_build_dir_url() . '/admin/product-categories.js',
 				array(
 					'jquery',
 					'wc-backbone-modal',
@@ -269,7 +269,7 @@ class Product_Categories {
 	 * @since 2.1.0
 	 *
 	 * @param \WP_Term $term current taxonomy term object.
-	 * @param string $category_id passed in category id
+	 * @param string   $category_id passed in category id
 	 */
 	public function render_edit_enhanced_catalog_attributes_field( \WP_Term $term, $category_id = null ) {
 		if ( empty( $category_id ) ) {

@@ -1,0 +1,209 @@
+/*About theme*/
+.appearance_page_food_restaurant_guide #wpwrap{
+	background: #fff;
+}
+.wrapper-info {
+  margin: 20px;
+  margin-left: 0;
+}
+.top-section,
+.accordain-sec label {
+  width: 100%;
+  float: left;
+  border: 1px solid #e5e5e5;
+}
+.col-left {
+  width: 47%;
+  float: left;
+  padding: 0 15px;
+}
+.col-right {
+  width: 47%;
+  float: right;
+  padding: 17px;
+}
+.col-left h2 {
+  color: #006799;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 20px 0 10px;
+  text-transform: uppercase;
+}
+.col-left span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #444;
+  padding: 10px 0;
+}
+.col-left p {
+  color: #444;
+  font-size: 15px;
+  text-align: justify;
+}
+.col-left h4 {
+  color: #006799;
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+.info-link-top,
+.info-link {
+  margin: 25px 0;
+  text-align: center;
+}
+.info-link {
+  clear: both;
+}
+a.get-pro {
+  background: #ffba00 !important;
+  color: #000 !important;
+}
+a.get-pro:hover {
+  background: #eaab00 !important;
+}
+.info-link-top a,
+.info-link a,
+td.update-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background: #006799;
+  text-align: center;
+}
+.info-link-top a:hover,
+.info-link a:hover {
+  background: #0073aa;
+}
+/*Accordian Section*/
+.accordain-sec {
+  width: 100%;
+  float: left;
+  margin-top: 25px;
+}
+.sec-left-inner {
+  text-align: center;
+}
+.accordain-sec h3 {
+  text-align: center;
+  font-size: 22px;
+  margin: 7px 0;
+  color: #006799;
+}
+hr.hr-accr {
+  width: 15%;
+  border-top: solid 2px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.accordain-sec h4 {
+  color: #c42e10;
+  text-shadow: 2px 2px 3px #fff;
+  margin: 0;
+  font-size: 15px;
+}
+p.lite-para {
+  padding: 0 6em;
+  color: #444;
+  font-size: 15px;
+  text-align: justify;
+}
+.accordain-sec span.dashicons.dashicons-arrow-down {
+  padding: 0;
+  display: inline-block !important;
+  width: 10%;
+  float: right;
+  font-size: 30px;
+  padding: 5px;
+}
+.accordain-sec .block{
+  color: #23282d;
+  margin-bottom: 10px;
+}
+.accordain-sec .block input[type='radio']:checked ~ .info1{
+  height: 700px;
+  transition: .3s ease-in;
+}
+.accordain-sec .block input[type='radio']:checked ~ .info2{
+  height: 1845px;
+  transition: .3s ease-in;
+}
+.accordain-sec input[type='radio']{
+  width: 100%;
+  display: none;
+}
+.accordain-sec span {
+  display: block;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  width: 80%;
+  float: left;
+}
+.accordain-sec .info1,
+.accordain-sec .info2{
+  background: #fff;
+  color: #222;
+  width: 100%;
+  height: 0;
+  line-height: 2;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: solid 1px #e5e5e5;
+  transition: .3s ease-out;
+}
+::selection{
+  background: #222;
+  color: #fff;
+}
+.github img{
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  border: 0;
+}
+
+/*Table CSS*/
+
+.tablebox td {
+  padding: 5px 10px;
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+  border-bottom: solid 1px #ddd;
+}
+td.table-img {
+  text-align: center;
+}
+span.dashicons.dashicons-yes {
+  color: green;
+  font-size: 30px;
+}
+span.dashicons.dashicons-no-alt {
+  color: red;
+  font-size: 25px;
+}
+.tablebox th {
+  padding: 15px;
+  color: #000;
+  font-size: 20px;
+  border-bottom: solid 1px #ddd;
+}
+table.tablebox {
+  border: solid 1px #ddd;
+  padding: 2px;
+  width: 100%;
+}
+td.update-link a {
+  color: #fff;    
+  text-decoration: none;
+}
