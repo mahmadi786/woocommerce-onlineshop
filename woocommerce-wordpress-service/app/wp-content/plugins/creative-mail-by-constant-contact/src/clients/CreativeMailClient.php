@@ -51,6 +51,20 @@ class CreativeMailClient {
         return $this->parse_most_recent_campaigns( $campaigns_data );
     }
 
+    public function get_all_custom_lists()
+    {
+        $response = wp_remote_get(
+            EnvironmentHelper::get_app_gateway_url() . 'wordpress/v1.0/lists',
+            $this->get_default_headers()
+        );
+
+        if ( is_wp_error( $response ) ) {
+            throw new CreativeMailException( 'Could not get all custom lists' );
+        }
+
+        return json_decode( $response['body'], true );
+    }
+
     private function parse_most_recent_campaigns( $campaigns_data )
     {
         $most_recent_campaigns = [];

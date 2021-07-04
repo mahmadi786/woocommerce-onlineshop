@@ -5,6 +5,7 @@ namespace MailPoet\Config;
 if (!defined('ABSPATH')) exit;
 
 
+use MailPoet\DI\ContainerWrapper;
 use MailPoet\Subscribers\ImportExport\PersonalDataExporters\NewsletterClicksExporter;
 use MailPoet\Subscribers\ImportExport\PersonalDataExporters\NewslettersExporter;
 use MailPoet\Subscribers\ImportExport\PersonalDataExporters\SegmentsExporter;
@@ -36,9 +37,10 @@ class PersonalDataExporters {
   }
 
   public function registerNewslettersExporter($exporters) {
+    $newsletterExporter = ContainerWrapper::getInstance(NewslettersExporter::class);
     $exporters[] = [
       'exporter_friendly_name' => WPFunctions::get()->__('MailPoet Emails', 'mailpoet'),
-      'callback' => [new NewslettersExporter(), 'export'],
+      'callback' => [$newsletterExporter, 'export'],
     ];
     return $exporters;
   }

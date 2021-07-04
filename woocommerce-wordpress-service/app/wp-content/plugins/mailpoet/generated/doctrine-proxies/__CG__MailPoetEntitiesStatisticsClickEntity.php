@@ -248,6 +248,17 @@ class StatisticsClickEntity extends \MailPoet\Entities\StatisticsClickEntity imp
     /**
      * {@inheritDoc}
      */
+    public function getSubscriber(): ?\MailPoet\Entities\SubscriberEntity
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSubscriber', []);
+
+        return parent::getSubscriber();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
     public function setLink($link)
     {
 

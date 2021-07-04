@@ -89,11 +89,14 @@ class SegmentsRepository extends Repository {
     return count($results) === 0;
   }
 
+  /**
+   * @param DynamicSegmentFilterData[] $filtersData
+   */
   public function createOrUpdate(
     string $name,
     string $description = '',
     string $type = SegmentEntity::TYPE_DEFAULT,
-    ?DynamicSegmentFilterData $filterData = null,
+    array $filtersData = [],
     ?int $id = null
   ): SegmentEntity {
     if ($id) {
@@ -108,15 +111,22 @@ class SegmentsRepository extends Repository {
       $this->persist($segment);
     }
 
-    if ($filterData instanceof DynamicSegmentFilterData) {
-      // So far we allow only one filter
-      $filterEntity = $segment->getDynamicFilters()->first();
-      if (!$filterEntity instanceof DynamicSegmentFilterEntity) {
-        $filterEntity = new DynamicSegmentFilterEntity($segment, $filterData);
-        $segment->getDynamicFilters()->add($filterEntity);
-        $this->entityManager->persist($filterEntity);
-      } else {
-        $filterEntity->setFilterData($filterData);
+    // We want to remove redundant filters before update
+    while ($segment->getDynamicFilters()->count() > count($filtersData)) {
+      $filterEntity = $segment->getDynamicFilters()->last();
+      $segment->getDynamicFilters()->removeElement($filterEntity);
+      $this->entityManager->remove($filterEntity);
+    }
+    foreach ($filtersData as $key => $filterData) {
+      if ($filterData instanceof DynamicSegmentFilterData) {
+        $filterEntity = $segment->getDynamicFilters()->get($key);
+        if (!$filterEntity instanceof DynamicSegmentFilterEntity) {
+          $filterEntity = new DynamicSegmentFilterEntity($segment, $filterData);
+          $segment->getDynamicFilters()->add($filterEntity);
+          $this->entityManager->persist($filterEntity);
+        } else {
+          $filterEntity->setFilterData($filterData);
+        }
       }
     }
     $this->flush();

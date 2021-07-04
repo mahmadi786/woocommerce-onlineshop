@@ -1,6 +1,10 @@
 Changelog
 =========
 
+
+#### 1.4.0 - June 15 2021
+- Added gutenberg contact form block CreativeMail
+
 #### 1.3.9 - May 26 2021
 - Include notice when you have enabled a password protection plugin.
 

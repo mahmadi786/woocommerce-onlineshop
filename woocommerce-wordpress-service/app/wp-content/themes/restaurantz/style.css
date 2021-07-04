@@ -4026,6 +4026,18 @@ blockquote {
     color: #000;
 }
 
+
+.wp-block-jetpack-slideshow .wp-block-jetpack-slideshow_image{
+	width: 100%!important;
+	height: 100%!important;
+	object-fit:cover !important;
+}
+
+
+.woocommerce-error::before, .woocommerce-info::before, .woocommerce-message::before{
+    left: 0.3em !important;
+}
+
 /*================================================================
 ========================= Style Ends =============================
 ================================================================= */

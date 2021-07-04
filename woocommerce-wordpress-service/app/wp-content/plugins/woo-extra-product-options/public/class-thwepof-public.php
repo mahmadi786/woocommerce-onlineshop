@@ -461,7 +461,7 @@ class THWEPOF_Public {
 				$valid = $this->validate_min_max_selection($valid, $field, $value);
 			}
 
-			if($ftype === 'textarea'){
+			if($ftype === 'textarea' || $ftype === 'inputtext'){
 				$valid = $this->validate_input_field_maxlength($valid, $field, $value);
 			}
 		}

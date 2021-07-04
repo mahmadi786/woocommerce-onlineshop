@@ -1,0 +1,299 @@
+/*
+Theme Name: Yummy Recipe
+Theme URI: https://blossomthemes.com/downloads/yummy-recipe/
+Template: vilva  
+Author: Blossom Themes
+Author URI: https://blossomthemes.com/
+Description: Yummy Recipe is a perfect theme for creating a professional food blog and recipe website. The theme is mobile-friendly, SEO optimized, Schema friendly, and loads faster to help you rank your recipes higher on search engines. The theme is compatible with the Delicious Recipes plugin to provide top-notch features to easily create and share your recipes. You can easily choose from unlimited colors and 900+ Google fonts to change your website look and feel with a single click. With the Instagram section, you can share your recipe images and grow your followers. It also includes newsletter integration to help you grow your email list and communicate with your readers. Yummy Recipe is translation ready, RTL ready, and WooCommerce compatible. Check demo at https://blossomthemes.com/theme-demo/?theme=yummy-recipe, read the documentation at https://docs.blossomthemes.com/yummy-recipe/, and get support at https://blossomthemes.com/support-ticket/.
+Version: 1.0.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tested up to: 5.5
+Requires PHP: 5.6
+Text Domain: yummy-recipe
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+*/
+
+:root {
+    --primary-color: #80b784;
+    --primary-font: 'Bitter', serif;
+    --secondary-font: 'Playfair Display', serif;
+}
+
+body {
+    font-size: 17px;
+}
+
+/*========================
+HEADER STYLE THREE
+========================*/
+.site-header.style-two .header-bottom .container {
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.site-header.style-two .header-bottom .main-navigation {
+	display: flex;
+	flex: auto;
+	flex-wrap: wrap;
+}
+
+.site-header.style-two .header-bottom .right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.site-header.style-two .header-bottom .header-social + .header-search, 
+.site-header.style-two .header-bottom .header-social + .cart-block {
+	border-left: 1px solid rgba(0,0,0,0.15);
+	padding-left: 15px;
+	margin-left: 5px;
+}
+
+.site-header.style-two .header-search-wrap {
+	top: -2px;
+}
+
+/*=============================
+SITE BANNER STYLE TWO
+=============================*/
+.site-banner.style-two .owl-stage {
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+}
+
+.site-banner.style-two .owl-item {
+	display: flex;
+	flex: auto;
+	flex-direction: column;
+}
+
+.site-banner.style-two .item {
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+}
+
+.site-banner.style-two .item .banner-img-wrap {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+}
+
+.site-banner.style-two .item .banner-img-wrap img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.banner-img-wrap .svg-holder, 
+.banner-img-wrap .fallback-svg {
+	width: 100%;
+	height: 100%;
+}
+
+.site-banner.style-two .item .banner-caption {
+	position: static;
+	width: 40%;
+	text-align: left;
+	padding: 40px;
+	background: rgba(var(--primary-color-rgb), 0.15);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.site-banner.style-two .banner-caption .cat-links a, 
+.site-banner.style-two .banner-caption .cat-links a::after {
+	color: #121212;
+}
+
+.site-banner.style-two .banner-caption .banner-title {
+	background: none;
+	font-size: 2.67em;
+}
+
+.site-banner.style-two .item .banner-desc {
+	margin-top: 20px;
+}
+
+.site-banner.style-two .item .banner-meta {
+	margin-top: 15px;
+}
+
+.site-banner.style-two .banner-meta > span {
+	font-size: 0.6666em;
+	color: #121212;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.site-banner.style-two .banner-meta > span::after {
+	content: "";
+	background: rgba(0,0,0,0.25);
+	width: 5px;
+	height: 5px;
+	display: inline-block;
+	margin: -3px 5px 0 5px;
+	vertical-align: middle;
+	border-radius: 100%;
+}
+
+.site-banner.style-two .banner-meta > span:last-child::after {
+	display: none;
+}
+
+.site-banner.style-two .banner-meta > span a {
+	color: #121212;
+	font-weight: 700;
+}
+
+.site-banner.style-two .banner-meta > span a:hover {
+	color: var(--primary-color);
+}
+
+.site-banner.style-two .owl-carousel .owl-stage-outer + .owl-nav [class*="owl-"] {
+	left: -60px;
+	border: none;
+	background-color: rgba(0,0,0,0.5);
+	background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="%23fff" d="M152.485 396.284l19.626-19.626c4.753-4.753 4.675-12.484-.173-17.14L91.22 282H436c6.627 0 12-5.373 12-12v-28c0-6.627-5.373-12-12-12H91.22l80.717-77.518c4.849-4.656 4.927-12.387.173-17.14l-19.626-19.626c-4.686-4.686-12.284-4.686-16.971 0L3.716 247.515c-4.686 4.686-4.686 12.284 0 16.971l131.799 131.799c4.686 4.685 12.284 4.685 16.97-.001z"></path></svg>');
+}
+
+.site-banner.style-two .owl-carousel .owl-stage-outer + .owl-nav .owl-next {
+	left: auto;
+	right: -60px;
+	background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="%23fff" d="M295.515 115.716l-19.626 19.626c-4.753 4.753-4.675 12.484.173 17.14L356.78 230H12c-6.627 0-12 5.373-12 12v28c0 6.627 5.373 12 12 12h344.78l-80.717 77.518c-4.849 4.656-4.927 12.387-.173 17.14l19.626 19.626c4.686 4.686 12.284 4.686 16.971 0l131.799-131.799c4.686-4.686 4.686-12.284 0-16.971L312.485 115.716c-4.686-4.686-12.284-4.686-16.97 0z"></path></svg>');
+}
+
+.site-banner.style-two .owl-carousel .owl-stage-outer + .owl-nav [class*="owl-"]:hover {
+	background-color: var(--primary-color);
+}
+
+/*========================================
+BLOG POST LAYOUT TWO
+========================================*/
+.post-layout-two .site-main article {
+	display: flex;
+	flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	margin-bottom: 60px;
+	padding-bottom: 60px;
+}
+
+.post-layout-two .site-main article .post-thumbnail {
+	margin-bottom: 0;
+	width: 47%;
+}
+
+.post-layout-two .site-main article .post-thumbnail + .content-wrap {
+	width: 53%;
+	padding-left: 30px;
+}
+
+.post-layout-two .site-main article .content-wrap .entry-title {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.widget ul li, 
+.widget-area .widget_categories ul li, 
+.widget-area .widget_archive ul li, 
+.widget-area .widget_meta ul li, 
+.widget-area .widget_nav_menu ul li, 
+.widget-area .widget_pages ul li, 
+.widget_bttk_popular_post ul li .entry-header .entry-title, 
+.widget_bttk_pro_recent_post ul li .entry-header .entry-title {
+	font-weight: normal;
+}
+
+.archive .site-main .dr-archive-list-gridwrap article:not(:first-child) {
+    margin-top: 50px;
+}
+
+.recipe-post .entry-meta .post-rating .meta-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.single-recipe .site-main .post-navigation {
+	padding-top: 60px;
+}
+
+.single-recipe .post-navigation .nav-links .nav-previous {
+    flex-direction: inherit;
+}
+
+/*================================
+RESPONSIVE STYLESHEET
+================================*/
+@media screen and (max-width: 1366px) {
+    /*==============================
+	SITE BANNER STYLE TWO
+	==============================*/
+	.site-banner.style-two .banner-caption .banner-title {
+		font-size: 1.67em;
+    }
+    
+    .site-banner.style-two .owl-carousel .owl-stage-outer + .owl-nav [class*="owl-"] {
+		left: 0;
+	}
+
+	.site-banner.style-two .owl-carousel .owl-stage-outer + .owl-nav .owl-next {
+		left: auto;
+		right: 0;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+    /*=============================
+	SITE BANNER STYLE TWO 
+	=============================*/
+	.site-banner.style-two .item {
+		flex-direction: column;
+	}
+
+	.site-banner.style-two .item .banner-img-wrap {
+		width: 100%;
+	}
+
+	.site-banner.style-two .item .banner-caption {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.site-banner.style-two .banner-caption .banner-title {
+		font-size: 1.3333em;
+	}
+
+	.site-banner.style-two .item .banner-desc {
+		font-size: 0.8888em;
+	}
+}
+
+@media screen and (max-width: 767px) {
+    /*===================================
+	POST LAYOUT TWELVE
+	===================================*/
+	.post-layout-two .site-main article {
+		flex-direction: column;
+		margin-bottom: 40px;
+		padding-bottom: 40px;
+	}
+
+	.post-layout-two .site-main article .post-thumbnail {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.post-layout-two .site-main article .post-thumbnail + .content-wrap {
+		width: 100%;
+		padding-left: 0;
+	}
+}

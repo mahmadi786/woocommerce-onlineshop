@@ -1,0 +1,68 @@
+{
+  "attributes": {
+    "blockId": {
+       "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "default": "Subscribe"
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Sign up for our newsletter and stay up to date"
+    },
+    "firstNameLabel": {
+      "type": "string",
+      "default": "First name"
+    },
+    "lastNameLabel": {
+      "type": "string",
+      "default": "Last name"
+    },
+    "emailLabel": {
+      "type": "string",
+      "default": "Email"
+    },
+    "telephoneLabel": {
+      "type": "string",
+      "default": "Telephone"
+    },
+    "emailPermission": {
+      "type": "string",
+      "default": "checkbox"
+    },
+    "displayTelephone": {
+      "type": "string",
+      "default": "notshow"
+    },
+    "displayFirstName": {
+      "type": "string",
+      "default": "optional"
+    },
+    "displayLastName": {
+      "type": "string",
+      "default": "optional"
+    },
+    "onSubmission": {
+      "type": "string",
+      "selector": "div",
+      "default": "Thank you for subscribing!"
+    },
+    "customList": {
+      "type": "string",
+      "default": null
+    }
+  },
+  "name": "ce4wp/subscribe",
+  "title": "Creative Mail",
+  "category": "widgets",
+  "icon": "email",
+  "description": "Let your contact subscribe to a mailing list for creative mail.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "subscribe",
+  "editorScript": "file:../../../assets/js/block/subscribe.js",
+  "editorStyle": "file:../../../assets/js/block/subscribe.css",
+  "style": "file:../../../assets/js/block/subscribe.css"
+}

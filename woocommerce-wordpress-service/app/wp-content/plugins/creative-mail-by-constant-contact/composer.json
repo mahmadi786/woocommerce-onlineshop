@@ -19,6 +19,7 @@
             "CreativeMail\\Modules\\": "src/modules/",
             "CreativeMail\\Constants\\": "src/constants/",
             "CreativeMail\\Integrations\\": "src/integrations/",
+            "CreativeMail\\Blocks\\": "src/blocks/",
             "CreativeMail\\": "src/"
         }
     },

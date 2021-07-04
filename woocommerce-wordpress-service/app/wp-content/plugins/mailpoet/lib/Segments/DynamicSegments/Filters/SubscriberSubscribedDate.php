@@ -7,6 +7,7 @@ if (!defined('ABSPATH')) exit;
 
 use MailPoet\Entities\DynamicSegmentFilterEntity;
 use MailPoet\Segments\DynamicSegments\Exceptions\InvalidFilterException;
+use MailPoet\Util\Security;
 use MailPoetVendor\Carbon\CarbonImmutable;
 use MailPoetVendor\Doctrine\DBAL\Query\QueryBuilder;
 
@@ -22,7 +23,8 @@ class SubscriberSubscribedDate implements Filter {
     $filterData = $filter->getFilterData();
     $value = $filterData->getParam('value');
     $operator = $filterData->getParam('operator');
-    $parameter = 'date' . $filter->getId();
+    $parameterSuffix = $filter->getId() ?: Security::generateRandomString();
+    $parameter = 'date' . $parameterSuffix;
 
     if ($operator === self::BEFORE) {
       $queryBuilder->andWhere("last_subscribed_at < :$parameter");

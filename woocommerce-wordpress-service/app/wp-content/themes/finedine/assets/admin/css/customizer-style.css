@@ -1,0 +1,16 @@
+#main .customize-partial-edit-shortcut > button, .widget-cfa .customize-partial-edit-shortcut > button {
+    left: 0;
+}
+
+.widget-featured-block .customize-partial-edit-shortcut > button {
+    left: 0;
+}
+
+.widget-notice {
+    border: 2px dashed #0085ba;
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}

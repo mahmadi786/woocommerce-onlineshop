@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-19 10:43:44+0000\n"
+"PO-Revision-Date: 2021-06-11 02:15:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -130,16 +130,16 @@ msgstr "Auswählen"
 msgid "Something went wrong."
 msgstr "Da ist etwas schiefgelaufen."
 
-#: src/blocks/posts/index.php:171 src/blocks/post-carousel/index.php:191
+#: src/blocks/post-carousel/index.php:191 src/blocks/posts/index.php:171
 msgctxt "placeholder when a post has no title"
 msgid "(no title)"
 msgstr "(kein Titel)"
 
-#: src/blocks/posts/index.php:51 src/blocks/post-carousel/index.php:51
+#: src/blocks/post-carousel/index.php:51 src/blocks/posts/index.php:51
 msgid "An error has occurred, which probably means the feed is down. Try again later."
 msgstr "Ein Fehler ist aufgetreten. Das bedeutet, dass der Feed wahrscheinlich ausgefallen ist. Bitte versuche es später erneut."
 
-#: src/blocks/posts/index.php:40 src/blocks/post-carousel/index.php:40
+#: src/blocks/post-carousel/index.php:40 src/blocks/posts/index.php:40
 msgid "RSS error:"
 msgstr "RSS-Fehler:"
 

@@ -53,6 +53,22 @@ add_action( 'customize_controls_enqueue_scripts', function() {
  */
 function restaurant_zone_customize_register($wp_customize){
 
+    // Theme Color
+    $wp_customize->add_section('restaurant_zone_color_option',array(
+        'title' => esc_html__('Theme Color','restaurant-zone'),
+        'description' => esc_html__('Change theme color on one click.','restaurant-zone'),
+    ));
+
+    $wp_customize->add_setting( 'restaurant_zone_theme_color', array(
+        'default' => '#ef2923',
+        'sanitize_callback' => 'sanitize_hex_color'
+    ));
+    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'restaurant_zone_theme_color', array(
+        'label' => esc_html__('Color Option','restaurant-zone'),
+        'section' => 'restaurant_zone_color_option',
+        'settings' => 'restaurant_zone_theme_color' 
+    )));
+    
     // Top Header
     $wp_customize->add_section('restaurant_zone_top_header',array(
         'title' => esc_html__('Top Header','restaurant-zone'),

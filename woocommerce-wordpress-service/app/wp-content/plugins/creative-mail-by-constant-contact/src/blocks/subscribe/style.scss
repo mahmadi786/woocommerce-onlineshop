@@ -1,0 +1,47 @@
+.wp-block-ce4wp-subscribe {
+  max-width: 840px;
+  margin: 0 auto;
+  .title {
+    margin-bottom: 0;
+  }
+  .subTitle {
+    margin-top: 0;
+    font-size: 0.8em;
+  }
+  .disclaimer {
+    margin-top: 5px;
+    font-size: 0.8em;
+    .disclaimer-label {
+      margin-left: 10px;
+    }
+  }
+  .inputBlock {
+    width: 100%;
+    margin-bottom: 10px;
+    input {
+      width: 100%;
+    }
+    label {
+      display: inline-block;
+    }
+  }
+  .submit-button {
+    margin-top: 10px;
+    display: block;
+  }
+  .required-text {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 0.3em;
+  }
+  .onSubmission {
+    height: 0;
+    max-width: 840px;
+    margin: 0 auto;
+  }
+}
+
+.ce4wp-link {
+  cursor: pointer;
+}

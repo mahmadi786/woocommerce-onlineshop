@@ -1,0 +1,334 @@
+/*
+Theme Name: LZ Food Recipee
+Theme URI: https://www.luzuk.com/themes/free-wordpress-recipe-theme/
+Author: Luzuk
+Author URI: https://www.luzuk.com/
+Description: LZ Food Recipee is a child theme of lzrestaurant, It is captivating and elegant WordPress restaurant theme developed especially for websites that deal with restaurants, coffee shops, bistro, recipe, chefs, cafes, coffee, caterers, pizza, cuisine, cakes and bakery parlour, places serving different cuisines, fast food centres, Chinese dishes, and other eatery businesses. This theme serves everyone from food critics to food bloggers. Establish a beautiful website for bakery, barbecue, hotel, food joint, Italian restaurant, lodge, and grill house with absolute ease. This multipurpose restaurant WP theme is mobile responsive supporting all screen sizes. It is so user-friendly and easily customizable that you don’t have to be a professional developer to work on it. It offers ample of personalization options to modify the theme into your choice of look and feel. Shortcodes will help you include different functionality without indulging in the source code. The social media icons will give it the required exposure. The SEO factor will guarantee a good rank of your site in the search engine results. Launch your very own fully functional WordPress restaurant website with this amazing theme now! Demo: https://www.luzukdemo.com/demo/food-recipe/
+Tested up to: 5.5
+Requires PHP: 7.2.24
+Version: 0.2.6
+license: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: lz-food-recipee
+Template: lzrestaurant
+Tags: custom-background, custom-menu, custom-colors, custom-logo, editor-style, featured-images, full-width-template, footer-widgets, one-column, sticky-post, two-columns, theme-options, threaded-comments, right-sidebar, left-sidebar, grid-layout, three-columns, blog, e-commerce
+*/
+
+/* Header Section */
+body{
+	font-family: 'Oswald', sans-serif !important;
+}
+#slider .inner_carousel h1, #feature-pro strong, .restaurant-title h3{
+	font-family: 'Kaushan Script', cursive !important;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+}
+a, .site-footer .widget-area a:hover {
+	color: #ffc851 ;
+}
+
+.socialbox a:focus, .logo a:focus, .sidenav .closebtn:focus,
+.nav-menu ul li a:focus, .toggle-menu button:focus{
+	outline-color: #000;
+}
+#slider a:focus{
+	outline-color: #fff;
+}
+.page-template-custom-home-page .main-top{
+	top:20px;
+	background: transparent;
+}
+.main-top{
+	padding: 10px;
+	position: static;
+	background: #fcd276bf;
+}
+.page-template-custom-home-page .custom-header {
+    display: none;
+}
+.logo h1 a, .logo p.site-title a{
+	color: #121618 !important;
+	text-decoration: none;
+}
+.site-description{
+	margin: 0;
+	color: #121618 !important;
+}
+.nav-menu ul li a, .nav-menu ul li a:active, .nav-menu ul li a:hover{
+	color: #121618;
+}
+.page-template-custom-home-page .topbar {
+    background: #fff;
+    padding: 10px;
+}
+.socialbox{
+	margin: 10px;
+}
+.nav-menu ul{
+	margin: 0;
+}
+.logo h1, .logo p.site-title{
+	margin: 0;
+	font-weight: 500;
+	font-family: 'Oswald', sans-serif !important;
+}
+.socialbox i{
+	color: #000 !important;
+	border: #000 1px solid !important;
+	background: #fff;
+}
+.socialbox i:hover{
+	color: #fff !important;
+	border: 1px solid #ffc851 !important;
+	background: #ffc851;
+}
+#slider .read-btn a.blogbutton-small,
+#slider .carousel-control-next-icon,
+#slider .carousel-control-prev-icon,
+.woocommerce-message,
+#slider i, .nav-menu ul ul{
+	border-color: #ffc851;
+}
+#slider i{
+	background-color: #ffc851;
+	padding: 10px;
+	color: #121618;
+}
+section#post_section {
+    margin-top: 20px !important;
+}
+/* restaurant menu section*/
+#feature-pro{
+	padding: 1%;
+	border-top: 5px solid #ffc851;
+}
+#restaurant_menu {
+	padding: 3% 0;
+    text-align: center;
+}
+#feature-pro strong,
+.restaurant-title h3 {
+    font-size: 35px;
+    color: #121618;
+}
+.restaurant-title{
+	margin-bottom: 25px;
+}
+.service-img h4 a {
+    color: #fff;
+    text-decoration: none;
+}
+.service-img h4 {
+    display: inline-block;
+    padding: 15px 24px;
+    position: relative;
+    bottom: 26px;
+    background: #ffc851;
+    letter-spacing: 1px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif !important;
+}
+#sidebar h3.widget-title {
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif !important;
+}
+.page-template-custom-home-page .site-content{
+	padding: 0;
+}
+#sidebar .widget ul li a,
+.posted_in a,
+.pagination a,
+.comment-reply-link,
+.logged-in-as a{
+	color: #121618;
+}
+.widget a{
+	color: #fff;
+}
+.copyright {
+    background: #121618;
+    margin: 0px;
+    padding: 10px;
+}
+.site-info p,
+.site-info a{
+	color: #fff;
+	margin:0px;
+	text-align: center;
+}
+#content h2 {
+    margin-top: 10px;
+}
+#footer{
+	background: #3f424e;
+	padding: 2%;
+	clear: both;
+}
+.widget ul li, .widget ol li{
+	padding: 5px 0;
+}
+h2.widget-title{
+	margin-bottom: 0px;
+}
+#footer caption{
+	color: #fff;
+}
+#footer h2.widget-title,
+#footer .widget ul li a,
+#post_section h3.entry-title a,
+h2.woocommerce-loop-product__title,
+.woocommerce div.product .product_title,
+a.showcoupon, .woocommerce-message::before {
+	color: #ffc851;
+}
+.article_content a, .lz-content a, .entry-content a, .comment-body a, .textwidget a, #tab-description a, .woocommerce-product-details__short-description a, .service-content a{
+	color: #000;
+}
+#sidebar h3.widget-title,
+#footer button.search-submit,
+#sidebar button.search-submit,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+span.onsale,
+#slider .read-btn a.blogbutton-small,
+.prev.page-numbers, .next.page-numbers,
+.pagination .current,
+nav.woocommerce-MyAccount-navigation ul li,
+.control-section-lzrestaurant a{
+	background: #ffc851 !important;
+}
+.nav-menu ul ul a, a.more-link, .site-footer .widget-area .tagcloud a:hover,
+button.search-submit{
+	background: #ffc851;
+	text-decoration: none;
+	color: #fff;
+}
+.nav-menu ul ul a:hover,
+a.more-link:hover{
+	background: #121618;
+	color: #ffc851;
+}
+.widget_container{
+	border-bottom-color: #ffc851;
+}
+.article_content{
+	border-left: 5px solid #ffc851;
+}
+#sidebar input.search-field,
+#footer input.search-field{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+	border: solid 1px #333;
+}
+#footer input.search-field{
+	border: solid 1px #eee;
+}
+#sidebar .search-form .search-submit,
+#footer .search-form .search-submit{
+	bottom: 0px;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    right: 0px;
+}
+#footer .widget{
+	margin-bottom: 0px;
+}
+#sidebar input[type="submit"],
+.second-border a:hover,
+.pagination .current,
+.pagination a:hover,
+#sidebar .tagcloud a:hover,
+#footer .tagcloud a:hover,
+span.meta-nav, #sidelong-menu{
+	background: #ffc851;
+}
+#footer .tagcloud a{
+	background: transparent;
+	border: solid 1px #333;
+}
+#footer input[type="submit"]{
+	width: 100%;
+	background: #ffc851;
+}
+#footer label{
+	width: 100%;
+}
+#comments input[type="submit"].submit{
+	background: #ffc851 !important;
+}
+#sidebar h3{
+	text-transform: uppercase;
+}
+#footer .widget_calendar th,
+#footer .widget_calendar td,
+#footer a,
+#footer .widget ul li, #footer .widget ol li,
+#footer p,
+.toggle a,
+.toggle a:focus,
+.toggle  a:hover,
+.site-info a:hover,
+.site-info a:focus,
+.site-info p{
+	color: #fff !important;
+}
+
+a.rsswidget {
+    padding: 2%;
+}
+.toggle-menu i, .nav-menu .current_page_item > a, 
+.nav-menu .current-menu-item > a, 
+.nav-menu .current_page_ancestor > a, .sidenav .closebtn{
+	color: #000;
+}
+
+/*-----media-----*/
+@media screen and (max-width: 425px){
+	#feature-pro strong{
+		font-size: 35px;
+	}
+	.entry-content p{
+		padding: 5px;
+	}
+	#slider .carousel-caption{
+		top:53% !important;
+	}
+}
+@media screen and (max-width: 768px){
+	#footer .widget_calendar th,
+	#footer .widget_calendar td{
+		padding: 0px;
+	}
+	#sidebar h3.widget-title{
+		padding: 8px;
+	}
+}
+@media screen and ( max-width: 1000px ) and (min-width: 720px){
+	.page-template-custom-home-page .main-top{
+		position: absolute;
+	}
+	#slider .carousel-caption{
+		top:73%;
+	}
+}
+@media screen and ( max-width: 720 ) and ( min-width: 426px ){
+	.page-template-custom-home-page .main-top{
+		position: static !important;
+	}
+	#slider .carousel-caption{
+		top:53%;
+	}
+}
+@media screen and ( max-width: 1000px ){
+	.nav-menu ul ul {
+		display: block !important;
+		opacity: 1 !important;
+		height: auto !important;
+	}
+}

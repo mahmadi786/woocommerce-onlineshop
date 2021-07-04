@@ -1,0 +1,36 @@
+p.cr-comment-image-text { margin-bottom: 0.5em; font-size: 0.9em; }
+p.cr-comment-video-text { margin-bottom: 0.5em; font-size: 0.9em; }
+div.iv-comment-image, div.cr-comment-image { width: 150px; float: left; margin-right: 5px; }
+div.iv-comment-video, div.cr-comment-video { width: 150px; float: left; margin-right: 5px; position: relative; }
+div.cr-comment-video { padding: 10px; }
+div.iv-comment-video video.ivole-video-a { max-width: 100%; height: auto; }
+div.iv-comment-video img.iv-comment-video-icon { position: absolute; top: 50%; left: 50%; width: 50px; margin-top: -25px; margin-left: -25px; }
+div.cr-comment-video img.cr-comment-video-icon { position: absolute; top: 50%; left: 50%; width: 50px; margin-top: -25px; margin-left: -25px; }
+div.iv-comment-image img, div.cr-comment-image img { box-shadow: none; max-width: 100%; max-height: 100%; }
+div.cr-comment-image {position: relative; padding: 10px;}
+div.iv-comment-images, div.cr-comment-images { margin-bottom: 1.5em; }
+div.iv-comment-videos-modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); }
+div.iv-comment-video-modal { width: 50%; float: none; margin: auto; z-index: 1 }
+div.iv-replytocr { display: none; text-align: right; margin-bottom: 10px; }
+span.iv-custom-question-radio { font-weight: 550; }
+p.iv-custom-question-checkbox { font-weight: 550; margin: 0.6em 0; }
+p.iv-custom-question-p {margin: 0.6em 0;}
+ul.iv-custom-question-ul {margin: 0.6em 0;}
+div.iv-custom-question-rating-cont { margin: 0.6em 0; }
+span.iv-custom-question-rating { padding-right: 5px; font-weight: 550; vertical-align: middle; }
+span.iv-star-rating span.dashicons { font-size: 15px; height: 15px; width: 15px; vertical-align: middle; }
+td.comment ul.iv-custom-question-ul { list-style-type: square; margin-top: 0.6em; margin-bottom: 0.6em; }
+.widefat td p.ivole-reply-published-cr {font-size: 90%;}
+.widefat td p.ivole-reply-published-cr .dashicons {width: 10px; height: 10px; font-size: 12px; line-height: 1.5em;}
+.widefat td div.iv-replytocr .dashicons {width: 10px; height: 10px; font-size: 13px; line-height: 1.5em;}
+.widefat td p.ivole-reply-published-cr span.ivole-reply-published-cr-span {padding:3px; background-color: #ffffcc;}
+.widefat td p.ivole-reply-published-cr span.ivole-reply-published-cr-span2 {padding:3px; background-color: #e4f5e4;}
+.widefat td p.ivole-reply-published-cr span.ivole-reply-published-cr-span3 {padding:3px; background-color: #ffedcc;}
+@media all and (max-width: 782px) {
+  .cr-reviews-list-table + .tablenav.bottom .displaying-num {
+    top: 0px;
+  }
+  .cr-reviews-list-table + .tablenav.bottom .tablenav-pages.one-page {
+    height: 1em;
+  }
+}

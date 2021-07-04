@@ -1,0 +1,16 @@
+.wp-caption {
+    margin-bottom: calc(1.5 * #{$size__spacing-unit});
+
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption-text {
+    margin: 0;
+    padding: ( $size__spacing-unit * .5 );
+    text-align: center;
+}

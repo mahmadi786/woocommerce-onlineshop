@@ -5,7 +5,7 @@ Tags: Woocommerce Product Addons, WooCommerce Extra product fields, woocommerce 
 Requires at least: 4.9
 Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 3.0.5
+Stable tag: 3.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,13 +82,15 @@ You can effortlessly define products with most-sought fields and features that a
 
 You can check out the demo for a more detailed overview of the features. [Live Demo](https://flydemos.com/wepo/?utm_source=wordpress&utm_medium=referral&utm_content=tracking)
 
-= ☞ Extra 4 Field Types =
-The pro version has 4 more fields than the free version with advanced functional properties that enhance your product pages. The available extra fields are;
+= ☞ Extra 6 Field Types =
+The pro version has 6 more fields than the free version with advanced functional properties that enhance your product pages. The available extra fields are;
 
     1.  Multiselect
     2.  Time Picker
     3.  File Upload
     4.  HTML
+    5.  Color Palette
+    6.  Image Group
 
 = ☞ Additional Display Position For Sections =
 In pro version. you can add sections (fields groups) at 3 predefined positions in your WooCommerce product page. Available positions are;
@@ -231,6 +233,13 @@ With the wrapper class and label class, an extended styling can be applied for t
 17. Use html tags in field label.
 
 == Changelog ==
+= 3.0.6 =
+* Fix: Fixed issue of not showing the jQuery UI icon images.
+* Improvement: Added min, max length property for the text field.
+* Improvement: Added allowed HTML tags support in the section title.
+* Improvement: Added WooCommerce version - 5.4.1 compatibility.
+* Improvement: Added oxygen builder compatibility on the product page.
+
 = 3.0.5 =
 * Fix: Fixed broken style issue because of not supporting <br> tag for paragraph and heading field types.
 

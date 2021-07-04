@@ -3,6 +3,7 @@
 
 namespace CreativeMail\Helpers;
 
+use CreativeMail\Managers\RaygunManager;
 use Defuse\Crypto\Crypto;
 use Defuse\Crypto\Key;
 

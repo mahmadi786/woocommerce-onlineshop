@@ -6,6 +6,7 @@ namespace CreativeMail;
 use CreativeMail\Managers\AdminManager;
 use CreativeMail\Managers\ApiManager;
 use CreativeMail\Managers\CheckoutManager;
+use CreativeMail\Managers\FormManager;
 use CreativeMail\Managers\DatabaseManager;
 use CreativeMail\Managers\EmailManager;
 use CreativeMail\Managers\InstanceManager;
@@ -24,6 +25,7 @@ class CreativeMail
     private $database_manager;
     private $checkout_manager;
     private $contacts_sync_manager;
+    private $form_manager;
 
     public function __construct()
     {
@@ -38,6 +40,7 @@ class CreativeMail
         $this->email_manager = new EmailManager();
         $this->checkout_manager = new CheckoutManager();
         $this->contacts_sync_manager = new ContactsSyncManager();
+        $this->form_manager = new FormManager();
     }
 
     public function add_hooks()
@@ -57,6 +60,7 @@ class CreativeMail
         $this->integration_manager->add_hooks();
         $this->instance_manager->add_hooks();
         $this->email_manager->add_hooks();
+        $this->form_manager->add_hooks();
 
         // check if abandoned cart email is managed by creative mail
         $enabled = $this->email_manager->is_email_managed('cart_abandoned_ce4wp');
@@ -99,6 +103,11 @@ class CreativeMail
     public function get_contacts_sync_manager()
     {
         return $this->contacts_sync_manager;
+    }
+
+    public function get_form_manager()
+    {
+        return $this->form_manager;
     }
 
     public function is_active()

@@ -35,14 +35,19 @@ class NewslettersResponseBuilder {
   /** @var EntityManager */
   private $entityManager;
 
+  /** @var NewsletterUrl */
+  private $newsletterUrl;
+
   public function __construct(
     EntityManager $entityManager,
     NewslettersRepository $newslettersRepository,
-    NewsletterStatisticsRepository $newslettersStatsRepository
+    NewsletterStatisticsRepository $newslettersStatsRepository,
+    NewsletterUrl $newsletterUrl
   ) {
     $this->newslettersStatsRepository = $newslettersStatsRepository;
     $this->newslettersRepository = $newslettersRepository;
     $this->entityManager = $entityManager;
+    $this->newsletterUrl = $newsletterUrl;
   }
 
   public function build(NewsletterEntity $newsletter, $relations = []) {
@@ -128,7 +133,7 @@ class NewslettersResponseBuilder {
       'statistics' => ($statistics && $newsletter->getType() !== NewsletterEntity::TYPE_NOTIFICATION)
         ? $statistics->asArray()
         : false,
-      'preview_url' => NewsletterUrl::getViewInBrowserUrl(
+      'preview_url' => $this->newsletterUrl->getViewInBrowserUrl(
         (object)[
           'id' => $newsletter->getId(),
           'hash' => $newsletter->getHash(),

@@ -16,6 +16,7 @@ use CreativeMail\Modules\Contacts\Handlers\WpFormsPluginHandler;
 use CreativeMail\Modules\Contacts\Handlers\JetpackPluginHandler;
 use CreativeMail\Modules\Contacts\Handlers\NinjaFormsPluginHandler;
 use CreativeMail\Modules\Contacts\Handlers\CalderaPluginHandler;
+use CreativeMail\Modules\Contacts\Handlers\CreativeMailPluginHandler;
 use ReflectionClass;
 
 /**
@@ -57,6 +58,7 @@ class IntegrationManager
      */
     public function add_hooks()
     {
+        $creativeMail= new Integration('creativemail', 'CreativeMail', 'creativ-email-wordpress-plugin/creative-mail-plugin.php', CreativeMailPluginHandler::class, true);
         $active_plugins = array_filter(
             $this->get_active_plugins(), function ($item) {
             return array_search($item->get_slug(), $this->get_activated_plugins(), true) !== false;
@@ -75,6 +77,16 @@ class IntegrationManager
             } catch (\Exception $e) {
                 RaygunManager::get_instance()->exception_handler($e);
             }
+        }
+        try {
+            // use reflection to create instance of class
+            $class = new ReflectionClass($creativeMail->get_integration_handler());
+            $this->active_integrations[$creativeMail->get_slug()] = $class->newInstance();
+
+            // register hooks for integration class
+            $this->active_integrations[$creativeMail->get_slug()]->registerHooks();
+        } catch (\Exception $e) {
+            RaygunManager::get_instance()->exception_handler($e);
         }
     }
 

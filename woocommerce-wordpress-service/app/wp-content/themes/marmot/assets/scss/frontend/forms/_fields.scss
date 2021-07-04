@@ -1,0 +1,108 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+.select2 .select2-selection {
+    -webkit-backface-visibility: hidden;
+    box-sizing: border-box;
+    border-radius: 0;
+    max-width: 100%;
+    width: 100%;
+    min-height: 2.5em;
+    line-height: inherit;
+    vertical-align: middle;
+    outline: none;
+    outline-offset: 0;
+
+    &:focus {
+        outline: none;
+    }
+}
+input[type='email'],
+input[type='search'],
+input[type='number'],
+input[type='url'],
+input[type='tel'],
+input[type='text'],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+input[type="search"] {
+    &::-webkit-search-decoration {
+        display: none;
+    }
+}
+
+textarea {
+    resize: vertical;
+}
+select,
+.select-resize-ghost,
+.select2-container .select2-choice,
+.select2-container .select2-selection {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23333' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-position: right .45em top 50%;
+    background-repeat: no-repeat;
+    padding-right: 26px!important;
+    background-size: auto 16px;
+}
+
+.select2 .select2-selection {
+    height: auto;
+    display: flex;
+    align-items: center;
+    .select2-selection__rendered {
+        width: 100%;
+        padding: 0;
+        color: inherit;
+        line-height: initial;
+    }
+    &.select2-selection--single .select2-selection__arrow {
+        display: none!important;
+    }
+}
+.select2-search .select2-search__field {
+    min-height: 0;
+    padding: 4px!important;
+}
+
+form.post-password-form {
+    width: 100%;
+    max-width: 650px;
+    padding: 15px;
+    margin: 100px auto;
+    text-align: center;
+    p {
+        &:last-of-type {
+            max-width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    label {
+        display: block;
+        margin-bottom: 20px;
+    }
+    input {
+        width: 100%;
+    }
+}

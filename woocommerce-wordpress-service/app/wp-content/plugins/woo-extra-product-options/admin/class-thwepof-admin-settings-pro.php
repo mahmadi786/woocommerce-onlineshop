@@ -50,7 +50,7 @@ class THWEPOF_Admin_Settings_Pro extends THWEPOF_Admin_Settings {
 			    <h2>Key Features of Extra Product Options for WooCommerce</h2>
 			    <p>The premium version of <b>Extra Product Options for WooCommerce plugin</b> offers a wide variety of advanced features that will help you to create the finest product pages in your store.</p>
 			    <ul class="feature-list star-list">
-			        <li>19 extra product fields</li>
+			        <li>20 extra product fields</li>
 			        <li>Display fields conditionally</li>
 			        <li>Display sections conditionally</li>
 			        <li>Custom validations</li>
@@ -68,6 +68,7 @@ class THWEPOF_Admin_Settings_Pro extends THWEPOF_Admin_Settings {
 			        <li>Option for displaying the Price Table in product page</li>
 			        <li>Date & Time Picker Fields</li>
 			        <li>Upload File Fields(Single file upload/ Mutliple file upload)</li>
+			        <li>Image group & Color palette field type with multiselection property</li>
 			    </ul>
 			    <p>
 			    	<a class="button big-button" target="_blank" href="https://www.themehigh.com/product/woocommerce-extra-product-options/?utm_source=free&utm_medium=premium_tab&utm_campaign=wepo_upgrade_link">Upgrade to Premium Version</a>
@@ -96,6 +97,7 @@ class THWEPOF_Admin_Settings_Pro extends THWEPOF_Admin_Settings {
 			            <li>File Upload</li>
 			            <li>Color picker</li>
 			            <li>Color palette</li>
+			            <li>Image group</li>
 			            <li>Heading</li>
 			            <li>Label</li>
 			        </ul>

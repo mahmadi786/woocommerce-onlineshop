@@ -45,7 +45,7 @@ class ElementorPluginHandler extends BaseContactFormPluginHandler
 
         $contactModel->setEventType(CE4WP_EL_EVENTTYPE);
 
-        $contactModel->setOptIn(false);
+        $contactModel->setOptIn(true);
         $contactModel->setOptOut(false);
         $contactModel->setOptActionBy(OptActionBy::Visitor);
 

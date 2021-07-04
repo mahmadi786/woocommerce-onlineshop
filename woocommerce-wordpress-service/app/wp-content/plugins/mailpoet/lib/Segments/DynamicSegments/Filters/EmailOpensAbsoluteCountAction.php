@@ -8,6 +8,7 @@ if (!defined('ABSPATH')) exit;
 use MailPoet\Entities\DynamicSegmentFilterEntity;
 use MailPoet\Entities\StatisticsOpenEntity;
 use MailPoet\Entities\SubscriberEntity;
+use MailPoet\Util\Security;
 use MailPoetVendor\Carbon\CarbonImmutable;
 use MailPoetVendor\Doctrine\DBAL\Query\QueryBuilder;
 use MailPoetVendor\Doctrine\ORM\EntityManager;
@@ -26,23 +27,23 @@ class EmailOpensAbsoluteCountAction implements Filter {
     $filterData = $filter->getFilterData();
     $days = $filterData->getParam('days');
     $operator = $filterData->getParam('operator');
+    $parameterSuffix = $filter->getId() ?? Security::generateRandomString();
     $statsTable = $this->entityManager->getClassMetadata(StatisticsOpenEntity::class)->getTableName();
     $subscribersTable = $this->entityManager->getClassMetadata(SubscriberEntity::class)->getTableName();
-    $queryBuilder->addSelect("count(opens.id) as oc");
     $queryBuilder->leftJoin(
       $subscribersTable,
       $statsTable,
       'opens',
-      "$subscribersTable.id = opens.subscriber_id AND opens.created_at > :newer" . $filter->getId()
+      "$subscribersTable.id = opens.subscriber_id AND opens.created_at > :newer" . $parameterSuffix
     );
-    $queryBuilder->setParameter('newer' . $filter->getId(), CarbonImmutable::now()->subDays($days)->startOfDay());
+    $queryBuilder->setParameter('newer' . $parameterSuffix, CarbonImmutable::now()->subDays($days)->startOfDay());
     $queryBuilder->groupBy("$subscribersTable.id");
     if ($operator === 'less') {
-      $queryBuilder->having("oc < :opens" . $filter->getId());
+      $queryBuilder->having("count(opens.id) < :opens" . $parameterSuffix);
     } else {
-      $queryBuilder->having("oc > :opens" . $filter->getId());
+      $queryBuilder->having("count(opens.id) > :opens" . $parameterSuffix);
     }
-    $queryBuilder->setParameter('opens' . $filter->getId(), $filterData->getParam('opens'));
+    $queryBuilder->setParameter('opens' . $parameterSuffix, $filterData->getParam('opens'));
     return $queryBuilder;
   }
 }

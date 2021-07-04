@@ -1,0 +1,131 @@
+/* Responsive CSS Document */
+
+/* 
+    Project:        Ttulsi - Health Supplement and Landing Page HTML.
+    Version:        1.0
+    Last change:    18/04/2019.
+   
+*/
+
+@media (min-width: 1200px) {
+  .container {padding-left: 0 !important;padding-right: 0 !important;}
+}
+
+@media (max-width: 1199px) {
+  .offer-banner .image-shape {display: none;}
+  .offer-banner {padding: 0 0 100px;}
+  .offer-banner .text p {padding-bottom: 80px;}
+  .subscribe-banner h2 {font-size: 38px;}
+  .blog-details-main-content .comment-box .single-comment .comment p {padding-right: 0;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .diet-shop-main-menu li {padding: 14px 10px;}
+  .single-blog-post .post .title a {font-size: 17px;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (max-width: 991px) {
+  .theme-main-header {padding-top: 30px;}
+  .theme-main-header .theme-btn {margin: 0 70px 0 0;}
+  .theme-main-header .navbar {position: absolute;width: 100%;left:0;top:0;z-index: 99;}
+  .theme-main-header .navbar div {width: 100%;clear: both;}
+  .theme-main-header .navbar-collapse {
+    background: #fff;
+    box-shadow: 0px 2px 19px 0px rgba(0, 0, 0, 0.05);
+    max-height: 80vh;
+    overflow-y: auto;
+	margin-top:10px;
+  }
+  .theme-main-header.sticky {padding: 10px 0;}
+  .diet-shop-main-menu li a{border-bottom: 1px solid rgba(0,0,0,0.06);font-size: 14px;padding: 11px 15px; display:block;}
+  .diet-shop-main-menu li ul.sub-menu {
+    display: none;
+    width: 100%; 
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transition: none;
+  }
+  .diet-shop-main-menu li li:hover a {background: var(--p-color);color: #fff; display:none;}
+  .diet-shop-main-menu li .icon {display: block;}
+  .theme-hero-section .inner-wrapper {padding: 200px 0 100px;}
+  .section-spacing {padding-top: 100px;}
+  .our-feature .img-box {margin: 40px auto;}
+  .offer-banner .product-img {position: relative;right: 0; display: inline-block;margin-top: 60px;}
+  .offer-banner {padding-bottom: 0;}
+  .blog-sidebar {margin-top: 100px;}
+  .subscribe-banner {margin-top: 120px;}
+  .inner-banner {padding: 180px 0 70px;}
+  .contact-us:before {display: none;}
+  .contact-us {padding-bottom: 0;}
+  .theme-hero-section .shape-one {top:0;}
+} 
+/*(max-width: 991px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .theme-hero-section .main-title {font-size: 70px;line-height: 83px;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+  .theme-hero-section .main-title {font-size: 50px;line-height: 60px;}
+  .theme-hero-section .main-title br,.theme-hero-section .sub-title br{display: none;}
+  .theme-hero-section .shape-two {position: static;margin: 0 auto 30px;}
+  .theme-hero-section .sub-title {font-size: 16px;padding: 15px 0 55px;}
+  .offer-banner .offer-title {font-size: 50px;}
+  .offer-banner .offer-title sub {font-size: 35px;}
+  .offer-banner .text p {font-size: 16px;}
+  .offer-banner .text p {padding-right: 0;padding-bottom: 40px;}
+  .theme-title h2 {font-size: 40px;}
+  .theme-title {padding-bottom: 35px;}
+  .subscribe-banner:before {width: 110%;transform: none;}
+  .testimonial-section,.our-service {padding: 100px 0;}
+  .single-blog-post .post .title a {font-size: 16px;}
+  .theme-hero-section .inner-wrapper {padding: 150px 0 60px;}
+  #sticky-header-sticky-wrapper .theme-main-header{
+	  padding-top:20px;
+  }
+  body.admin-bar #sticky-header-sticky-wrapper.is-sticky .theme-main-header{
+	margin-top:0px!important;
+	}
+}
+/*(max-width: 767px)*/
+
+
+@media (min-width: 576px) and (max-width: 991px) {
+  
+}
+/*(min-width: 576px) and (max-width: 991px)*/
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+  
+}
+/*(min-width: 576px) and (max-width: 767px)*/
+
+@media (max-width: 575px) {
+  .theme-main-header .theme-btn {min-width: 110px;margin-left: 10px;}
+  .theme-title h2:before, .theme-title h2:after {width: 35px;}
+  .theme-title h2 {padding: 0 42px;}
+  .theme-title h2:before {left: 0;}
+  .theme-title h2:after {right: 0;}
+  .theme-footer .bottom-footer {margin-top: 35px;}
+  .subscribe-banner h2 {font-size: 32px;}
+  .theme-main-header .theme-btn {display: none;}
+  .theme-main-header .logo {margin-top: 7px;}
+  .blog-details-main-content .comment-box .single-comment.reply-comment {margin-left: 20px;}
+}
+/*(max-width: 575px)*/
+
+@media (max-width: 650px) {
+  
+}
+@media (max-width: 500px) {
+  
+}
+@media (max-width: 450px) {
+ 
+}

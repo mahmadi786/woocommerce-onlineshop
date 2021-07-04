@@ -204,7 +204,7 @@
     'woocommerce': _x('WooCommerce', 'Dynamic segment creation: User selects this to use any woocommerce filters'),
 
     'dynamicSegmentSizeIsCalculated': __('Calculating segment size…'),
-    'dynamicSegmentSizeCalculatingTimeout': __('Segment size calculation has timed out. You can still save the segment.'),
+    'dynamicSegmentSizeCalculatingTimeout': __("It's taking longer than usual to generate the segment, which may be due to a complex configuration. Try using fewer or simpler conditions."),
     'dynamicSegmentSize': __('This segment has %$1d subscribers.'),
 
     'unknownBadgeName': __('Unknown'),
@@ -220,5 +220,10 @@
     'averageBadgeTooltip': __('Something to improve.'),
     'tooltipAverage': __('20% or fewer'),
     'engagementScoreDescription': __('Average percent of emails subscribers read in the last year'),
+    'addCondition': __('Add a condition'),
+    'allConditions': _x('<strong>All</strong> of the following conditions', 'Dynamic segment creation: The user can select join between condition when he has more than one'),
+    'anyConditions': _x('<strong>Any</strong> of the following conditions', 'Dynamic segment creation: The user can select join between condition when he has more than one'),
+    'filterConnectAnd': _x('and', 'Dynamic segment creation: The user can see logical operator between condition when has more than one'),
+    'filterConnectOr': _x('or', 'Dynamic segment creation: The user can see logical operator between condition when has more than one'),
   }) %>
 <% endblock %>

@@ -1,0 +1,26 @@
+#customize-controls .control-section-lzrestaurant .accordion-section-title:hover,
+#customize-controls .control-section-lzrestaurant .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-lzrestaurant .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-lzrestaurant .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+.control-section-lzrestaurant a {
+    border-radius: 0 !important;
+    background: #eb4444 !important;
+    color: #fff !important;
+    border: solid 1px #000 !important;
+    font-weight: 900 !important;
+}
+
+li#customize-control-display_header_text{
+	display: none !important;
+}

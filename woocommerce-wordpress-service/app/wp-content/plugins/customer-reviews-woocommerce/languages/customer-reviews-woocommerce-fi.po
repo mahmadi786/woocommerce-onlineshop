@@ -1,0 +1,4490 @@
+# Translation of Plugins - Customer Reviews for WooCommerce - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - Customer Reviews for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - Customer Reviews for WooCommerce - Stable "
+"(latest release)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/customer-reviews-"
+"woocommerce\n"
+"POT-Creation-Date: 2021-06-16T00:07:46+00:00\n"
+"PO-Revision-Date: 2020-12-28 18:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. Plugin Name of the plugin
+msgid "Customer Reviews for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/customer-reviews-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Customer Reviews for WooCommerce plugin helps you get more customer reviews "
+"for your shop by sending automated reminders and coupons."
+msgstr ""
+
+#. Author of the plugin
+msgid "CusRev"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.cusrev.com/business/"
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:67 class-cr-admin-menu-settings.php:68
+msgid "Settings"
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:141 class-ivole-admin-menu-reviews.php:48
+#: class-ivole-admin-menu-reviews.php:49 class-ivole-admin-menu-reviews.php:59
+#: class-ivole-admin-menu-reviews.php:60
+#: includes/google/class-cr-admin-menu-product-feed.php:127
+#: includes/google/class-cr-product-feed-reviews.php:41
+#: includes/settings/class-cr-settings-trust-badges.php:309
+msgid "Reviews"
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:191
+msgid "Choose "
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:203
+msgid "Select all"
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:204
+msgid "Select none"
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:234
+#: includes/settings/class-cr-settings-review-discount.php:698
+msgid "Variables"
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:235
+msgid "You can use the following variables in the email and the review form:"
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:236
+#: includes/settings/class-cr-settings-review-discount.php:700
+msgid "The title of your WordPress website."
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:237
+#: includes/settings/class-cr-settings-review-discount.php:701
+msgid "The first name of the customer who purchased from your store."
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:238
+#: includes/settings/class-cr-settings-review-discount.php:702
+msgid "The last name of the customer who purchased from your store."
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:239
+#: includes/settings/class-cr-settings-review-discount.php:703
+msgid "The full name of the customer who purchased from your store."
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:240
+msgid "The order number for the purchase."
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:241
+msgid "The date that the order was made."
+msgstr ""
+
+#: class-cr-admin-menu-settings.php:242
+msgid "A name and price list of the products purchased."
+msgstr ""
+
+#: class-cr-checkout.php:16
+msgid ""
+"Check here to receive an invitation from CR (an independent third-party "
+"organization) to review your order. Once the review is published, you will "
+"receive a coupon to use for your next purchase."
+msgstr ""
+
+#: class-cr-checkout.php:18
+msgid ""
+"Check here to receive an invitation from CR (an independent third-party "
+"organization) to review your order"
+msgstr ""
+
+#: class-cr-license.php:16
+msgid "No license key entered"
+msgstr ""
+
+#: class-cr-license.php:19 class-cr-license.php:69
+#: class-ivole-email-coupon.php:116 class-ivole-email.php:119
+#: class-ivole-verified-reviews.php:59 class-ivole-verified-reviews.php:108
+#: includes/reminders/class-cr-manual.php:156
+msgid "Error: cURL library is missing on the server."
+msgstr ""
+
+#: class-cr-license.php:39
+msgid "Unknown: "
+msgstr ""
+
+#: class-cr-license.php:45
+msgid "Not Active: "
+msgstr ""
+
+#: class-cr-license.php:47
+#: includes/settings/class-cr-settings-review-reminder.php:838
+#: includes/settings/class-cr-settings-review-reminder.php:877
+msgid "Active: Professional Version"
+msgstr ""
+
+#: class-cr-license.php:51
+msgid "Expired: Professional Version"
+msgstr ""
+
+#: class-cr-license.php:56
+msgid "Active: Free Version"
+msgstr ""
+
+#: class-cr-license.php:60
+msgid "Unknown Error"
+msgstr ""
+
+#: class-cr-license.php:90 class-cr-license.php:98
+msgid "License registration error: %s."
+msgstr ""
+
+#: class-cr-license.php:95
+msgid "License has been successfully registered for '%s'."
+msgstr ""
+
+#: class-cr-license.php:101
+msgid "License registration error #99"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:35
+#: class-ivole-admin-menu-diagnostics.php:41
+msgid "Diagnostics Information"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:37
+msgid ""
+"Diagnostic report about parameters of your website configuration that are "
+"important for Customer Reviews plugin. If there are any errors or warnings "
+"below, the plugin might not work properly."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:61
+#: class-ivole-admin-menu-diagnostics.php:62
+msgid "Diagnostics"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:101
+msgid "Error code: "
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:107
+msgid "Error message: "
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:114
+msgid "Details: "
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:120
+msgid " Error message: "
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:128
+msgid "WP Version:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:129
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:133
+msgid "WC Version:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:134
+msgid "The version of WooCommerce installed on your site."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:138
+msgid "cURL Version:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:139
+msgid "The version of cURL library installed on your site."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:143
+msgid "WP Cron:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:144
+msgid "Displays whether or not WP Cron Jobs are enabled."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:153
+msgid "WP REST API:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:154
+msgid "Displays whether or not WP REST API is enabled."
+msgstr ""
+
+#. translators: please keep '%s' before 'support article'
+#: class-ivole-admin-menu-diagnostics.php:160
+msgid ""
+"The plugin will not be able to receive reviews because REST API is disabled. "
+"Additional information can be found in this %ssupport article"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:166
+msgid "WC Slider:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:167
+msgid "Displays whether or not WooCommerce Slider library is enabled."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:167
+#: class-ivole-admin-menu-diagnostics.php:176
+#: class-ivole-admin-menu-diagnostics.php:185
+msgid ""
+"This warning can be safely ignored, if your theme does not use the offical "
+"WooCommerce libraries."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:175
+msgid "WC Zoom:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:176
+msgid "Displays whether or not WooCommerce Zoom library is enabled."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:184
+msgid "WC Lightbox:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:185
+msgid "Displays whether or not WooCommerce Lightbox library is enabled."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:193
+msgid "XMLWriter:"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:194
+msgid ""
+"Displays whether or not XMLWriter extension is enabled. This extension is "
+"required to generate XML feeds with products and reviews. If the extension "
+"is disabled, please reach out to your hosting support and ask them to enable "
+"it."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:202
+msgid "Duplicate Site (disable automatic review reminders):"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:204
+msgid ""
+"It looks like this site has moved or is a duplicate site. The plugin has "
+"disabled sending automatic review reminder emails on this site to prevent "
+"duplicate reminders from a staging or test environment."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:206
+msgid ""
+"The plugin checks if this site has moved or is a duplicate site. If the "
+"check is positive, the plugin will disable sending automatic review reminder "
+"emails to prevent duplicate reminders from a staging or test environment."
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:210
+#: class-ivole-admin-menu-diagnostics.php:248
+#: class-ivole-admin-menu-reviews.php:216 class-ivole-reviews.php:349
+#: includes/reviews/class-cr-reviews-media-meta-box.php:85
+msgid "Yes"
+msgstr "Kyllä"
+
+#: class-ivole-admin-menu-diagnostics.php:211
+msgid "This is not a duplicate site"
+msgstr ""
+
+#: class-ivole-admin-menu-diagnostics.php:215
+#: class-ivole-admin-menu-diagnostics.php:248
+#: class-ivole-admin-menu-reviews.php:217 class-ivole-reviews.php:355
+#: includes/reviews/class-cr-reviews-media-meta-box.php:84
+msgid "No"
+msgstr "Ei"
+
+#: class-ivole-admin-menu-reminders.php:41
+#: class-ivole-admin-menu-reminders.php:42
+msgid "Reminders"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:214
+msgid "Uploading..."
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:215
+#: includes/reviews/class-cr-reviews-media-meta-box.php:83
+msgid "Detach?"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:254
+msgid "Reply to Review"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:329
+msgid "Publish a copy of your reply to CusRev (Customer Reviews) portal"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:331
+msgid "CusRev (Customer Reviews) portal"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:332
+msgid "plugin's settings"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:333
+msgid ""
+"A copy of this reply will not be published on %1$s because no license key "
+"was entered in the %2$s. A license key (free or professional) is used as a "
+"secret token for additional security when communicating with CusRev service."
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:337
+msgid "disabled"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:338
+msgid ""
+"A copy of this reply will not be published on CusRev (Customer Reviews) "
+"portal because Verified Reviews Page option is %s."
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:462
+msgid "Customer Reviews (CR)"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:475
+msgid "Answers to Custom Questions"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:499
+#: class-ivole-admin-menu-reviews.php:501
+#: class-ivole-admin-menu-reviews.php:508
+#: class-ivole-admin-menu-reviews.php:517
+#: class-ivole-admin-menu-reviews.php:526
+msgid "CR portal"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:503
+#: includes/reviews/class-cr-reviews-list-table.php:669
+msgid "A verified copy of this reply was published on %s"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:510
+#: class-ivole-admin-menu-reviews.php:519
+#: class-ivole-admin-menu-reviews.php:528
+#: includes/reviews/class-cr-reviews-list-table.php:662
+#: includes/reviews/class-cr-reviews-list-table.php:664
+#: includes/reviews/class-cr-reviews-list-table.php:679
+#: includes/reviews/class-cr-reviews-list-table.php:681
+#: includes/reviews/class-cr-reviews-list-table.php:696
+#: includes/reviews/class-cr-reviews-list-table.php:698
+#: includes/reviews/class-cr-reviews-list-table.php:713
+#: includes/reviews/class-cr-reviews-list-table.php:715
+msgid "CusRev portal"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:512
+msgid ""
+"This reply was originally posted on %s. If this copy of the reply is edited, "
+"the original reply will NOT be updated. Only the customer can edit the "
+"original reply on CR portal."
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:521
+msgid ""
+"This reply was originally posted on %s. This copy of the reply was modified "
+"and might be different from the original published on CR portal."
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:530
+#: includes/reviews/class-cr-reviews-list-table.php:720
+msgid ""
+"A verified copy published on %s could not be updated because it is not the "
+"last reply for the review. The verified copy might be different from this "
+"reply."
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:533
+msgid "Reply could not be published to CR portal. Error "
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:562
+msgid ""
+"This reply was originally posted on CR portal. This copy of the reply was "
+"modified and might be different from the original reply published on CusRev "
+"portal."
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:574
+#: includes/reviews/class-cr-reviews-list-table.php:582
+msgid "Feature"
+msgstr ""
+
+#: class-ivole-admin-menu-reviews.php:580
+#: includes/reviews/class-cr-reviews-list-table.php:584
+msgid "Unfeature"
+msgstr ""
+
+#: class-ivole-admin.php:130
+msgid ""
+"<strong>Customer Reviews for WooCommerce</strong> plugin has been activated. "
+"Please go to the plugin's <a href=\"%s\">settings</a> and configure this "
+"plugin to start receiving more authentic reviews!"
+msgstr ""
+
+#: class-ivole-admin.php:142
+msgid ""
+"<strong>Customer Reviews for WooCommerce</strong> plugin has been updated. "
+"This is a big update that makes submission of reviews easier and quicker for "
+"your customers. It means that you will receive more customer reviews but "
+"first we recommend you to verify <a href=\"%s\">plugin settings</a> by "
+"sending several test emails to make sure that everything works fine."
+msgstr ""
+
+#: class-ivole-admin.php:154
+msgid ""
+"<strong>Customer Reviews for WooCommerce</strong> plugin has been updated. "
+"This update adds a new feature that enables visitors to vote for reviews. If "
+"you would like to try this feature, you should enable it in the <a href=\"%s"
+"\">plugin settings</a>."
+msgstr ""
+
+#: class-ivole-admin.php:166
+msgid ""
+"<strong>Customer Reviews for WooCommerce</strong> plugin has been updated. "
+"This update adds a new feature (Shop Rating) that enables customers to rate "
+"your shop in general (website, customer service, and delivery). If you would "
+"like to try this feature, you should enable it in the <a href=\"%s\">plugin "
+"settings</a>."
+msgstr ""
+
+#: class-ivole-email-coupon.php:34
+msgid "Thank You for Leaving a Review"
+msgstr ""
+
+#: class-ivole-email-coupon.php:35
+msgid "Discount Coupon for You"
+msgstr ""
+
+#: class-ivole-email-coupon.php:220 class-ivole-email-coupon.php:241
+#: class-ivole-email.php:374 class-ivole-email.php:405
+msgid "Jane"
+msgstr ""
+
+#: class-ivole-email-coupon.php:221 class-ivole-email-coupon.php:242
+#: class-ivole-email.php:375 class-ivole-email.php:406
+msgid "Doe"
+msgstr ""
+
+#: class-ivole-email-coupon.php:222 class-ivole-email.php:376
+msgid "Jane Doe"
+msgstr ""
+
+#: class-ivole-email-coupon.php:247 class-ivole-email.php:384
+#: class-ivole-email.php:411
+msgid "Item 1 Test"
+msgstr ""
+
+#: class-ivole-email-coupon.php:251 class-ivole-email.php:386
+#: class-ivole-email.php:415
+msgid "Item 2 Test"
+msgstr ""
+
+#: class-ivole-email.php:34 class-ivole-email.php:36
+msgid "How did we do?"
+msgstr ""
+
+#: class-ivole-email.php:35
+msgid "Review Your Experience with Us"
+msgstr ""
+
+#: class-ivole-email.php:37
+msgid ""
+"Please review your experience with products and services that you purchased "
+"at {site_title}."
+msgstr ""
+
+#: class-ivole-email.php:484
+msgid "Error: only one review invitation per order is allowed."
+msgstr ""
+
+#: class-ivole-email.php:484
+msgid "View additional information"
+msgstr ""
+
+#: class-ivole-email.php:486
+msgid "Error: the customer has already reviewed all products from this order."
+msgstr ""
+
+#: class-ivole-email.php:488
+msgid "Error: the customer has unsubscribed from emails."
+msgstr ""
+
+#: class-ivole-endpoint-replies.php:137 class-ivole-endpoint-replies.php:155
+msgid "This reply was originally posted on CR portal"
+msgstr ""
+
+#. translators: please keep '%1s' and '%2s' as is
+#: class-ivole-reminders-list-table.php:184
+msgid ""
+"The plugin is configured to use CR Cron for scheduling review reminders "
+"(%1s'Reminders Scheduler' setting%2s)."
+msgstr ""
+
+#. translators: please keep '%1s' and '%2s' as is
+#: class-ivole-reminders-list-table.php:187
+msgid ""
+"Please log in to your account on %1sCusRev website%2s to view and manage the "
+"reminders."
+msgstr ""
+
+#: class-ivole-reminders-list-table.php:189
+msgid "There are currently no scheduled review reminders"
+msgstr ""
+
+#: class-ivole-reminders-list-table.php:202
+#: class-ivole-reminders-list-table.php:383
+#: includes/import-export/class-cr-admin-menu-import.php:182
+#: includes/import-export/class-cr-admin-menu-import.php:393
+#: includes/import-export/class-cr-export-reviews.php:84
+#: includes/import-export/class-cr-export-reviews.php:153
+#: templates/cr-ajax-product-reviews.php:92
+#: templates/cr-ajax-product-reviews.php:145
+#: templates/cr-ajax-product-reviews.php:169
+msgid "Cancel"
+msgstr ""
+
+#: class-ivole-reminders-list-table.php:203
+#: class-ivole-reminders-list-table.php:385
+msgid "Send Now"
+msgstr ""
+
+#: class-ivole-reminders-list-table.php:217
+msgid "Order Number"
+msgstr ""
+
+#: class-ivole-reminders-list-table.php:218
+#: includes/qna/class-cr-qna-list-table.php:369
+#: includes/reviews/class-cr-reviews-list-table.php:372
+msgid "Customer"
+msgstr ""
+
+#: class-ivole-reminders-list-table.php:219
+msgid "Scheduled"
+msgstr ""
+
+#: class-ivole-reminders-list-table.php:220
+msgid "Actions"
+msgstr ""
+
+#: class-ivole-reminders-list-table.php:306
+msgid "Select reminder"
+msgstr ""
+
+#: class-ivole-replies.php:96
+msgid "A copy of the reply was published on CusRev portal"
+msgstr ""
+
+#: class-ivole-replies.php:105 class-ivole-replies.php:118
+msgid "Unknown error"
+msgstr ""
+
+#: class-ivole-replies.php:125
+msgid "ID of the current user is not set"
+msgstr ""
+
+#: class-ivole-reviews.php:113 class-ivole-reviews.php:383
+msgid "Upload up to %d images for your review (GIF, PNG, JPG, JPEG):"
+msgstr ""
+
+#: class-ivole-reviews.php:140
+msgid ""
+"Error: You tried to upload too many files. The maximum number of files that "
+"you can upload is %d."
+msgstr ""
+
+#: class-ivole-reviews.php:141
+msgid "Go back to: %s"
+msgstr ""
+
+#: class-ivole-reviews.php:182 class-ivole-reviews.php:253
+#: includes/blocks/class-cr-all-reviews.php:225
+#: includes/blocks/class-cr-all-reviews.php:241
+#: includes/reviews/class-cr-reviews-list-table.php:784
+msgid "Uploaded image(s):"
+msgstr ""
+
+#: class-ivole-reviews.php:189 class-ivole-reviews.php:204
+#: class-ivole-reviews.php:261 class-ivole-reviews.php:277
+#: class-ivole-reviews.php:1140 class-ivole-reviews.php:1206
+#: class-ivole-reviews.php:1231 class-ivole-structured-data.php:48
+#: includes/blocks/class-cr-all-reviews.php:230
+#: includes/blocks/class-cr-all-reviews.php:249
+#: includes/reviews/class-cr-reviews-list-table.php:791
+#: includes/reviews/class-cr-reviews-list-table.php:808
+#: includes/reviews/class-cr-reviews-media-meta-box.php:49
+#: includes/reviews/class-cr-reviews-media-meta-box.php:87
+#: includes/reviews/class-cr-reviews-media-meta-box.php:139
+msgid "Image #%1$d from "
+msgstr ""
+
+#: class-ivole-reviews.php:217 class-ivole-reviews.php:290
+#: includes/reviews/class-cr-reviews-list-table.php:823
+msgid "Uploaded video(s):"
+msgstr ""
+
+#: class-ivole-reviews.php:223 class-ivole-reviews.php:297
+#: includes/reviews/class-cr-reviews-list-table.php:830
+#: includes/reviews/class-cr-reviews-media-meta-box.php:60
+msgid "Video #%1$d from "
+msgstr ""
+
+#: class-ivole-reviews.php:338
+msgid "Was this review helpful to you?"
+msgstr "Oliko arvostelusta sinulle hyötyä?"
+
+#: class-ivole-reviews.php:340
+msgid "%d out of %d people found this helpful. Was this review helpful to you?"
+msgstr ""
+"%d %d:sta ihmisestä koki tämän arvostelun hyödylliseksi. Oliko siitä sinulle "
+"hyötyä?"
+
+#: class-ivole-reviews.php:375 includes/blocks/class-cr-all-reviews.php:498
+msgid "Processing..."
+msgstr "Käsitellään…"
+
+#: class-ivole-reviews.php:376 includes/blocks/class-cr-all-reviews.php:499
+msgid "Thank you for your feedback!"
+msgstr "Kiitämme palautteestasi!"
+
+#: class-ivole-reviews.php:377 includes/blocks/class-cr-all-reviews.php:500
+msgid ""
+"An error occurred with submission of your feedback. Please refresh the page "
+"and try again."
+msgstr ""
+"Palautteesi lähettämisen aikana tapahtui virhe. Päivitä sivu ja yritä "
+"uudelleen, kiitos."
+
+#: class-ivole-reviews.php:378 includes/blocks/class-cr-all-reviews.php:501
+msgid ""
+"An error occurred with submission of your feedback. Please report it to the "
+"website administrator."
+msgstr ""
+"Palautteesi lähettämisen aikana tapahtui virhe. Ilmoitathan siitä sivuston "
+"ylläpidolle."
+
+#: class-ivole-reviews.php:382
+msgid "Please type your review text"
+msgstr ""
+
+#: class-ivole-reviews.php:384 class-ivole-reviews.php:1292
+msgid "Error: accepted file types are PNG, JPG, JPEG, GIF"
+msgstr ""
+
+#: class-ivole-reviews.php:385
+msgid ""
+"Error: You tried to upload too many files. The maximum number of files that "
+"can be uploaded is %d."
+msgstr ""
+
+#: class-ivole-reviews.php:386 class-ivole-reviews.php:1283
+msgid "Error: the file(s) is too large"
+msgstr ""
+
+#: class-ivole-reviews.php:424
+msgid "reCAPTCHA vertification failed and your review cannot be saved."
+msgstr ""
+
+#: class-ivole-reviews.php:424
+msgid "Add Review Error"
+msgstr ""
+
+#: class-ivole-reviews.php:500 includes/blocks/class-cr-all-reviews.php:638
+#: includes/blocks/class-cr-reviews-grid.php:861
+msgid "Based on %s review"
+msgid_plural "Based on %s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-ivole-reviews.php:512 class-ivole-reviews.php:516
+#: includes/blocks/class-cr-all-reviews.php:650
+#: includes/blocks/class-cr-all-reviews.php:654
+#: includes/blocks/class-cr-reviews-grid.php:873
+#: includes/blocks/class-cr-reviews-grid.php:877
+msgid "5 star"
+msgstr "5 tähteä"
+
+#: class-ivole-reviews.php:523 class-ivole-reviews.php:527
+#: includes/blocks/class-cr-all-reviews.php:663
+#: includes/blocks/class-cr-all-reviews.php:667
+#: includes/blocks/class-cr-reviews-grid.php:886
+#: includes/blocks/class-cr-reviews-grid.php:890
+msgid "4 star"
+msgstr "4 tähteä"
+
+#: class-ivole-reviews.php:534 class-ivole-reviews.php:538
+#: includes/blocks/class-cr-all-reviews.php:676
+#: includes/blocks/class-cr-all-reviews.php:680
+#: includes/blocks/class-cr-reviews-grid.php:899
+#: includes/blocks/class-cr-reviews-grid.php:903
+msgid "3 star"
+msgstr "3 tähteä"
+
+#: class-ivole-reviews.php:545 class-ivole-reviews.php:549
+#: includes/blocks/class-cr-all-reviews.php:689
+#: includes/blocks/class-cr-all-reviews.php:693
+#: includes/blocks/class-cr-reviews-grid.php:912
+#: includes/blocks/class-cr-reviews-grid.php:916
+msgid "2 star"
+msgstr "2 tähteä"
+
+#: class-ivole-reviews.php:556 class-ivole-reviews.php:560
+#: includes/blocks/class-cr-all-reviews.php:702
+#: includes/blocks/class-cr-all-reviews.php:706
+#: includes/blocks/class-cr-reviews-grid.php:925
+#: includes/blocks/class-cr-reviews-grid.php:929
+msgid "1 star"
+msgstr "1 tähti"
+
+#. translators: %1$d is the displayed counts of reviews, %2$d is the total count of reviews, %3$d is the star rating of reviews
+#: class-ivole-reviews.php:576 includes/blocks/class-cr-all-reviews.php:404
+#: includes/blocks/class-cr-all-reviews.php:723
+#: includes/blocks/class-cr-reviews-grid.php:946
+#: includes/reviews/class-cr-ajax-reviews.php:294
+msgid "Showing %1$d of %2$d review (%3$d star). "
+msgid_plural "Showing %1$d of %2$d reviews (%3$d star). "
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: $d is the number of reviews
+#: class-ivole-reviews.php:577 includes/blocks/class-cr-all-reviews.php:405
+#: includes/blocks/class-cr-all-reviews.php:724
+#: includes/blocks/class-cr-reviews-grid.php:947
+#: includes/reviews/class-cr-ajax-reviews.php:296
+msgid "See all %d review"
+msgid_plural "See all %d reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: class-ivole-reviews.php:1011 class-ivole-reviews.php:1013
+#: includes/blocks/class-cr-reviews-grid.php:377
+#: includes/blocks/class-cr-reviews-grid.php:379
+#: includes/blocks/class-cr-reviews-grid.php:384
+#: includes/blocks/class-cr-reviews-grid.php:386
+#: includes/blocks/class-cr-reviews-slider.php:309
+#: includes/blocks/class-cr-reviews-slider.php:311
+#: includes/blocks/class-cr-reviews-slider.php:316
+#: includes/blocks/class-cr-reviews-slider.php:318
+msgid "Verified review"
+msgstr "Vahvistettu asiakas"
+
+#: class-ivole-reviews.php:1022 includes/blocks/class-cr-reviews-grid.php:380
+#: includes/blocks/class-cr-reviews-grid.php:387
+#: includes/blocks/class-cr-reviews-slider.php:312
+#: includes/blocks/class-cr-reviews-slider.php:319
+msgid "view original"
+msgstr "katso alkuperäinen"
+
+#: class-ivole-reviews.php:1023
+msgid "External link"
+msgstr ""
+
+#: class-ivole-reviews.php:1053
+#: includes/reviews/class-cr-reviews-list-table.php:762
+msgid "Featured Review"
+msgstr ""
+
+#: class-ivole-reviews.php:1083
+msgid "Most Recent"
+msgstr ""
+
+#: class-ivole-reviews.php:1086
+msgid "Most Helpful"
+msgstr ""
+
+#: class-ivole-reviews.php:1130
+msgid "Customer Images"
+msgstr ""
+
+#: class-ivole-reviews.php:1274
+msgid "Error: please solve the CAPTCHA before uploading files"
+msgstr ""
+
+#: class-ivole-sender.php:86
+msgid "CR: a review reminder was not scheduled due to a bespoke filter."
+msgstr ""
+
+#: class-ivole-sender.php:95
+msgid ""
+"CR: a review reminder was scheduled via CR Cron. Please log in to your "
+"account on <a href=\"https://www.cusrev.com/login.html\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">CR website</a> to view and manage the reminders."
+msgstr ""
+
+#: class-ivole-sender.php:98 class-ivole-sender.php:100
+msgid "CR: a review reminder could not be scheduled via CR Cron. Error %d."
+msgstr ""
+
+#: class-ivole-sender.php:107
+msgid "CR: a review reminder could not be scheduled."
+msgstr ""
+
+#: class-ivole-sender.php:113
+msgid "CR: a review reminder was successfully scheduled for %s."
+msgstr ""
+
+#: class-ivole-settings-license.php:38 class-ivole-settings-license.php:76
+#: class-ivole-settings-license.php:90
+msgid "License Key"
+msgstr ""
+
+#: class-ivole-settings-license.php:62
+msgid "Types of License Keys"
+msgstr ""
+
+#: class-ivole-settings-license.php:64
+msgid ""
+"Customer Reviews (CusRev) service works with two types of license keys: (1) "
+"professional and (2) free."
+msgstr ""
+
+#: class-ivole-settings-license.php:65
+msgid ""
+"(1) You can unlock <b>all</b> features for managing customer reviews by "
+"purchasing a professional license key => %sProfessional License Key"
+msgstr ""
+
+#: class-ivole-settings-license.php:66
+msgid ""
+"(2) Basic features of CusRev service (e.g., social media integration, "
+"analytics, replies to reviews) are available for free but require a (free) "
+"license key. If you would like to request a free license key (no pro "
+"features), create an account here => %sFree License Key"
+msgstr ""
+
+#: class-ivole-settings-license.php:68
+msgid ""
+"An overview of features available in the Free and Pro versions of Customer "
+"Reviews: %s"
+msgstr ""
+
+#: class-ivole-settings-license.php:78
+msgid ""
+"Please enter your license key (free or pro) in the field below. The plugin "
+"will automatically determine type of your license key."
+msgstr ""
+
+#: class-ivole-settings-license.php:82
+msgid "License Status"
+msgstr ""
+
+#: class-ivole-settings-license.php:84
+msgid "Information about license status."
+msgstr ""
+
+#: class-ivole-settings-license.php:92
+msgid "Enter your license key here."
+msgstr ""
+
+#: class-ivole-settings-license.php:118
+msgid "Checking..."
+msgstr ""
+
+#: class-ivole-settings-referrals.php:36 class-ivole-settings-referrals.php:53
+msgid "Referral Program"
+msgstr ""
+
+#: class-ivole-settings-referrals.php:55
+msgid ""
+"Referral marketing is one of the most cost-effective ways to acquire new "
+"customers. It is based on the idea that your current customers will spread "
+"the word about your store and bring in (or refer) new customers. The problem "
+"is that it is not easy for them to do so. We help your customers to spread "
+"the word by showing their public reviews to other customers at %1$scusrev.com"
+"%2$s."
+msgstr ""
+
+#: class-ivole-settings-referrals.php:55
+msgid ""
+"Tracking of referrals requires: (1) %1$sTrust Badges%2$s option has to be "
+"enabled, (2) a valid %3$slicense key%4$s (Free or Pro) has to be provided."
+msgstr ""
+
+#: class-ivole-settings-referrals.php:59
+msgid "Track Customer Referrals"
+msgstr ""
+
+#: class-ivole-settings-referrals.php:60
+msgid ""
+"Enable this option to track orders placed by customers who were referred to "
+"your store from %1$scusrev.com%2$s. Tracking is implemented via a 30-day "
+"cookie created by the plugin for customers who are referred to your store."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:37
+msgid "Review Extensions"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:74
+msgid "Extensions for Customer Reviews"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:76
+msgid ""
+"The plugin is based on the standard WooCommerce reviews functionality. Here, "
+"you can configure various extensions for standard WooCommerce reviews."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:80
+msgid "Attach Images"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:81
+msgid ""
+"Enable attachment of images to reviews left on WooCommerce product pages. If "
+"you would like to enable attachment of images on aggregated review forms, "
+"this can be done <a href=\""
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:87
+msgid "Quantity of Images"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:88
+msgid ""
+"Specify the maximum number of images that can be uploaded for a single "
+"review. This setting applies only to reviews submitted on single product "
+"pages."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:95
+msgid "Maximum Size of Image"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:96
+msgid ""
+"Specify the maximum size (in MB) of an image that can be uploaded with a "
+"review. This setting applies only to reviews submitted on single product "
+"pages."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:103
+msgid "Disable Lightbox"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:104
+msgid ""
+"Disable lightboxes for images attached to reviews (not recommended). Use "
+"this option only if your theme generates lightboxes for any picture on the "
+"website and this leads to two lightboxes shown after clicking on an image "
+"attached to a review."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:110
+msgid "reCAPTCHA V2 for Reviews"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:111
+msgid ""
+"Enable reCAPTCHA to eliminate fake reviews. You must enter Site Key and "
+"Secret Key in the fields below if you want to use reCAPTCHA. You will "
+"receive Site Key and Secret Key after registration at reCAPTCHA website."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:117
+msgid "reCAPTCHA V2 Site Key"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:119
+msgid ""
+"If you want to use reCAPTCHA V2, insert here Site Key that you will receive "
+"after registration at reCAPTCHA website."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:125
+msgid "reCAPTCHA V2 Secret Key"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:127
+msgid ""
+"If you want to use reCAPTCHA V2, insert here Secret Key that you will "
+"receive after registration at reCAPTCHA website."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:133
+msgid "Reviews Summary Bar"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:134
+msgid ""
+"Enable display of a histogram table with a summary of reviews on a product "
+"page."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:140
+msgid "Vote for Reviews"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:141
+msgid ""
+"Enable people to upvote or downvote reviews. The plugin allows one vote per "
+"review per person. If the person is a guest, the plugin uses cookies and IP "
+"addresses to identify this visitor."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:147
+msgid "Remove Plugin's Branding"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:148
+msgid ""
+"Enable this option to remove plugin's branding (\"Powered by Customer "
+"Reviews plugin\") from the reviews summary bar. If you like our plugin and "
+"would like to support us, please disable this checkbox."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:154
+#, fuzzy
+msgid "Verified Owner"
+msgstr "Vahvistettu asiakas"
+
+#: class-ivole-settings-review-extensions.php:156
+msgid ""
+"Replace the standard ‘verified owner’ label that WooCommerce adds to "
+"customer reviews with a custom one. If this field is blank, the standard "
+"WooCommerce label will be used."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:166
+#: class-ivole-settings-review-extensions.php:172
+msgid "Lazy Load Reviews"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:168
+msgid ""
+"Settings to display reviews with 'Show more' button instead of the standard "
+"WordPress pagination."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:173
+msgid "Display reviews on product pages with 'Show more' button."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:179
+msgid "Default Quantity of Reviews"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:180
+msgid ""
+"Specify the default number of reviews that will be shown during the initial "
+"product page load."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:187
+msgid "Default Sorting Order"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:189
+msgid ""
+"Define how reviews are sorted by default. The option to vote for reviews "
+"must be enabled to show the most helpful reviews first."
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:195
+msgid "Recent reviews first"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:196
+msgid "Most helpful reviews first"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:200
+msgid "Review Form"
+msgstr ""
+
+#: class-ivole-settings-review-extensions.php:201
+msgid ""
+"Display a review form on product pages. If you would like to protect your "
+"site from SPAM reviews and allow customers to submit reviews only via "
+"invitations (review reminders), this option should be disabled."
+msgstr ""
+
+#: class-ivole-structured-data.php:124
+msgid "GTIN: "
+msgstr ""
+
+#: class-ivole-structured-data.php:149
+msgid "MPN: "
+msgstr ""
+
+#: class-ivole-structured-data.php:159
+msgid "Brand: "
+msgstr ""
+
+#: class-ivole-verified-reviews.php:55
+msgid "Trust badges activation error: 'Verified Reviews Page' cannot be empty."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:85
+msgid "Trust badges activation error #98. "
+msgstr ""
+
+#: class-ivole-verified-reviews.php:91
+msgid "Trust badges have been successfully activated."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:94
+msgid ""
+"Trust badges activation error: '%s' is already in use. Please enter a "
+"different page name."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:97
+msgid ""
+"Trust badges activation error: page name contains unsupported symbols. Only "
+"latin characters (a-z), numbers (0-9), and . symbol are allowed."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:101
+msgid "Trust badges activation error #99."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:130
+msgid "Trust badges deactivation error #98. Please try again."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:136
+msgid "Trust badges have been successfully deactivated."
+msgstr ""
+
+#: class-ivole-verified-reviews.php:139
+msgid "Trust badges deactivation error #99."
+msgstr ""
+
+#: includes/blocks/class-cr-all-reviews.php:381
+#: templates/cr-ajax-product-reviews.php:75 templates/qna-tab.php:44
+#: templates/reviews-grid.php:100
+msgid "Show more"
+msgstr ""
+
+#: includes/blocks/class-cr-reviews-grid.php:360
+#: includes/blocks/class-cr-reviews-slider.php:289
+msgid "No reviews to show"
+msgstr ""
+
+#: includes/blocks/class-cr-reviews-grid.php:367
+#: includes/blocks/class-cr-reviews-slider.php:299
+msgid "verified owner"
+msgstr ""
+
+#: includes/google/class-cr-admin-menu-product-feed.php:48
+msgid "XML Product Feed for Google Shopping is being generated in background"
+msgstr ""
+
+#: includes/google/class-cr-admin-menu-product-feed.php:53
+msgid ""
+"XML Product Review Feed for Google Shopping is being generated in background"
+msgstr ""
+
+#: includes/google/class-cr-admin-menu-product-feed.php:61
+msgid "Integration with Google Services"
+msgstr ""
+
+#: includes/google/class-cr-admin-menu-product-feed.php:62
+msgid "Google"
+msgstr ""
+
+#: includes/google/class-cr-admin-menu-product-feed.php:135
+msgid "Select a category"
+msgstr ""
+
+#: includes/google/class-cr-admin-menu-product-feed.php:136
+msgid "Select a field"
+msgstr ""
+
+#: includes/google/class-cr-google-shopping-feed.php:362
+msgid "Anonymous"
+msgstr ""
+
+#: includes/google/class-cr-google-shopping-prod-feed.php:76
+msgid ""
+"Error: XMLWriter PHP extension could not be found. Please reach out to the "
+"hosting support to enable it."
+msgstr ""
+
+#: includes/google/class-cr-google-shopping-prod-feed.php:98
+msgid ""
+"Error: no products found for the XML Product Feed. Please check exclusion "
+"settings for products and product categories."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:40
+#: includes/google/class-cr-product-feed-attributes.php:84
+msgid "Product Attributes"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:86
+msgid ""
+"Specify mapping of WooCommerce product fields to Google Shopping product "
+"attributes that might be required in certain countries for some product "
+"categories."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:121
+#: includes/google/class-cr-product-feed-identifiers.php:169
+msgid "WooCommerce Product Field"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:122
+#: includes/google/class-cr-product-feed-identifiers.php:170
+msgid "Select a product field that should be mapped"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:127
+msgid "Google Shopping Attribute"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:128
+msgid "Product attributes required by Google Shopping in some countries"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:144
+msgid "age_group"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:157
+msgid "color"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:170
+msgid "gender"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:184
+#: includes/google/class-cr-product-feed-identifiers.php:192
+#: includes/google/class-cr-product-feed-identifiers.php:245
+#: includes/google/class-cr-product-feed-reviews.php:242
+msgid "Product ID"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:185
+#: includes/google/class-cr-product-feed-identifiers.php:246
+#: includes/google/class-cr-product-feed-reviews.php:243
+msgid "Product SKU"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:186
+#: includes/google/class-cr-product-feed-identifiers.php:247
+#: includes/google/class-cr-product-feed-reviews.php:244
+msgid "Product Name"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:233
+#: includes/google/class-cr-product-feed-identifiers.php:294
+#: includes/google/class-cr-product-feed-reviews.php:291
+msgid "Product GTIN"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:234
+#: includes/google/class-cr-product-feed-identifiers.php:295
+#: includes/google/class-cr-product-feed-reviews.php:292
+msgid "Product MPN"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:235
+#: includes/google/class-cr-product-feed-identifiers.php:296
+#: includes/google/class-cr-product-feed-reviews.php:293
+msgid "Product Brand"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-attributes.php:237
+#: includes/google/class-cr-product-feed-identifiers.php:298
+#: includes/google/class-cr-product-feed-reviews.php:295
+msgid "Product Tag"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:72
+msgid "Categories and Products"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:126
+msgid "Exclude Products"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:128
+msgid ""
+"Provide a list of WooCommerce products that should be excluded from XML "
+"Product Feed. It should be a comma-separated list of product IDs. If all "
+"products should be added to XML Product Feed, keep this field empty."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:132
+msgid "Product IDs"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:134
+msgid ""
+"A comma-separated list of product IDs that should be excluded from XML "
+"Product Feed. Product ID is a number that can found in the URL of the page "
+"to edit the product."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:146 js/blocks.js:267
+#: js/blocks.js:744 js/blocks.js:1203
+msgid "Product Categories"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:148
+msgid ""
+"Specify mapping of WooCommerce product categories to Google Shopping product "
+"categories. The full list of Google Shopping product categories can be found "
+"%shere"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:208
+msgid "Product Category"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:209
+msgid "Product category in WooCommerce"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:214
+msgid "Product Count"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:215
+msgid "Number of products in a category"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:220
+msgid "Exclude"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:221
+msgid "Exclude a category of products from the Product Feed"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:226
+msgid "Google Shopping Category"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:227
+msgid "Product category from Google Shopping product taxonomy"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-categories.php:253
+msgid "No product categories found"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:40
+#: includes/google/class-cr-product-feed-identifiers.php:87
+msgid "Product Identifiers"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:89
+msgid ""
+" Enable additional fields to maintain product identifiers in WooCommerce "
+"products. Next, specify mapping of WooCommerce product fields to Google "
+"Shopping product identifiers."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:94
+#: includes/google/class-cr-product-feed-identifiers.php:205
+#: includes/google/class-cr-product-feed-reviews.php:169
+#: includes/google/class-cr-product-fields.php:39
+#: includes/google/class-cr-product-fields.php:104
+msgid "GTIN"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:95
+msgid ""
+"Add GTIN field to WooCommerce products. GTIN refers to a Global Trade Item "
+"Number, a globally unique number used to identify trade items, products, or "
+"services that can be purchased. GTIN is also an umbrella term that refers to "
+"UPC, EAN, JAN, and ISBN."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:101
+#: includes/google/class-cr-product-feed-identifiers.php:218
+#: includes/google/class-cr-product-feed-reviews.php:182
+#: includes/google/class-cr-product-fields.php:50
+#: includes/google/class-cr-product-fields.php:118
+msgid "MPN"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:102
+msgid ""
+"Add MPN field to WooCommerce products. MPN refers to a Manufacturer Part "
+"Number, a number that uniquely identifies the product to its manufacturer."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:108
+#: includes/google/class-cr-product-feed-identifiers.php:231
+#: includes/google/class-cr-product-feed-reviews.php:208
+#: includes/google/class-cr-product-fields.php:61
+#: includes/google/class-cr-product-fields.php:136
+msgid "Brand"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:109
+msgid ""
+"Add Brand field to WooCommerce products. This field refers to a brand of the "
+"product."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:115
+#: includes/google/class-cr-product-fields.php:72
+#: includes/google/class-cr-product-fields.php:149
+msgid "identifier_exists"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:116
+msgid ""
+"Add identifier_exists field to WooCommerce products. Use it to indicate "
+"whether or not the unique product identifiers and brand are available for a "
+"product."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:122
+msgid "Brand (Static)"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:124
+msgid ""
+"Specify a default brand for all products in your store. If this field is non-"
+"empty, the plugin will use this brand for all products in XML feeds for "
+"Google Shopping."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:131
+msgid "Structured Data"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:132
+msgid ""
+"Add product identifiers to structured data markup on WooCommerce product "
+"pages. According to Google's requirements, product identifiers will also be "
+"added to the HTML shown to visitors."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:175
+msgid "Google Shopping Identifier"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-identifiers.php:176
+msgid "Product identifiers required by Google Shopping"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:85
+msgid "Reviews XML Feed"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:87
+msgid ""
+"Google Shopping is a service that allows merchants to list their products by "
+"uploading a product feed in the <a href=\"https://merchants.google.com/"
+"\">Merchant Center</a>. Use XML Product Review Feed to enable star ratings "
+"for your products in Google Shopping."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:92
+msgid "Exclude Parent Product"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:93
+msgid "Exclude product IDs for parents of variable products from the XML feed"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:99
+msgid "Encode Special Characters"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:100
+msgid "Encode special characters in the XML feed"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:106
+msgid "Minimum Length of Reviews"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:107
+msgid ""
+"Google might reject XML feeds with very short reviews. Use this setting to "
+"specify a minimum number of characters that a review should have to be "
+"included in the XML feed."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:115
+msgid "Fields Mapping"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:116
+msgid ""
+"Specify WooCommerce fields that should be mapped to GTIN, MPN, SKU, and "
+"Brand fields in XML Product Review Feed for Google Shopping."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:156
+msgid "XML Feed Field"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:161
+msgid "WooCommerce Field"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-reviews.php:195
+msgid "SKU"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:41
+#: includes/google/class-cr-product-feed-status.php:85
+msgid "Overview"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:70
+msgid "Review Stars in Google Search Organic Listings"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:71
+msgid ""
+"The standard WooCommerce functionality already includes structured data "
+"markup to display your product reviews effectively within organic search "
+"results. This plugin extends the standard functionality and adds some extra "
+"markup to help search engines properly crawl your shop."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:73
+msgid ""
+"It is important to understand that having a valid structured data markup in "
+"place makes your website eligible for organic stars in Google but it doesn't "
+"guarantee that they will be shown. You can test the rich snippets using <a "
+"href=\"%1s\">Google’s Structured Data Testing Tool</a>."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:77
+msgid ""
+"Google now expects product identifiers (GTIN, MPN, Brand) to be populated in "
+"the structured data markup. Our plugin offers an option to add fields for "
+"product identifiers to WooCommerce products."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:78
+msgid "Review Stars in Google Shopping"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:80
+msgid ""
+"Google Shopping is a service that allows merchants to list their products by "
+"uploading a product feed in the <a href=\"%s\">Merchant Center</a>. XML "
+"Product Feed is necessary to submit products to Google Shopping. XML Product "
+"Review Feed is necessary to show stars for products in Google Shopping "
+"search results. The feeds should be maintained in Google Merchant Center "
+"account."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:91
+msgid "Generate Product Feed"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:92
+msgid "Generate XML Product Feed"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:93
+msgid ""
+"When active, an XML file with products for Google Shopping will be generated "
+"immediately after saving settings and then updated every 24 hours."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:100
+msgid "Product Variants"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:101
+msgid "Include product variants in the XML product feed"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:102
+msgid ""
+"If you sell variable products, enable this option to include product "
+"variations in the XML product feed."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:108
+msgid "Product Feed URL"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:110
+msgid ""
+"URL of the file with the product feed that should be maintained in Google "
+"Merchant Center."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:116
+msgid "Generate Product Review Feed"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:117
+msgid "Generate XML Product Review Feed for Google Shopping"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:118
+msgid ""
+"When active, an XML file with product reviews for Google Shopping will be "
+"generated immediately after saving settings and then updated every 24 hours."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:124
+msgid "Product Review Feed URL"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:126
+msgid ""
+"URL of the file with the product reviews feed that should be maintained in "
+"Google Merchant Center."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:132
+msgid "Status"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:135
+msgid "Information about the product categories and product identifiers."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:367
+msgid ""
+"<strong>%1d / %2d</strong> product categories mapped, <strong>%3d</strong> "
+"excluded"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:368
+msgid ""
+"WooCommerce product categories should be mapped to Google categories on "
+"\"Categories\" tab."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:378
+msgid "<strong>%1d / %2d</strong> product identifiers mapped"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:379
+msgid ""
+"WooCommerce product fields should be mapped to Google product identifiers on "
+"\"Product Identifiers\" tab."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:389
+msgid "<strong>%1d / %2d</strong> product identifiers (reviews) mapped"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:390
+msgid ""
+"WooCommerce product fields should be mapped to Google product identifiers on "
+"\"Reviews\" tab."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:400
+msgid ""
+"<strong>%1d / %2d</strong> products have GTIN, <strong>%3d</strong> excluded"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:401
+msgid "If available, GTIN should be maintained in product details."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:411
+msgid ""
+"<strong>%1d / %2d</strong> products have MPN, <strong>%3d</strong> excluded"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:412
+msgid "If available, MPN should be maintained in product details."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:422
+msgid ""
+"<strong>%1d / %2d</strong> products have Brand, <strong>%3d</strong> excluded"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:423
+msgid "If available, Brand should be maintained in product details."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:433
+msgid ""
+"<strong>%1d / %2d</strong> product variations have GTIN, <strong>%3d</"
+"strong> excluded"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:434
+msgid "If available, GTIN should be maintained in product variation details."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:444
+msgid ""
+"<strong>%1d / %2d</strong> product variations have MPN, <strong>%3d</strong> "
+"excluded"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:445
+msgid "If available, MPN should be maintained in product variation details."
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:455
+msgid ""
+"<strong>%1d / %2d</strong> product variations have Brand, <strong>%3d</"
+"strong> excluded"
+msgstr ""
+
+#: includes/google/class-cr-product-feed-status.php:456
+msgid "If available, Brand should be maintained in product variation details."
+msgstr ""
+
+#: includes/google/class-cr-product-fields.php:39
+#: includes/google/class-cr-product-fields.php:104
+msgid "Global Trade Item Number"
+msgstr ""
+
+#: includes/google/class-cr-product-fields.php:41
+#: includes/google/class-cr-product-fields.php:106
+msgid ""
+"GTIN refers to a Global Trade Item Number, a globally unique number used to "
+"identify trade items, products, or services that can be purchased. GTIN is "
+"also an umbrella term that refers to UPC, EAN, JAN, and ISBN."
+msgstr ""
+
+#: includes/google/class-cr-product-fields.php:50
+#: includes/google/class-cr-product-fields.php:118
+msgid "Manufacturer Part Number"
+msgstr ""
+
+#: includes/google/class-cr-product-fields.php:52
+#: includes/google/class-cr-product-fields.php:120
+msgid ""
+"MPN refers to a Manufacturer Part Number, a number that uniquely identifies "
+"the product to its manufacturer."
+msgstr ""
+
+#: includes/google/class-cr-product-fields.php:63
+#: includes/google/class-cr-product-fields.php:138
+msgid "The brand of the product."
+msgstr ""
+
+#: includes/google/class-cr-product-fields.php:72
+msgid "identifier_exists attribute for Google Shopping"
+msgstr ""
+
+#: includes/google/class-cr-product-fields.php:73
+msgid ""
+"Enable the checkbox to add \"identifier_exists = no\" in Google Shopping "
+"feed for this product."
+msgstr ""
+
+#: includes/google/class-cr-product-fields.php:148
+msgid ""
+"Enable the option to add \"identifier_exists = no\" in Google Shopping feed "
+"for this variation."
+msgstr ""
+
+#: includes/import-export/class-cr-admin-import.php:41
+msgid "Permission denied"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-import.php:53
+msgid "No file was uploaded"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-import.php:69
+msgid "The uploaded file is not a valid CSV file"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-import.php:161
+msgid ""
+"Failed to start background importer, please disable Basic Auth and retry"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-import.php:189
+msgid "Cannot read CSV file"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-import.php:219
+msgid ""
+"The CSV file contains invalid or missing column headings, please refer to "
+"the template in step 1"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-import.php:233
+msgid "The CSV file contains no reviews"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:54
+#: includes/import-export/class-cr-admin-menu-import.php:55
+msgid "Import / Export"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:63
+msgid "Import"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:115
+msgid "Import Reviews from CSV File"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:117
+msgid "A utility to import reviews from a CSV file. Use it in three steps. "
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:119
+msgid "Start with downloading the template for entry of reviews."
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:121
+msgid ""
+"Enter reviews to be imported in the template and save it. Make sure to "
+"provide valid product IDs that exist on your WooCommerce site. To import "
+"general shop reviews (not related to any particular product), use -1 as a "
+"product ID. Please keep the column 'order_id' blank unless you are importing "
+"a file created with the export utility of this plugin."
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:123
+msgid "Finally, upload the template and run import."
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:128
+msgid "Step 1: Download template"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:130
+#: includes/import-export/class-cr-export-reviews.php:75
+#: includes/import-export/class-cr-export-reviews.php:93
+msgid "Download"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:135
+msgid "Step 2: Enter reviews into the template"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:139
+msgid "Step 3: Upload template with your reviews"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:149
+#: includes/import-export/class-cr-admin-menu-import.php:391
+msgid "No file selected"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:156
+msgid "Choose File"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:160
+msgid "Maximum size: %s"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:167
+#: includes/reviews/class-cr-reviews-media-meta-box.php:108
+msgid "Upload"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:179
+msgid "Import is in progress"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:186
+msgid "Upload Completed"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:193
+msgid "Details:"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:196
+msgid "New Upload"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:210
+msgid ""
+"Failed to download template: invalid nonce. <a href=\"%s\">Return to "
+"settings</a>"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:224
+msgid "This product is great!"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:228
+msgid "Example Customer"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:233
+msgid "This product is not so great."
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:237
+#: includes/import-export/class-cr-admin-menu-import.php:246
+msgid "Sample Customer"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:242
+msgid ""
+"This is a shop review. Note that the product_id is -1. Customer service is "
+"good!"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:389
+msgid "Upload progress: %s%"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:390
+msgid "Import is in progress (%s/%s completed)"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:392
+#: includes/import-export/class-cr-export-reviews.php:152
+msgid "Cancelling"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:394
+msgid "Upload Cancelled"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:395
+msgid "Upload Failed"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:396
+#: includes/import-export/class-cr-export-reviews.php:156
+msgid "Started: %s"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:397
+#: includes/import-export/class-cr-export-reviews.php:157
+msgid "Finished: %s"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:398
+#: includes/import-export/class-cr-export-reviews.php:158
+msgid "Cancelled: %s"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:399
+msgid "%d review(s) successfully uploaded"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:400
+msgid "%d duplicate review(s) skipped"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:401
+msgid "%d error(s)"
+msgstr ""
+
+#: includes/import-export/class-cr-admin-menu-import.php:441
+msgid ""
+"The loopback request to your site failed. This means that import of reviews "
+"will not be working as expected. If you would like to use the import "
+"utility, please contact your hosting provider and request them to enable "
+"loopback requests for your site."
+msgstr ""
+
+#. translators: 1: The HTTP response code. 2: The error message returned.
+#: includes/import-export/class-cr-admin-menu-import.php:444
+msgid "Error: [%1$s] %2$s"
+msgstr ""
+
+#. translators: %d: The HTTP response code returned.
+#: includes/import-export/class-cr-admin-menu-import.php:457
+msgid ""
+"The loopback request returned an unexpected http status code, %d. This means "
+"that import of reviews will not be working as expected. If you would like to "
+"use the import utility, please contact your hosting provider and request "
+"them to enable loopback requests for your site."
+msgstr ""
+
+#: includes/import-export/class-cr-background-exporter.php:105
+msgid ""
+"Export failed: Could not create a file in %s. Please check folder "
+"permissions."
+msgstr ""
+
+#: includes/import-export/class-cr-background-exporter.php:106
+msgid "Export failed: Cannot identify process/progress"
+msgstr ""
+
+#: includes/import-export/class-cr-background-importer.php:62
+msgid "Line %1$d >> Error: no data for this review."
+msgstr ""
+
+#: includes/import-export/class-cr-background-importer.php:70
+msgid ""
+"Line %1$d >> Error: incorrect file format. Only %2$d column(s) found. Please "
+"open the input file in a text editor (e.g., in Notepad on Windows) and "
+"verify that columns are correctly separated by commas."
+msgstr ""
+
+#: includes/import-export/class-cr-background-importer.php:78
+msgid ""
+"Line %1$d >> Error: review score = %2$d. Review scores must be between 1 and "
+"5."
+msgstr ""
+
+#: includes/import-export/class-cr-background-importer.php:86
+msgid ""
+"Line %1$d >> Error: product_id must be a positive number or '-1' for shop "
+"reviews."
+msgstr ""
+
+#: includes/import-export/class-cr-background-importer.php:94
+msgid ""
+"Line %1$d >> Error: product with ID = %2$d doesn't exist in this WooCommerce "
+"store."
+msgstr ""
+
+#: includes/import-export/class-cr-background-importer.php:105
+msgid "Line %1$d >> Error: display name cannot be empty."
+msgstr ""
+
+#: includes/import-export/class-cr-background-importer.php:116
+msgid "Line %1$d >> Error: email address includes invalid characters."
+msgstr ""
+
+#: includes/import-export/class-cr-background-importer.php:118
+msgid "Line %1$d >> Error: %2$s is not a valid email address."
+msgstr ""
+
+#: includes/import-export/class-cr-background-importer.php:127
+msgid "Line %1$d >> Error: order_id must be a positive number or empty."
+msgstr ""
+
+#: includes/import-export/class-cr-background-importer.php:137
+msgid "Line %1$d >> Error: Duplicate review within CSV file."
+msgstr ""
+
+#: includes/import-export/class-cr-background-importer.php:216
+msgid "Line %1$d >> Error: Duplicate review."
+msgstr ""
+
+#: includes/import-export/class-cr-export-reviews.php:56
+#: includes/import-export/class-cr-export-reviews.php:71
+msgid "Export"
+msgstr ""
+
+#: includes/import-export/class-cr-export-reviews.php:81
+msgid "Export is in progress"
+msgstr ""
+
+#: includes/import-export/class-cr-export-reviews.php:88
+msgid "Export Completed"
+msgstr ""
+
+#: includes/import-export/class-cr-export-reviews.php:103
+msgid ""
+"Failed to download: invalid nonce. <a href=\"%s\">Return to settings</a>"
+msgstr ""
+
+#: includes/import-export/class-cr-export-reviews.php:128
+msgid ""
+"A utility to export reviews to a CSV file. Use the Export button to start "
+"export of reviews. Use the Download button to download the last export."
+msgstr ""
+
+#: includes/import-export/class-cr-export-reviews.php:130
+msgid "A utility to export reviews to a CSV file."
+msgstr ""
+
+#: includes/import-export/class-cr-export-reviews.php:134
+msgid "Export Reviews to CSV File"
+msgstr ""
+
+#: includes/import-export/class-cr-export-reviews.php:151
+msgid "Export is in progress (%s/%s completed)"
+msgstr ""
+
+#: includes/import-export/class-cr-export-reviews.php:154
+msgid "Export Cancelled"
+msgstr ""
+
+#: includes/import-export/class-cr-export-reviews.php:155
+msgid "Export Failed"
+msgstr ""
+
+#: includes/import-export/class-cr-export-reviews.php:159
+msgid "%d review(s) successfully exported"
+msgstr ""
+
+#: includes/import-export/class-cr-reviews-exporter.php:63
+msgid ""
+"Export failed: Could not create a folder in %s. Please check folder "
+"permissions."
+msgstr ""
+
+#: includes/import-export/class-cr-reviews-exporter.php:129
+msgid ""
+"Failed to start background exporter, please disable Basic Auth and retry"
+msgstr ""
+
+#: includes/qna/class-cr-admin-menu-qna.php:27
+#: includes/qna/class-cr-admin-menu-qna.php:28 includes/qna/class-cr-qna.php:36
+#: includes/qna/class-cr-settings-qna.php:33 templates/qna-tab.php:25
+msgid "Q & A"
+msgstr ""
+
+#: includes/qna/class-cr-admin-menu-qna.php:210
+msgid "Reply to Question"
+msgstr ""
+
+#: includes/qna/class-cr-qna-list-table.php:182
+msgid "No questions / answers awaiting moderation."
+msgstr ""
+
+#: includes/qna/class-cr-qna-list-table.php:184
+msgid "No questions / answers found."
+msgstr ""
+
+#: includes/qna/class-cr-qna-list-table.php:371
+msgid "Question / Answer"
+msgstr ""
+
+#: includes/qna/class-cr-qna-list-table.php:374
+#: includes/reviews/class-cr-reviews-list-table.php:377
+msgid "Product"
+msgstr ""
+
+#: includes/qna/class-cr-qna-list-table.php:377
+#: includes/reviews/class-cr-reviews-list-table.php:380
+msgid "Submitted On"
+msgstr ""
+
+#: includes/qna/class-cr-qna-list-table.php:616
+#: includes/reviews/class-cr-reviews-list-table.php:645
+msgid "In reply to %s"
+msgstr ""
+
+#: includes/qna/class-cr-qna-list-table.php:723
+msgid "Question"
+msgstr ""
+
+#: includes/qna/class-cr-qna-list-table.php:725
+msgid "Answer"
+msgstr ""
+
+#: includes/qna/class-cr-qna.php:40
+msgid "Q & A (%d)"
+msgstr ""
+
+#: includes/qna/class-cr-qna.php:152
+msgid "Data validation error."
+msgstr ""
+
+#: includes/qna/class-cr-qna.php:175
+msgid "reCAPTCHA score is below the threshold."
+msgstr ""
+
+#: includes/qna/class-cr-qna.php:180
+msgid "reCAPTCHA validation error (%s)."
+msgstr ""
+
+#: includes/qna/class-cr-qna.php:185
+msgid "reCAPTCHA response is missing."
+msgstr ""
+
+#: includes/qna/class-cr-qna.php:223
+msgid "An error when adding the answer."
+msgstr ""
+
+#: includes/qna/class-cr-qna.php:224
+msgid "The answer was successfully added."
+msgstr ""
+
+#: includes/qna/class-cr-qna.php:226
+msgid "An error when adding the question."
+msgstr ""
+
+#: includes/qna/class-cr-qna.php:227
+msgid "The question was successfully added."
+msgstr ""
+
+#: includes/qna/class-cr-settings-qna.php:50
+#: includes/qna/class-cr-settings-qna.php:56
+#: includes/qna/cr-qna-admin-page.php:4
+msgid "Questions and Answers"
+msgstr ""
+
+#: includes/qna/class-cr-settings-qna.php:52
+msgid ""
+"Add a tab with questions and answers to product pages on your website. Let "
+"your prospective customers ask questions about products and view questions "
+"asked by others. Boost sales by answering the questions and making sure that "
+"prospective customers have all the information available to make a purchase "
+"decision."
+msgstr ""
+
+#: includes/qna/class-cr-settings-qna.php:57
+msgid ""
+"Enable this option to display a tab with questions and answers on product "
+"pages."
+msgstr ""
+
+#: includes/qna/class-cr-settings-qna.php:63
+msgid "reCAPTCHA v3 for Q & A"
+msgstr ""
+
+#: includes/qna/class-cr-settings-qna.php:64
+msgid ""
+"Enable reCAPTCHA v3 to eliminate SPAM questions and answers. You must enter "
+"a Site Key and a Secret Key in the fields below, if you want to use "
+"reCAPTCHA. You will receive these keys after registration at reCAPTCHA "
+"website."
+msgstr ""
+
+#: includes/qna/class-cr-settings-qna.php:70
+msgid "reCAPTCHA v3 Site Key"
+msgstr ""
+
+#: includes/qna/class-cr-settings-qna.php:72
+msgid ""
+"If you would like to use reCAPTCHA v3, insert here the Site Key that you "
+"will receive after registration at the reCAPTCHA website."
+msgstr ""
+
+#: includes/qna/class-cr-settings-qna.php:78
+msgid "reCAPTCHA v3 Secret Key"
+msgstr ""
+
+#: includes/qna/class-cr-settings-qna.php:80
+msgid ""
+"If you would like to use reCAPTCHA v3, insert here the Secret Key that you "
+"will receive after registration at the reCAPTCHA website."
+msgstr ""
+
+#: includes/qna/class-cr-settings-qna.php:86
+msgid "Display Count of Answered Questions"
+msgstr ""
+
+#: includes/qna/class-cr-settings-qna.php:87
+msgid ""
+"Enable this option to display the count of answered questions next to the "
+"product rating and under the product name."
+msgstr ""
+
+#: includes/qna/cr-qna-admin-page.php:13
+#: templates/all-reviews-admin-page.php:25 templates/reminders-admin-page.php:9
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/qna/cr-qna-admin-page.php:29
+msgid "Invalid question / answer ID."
+msgstr ""
+
+#: includes/qna/cr-qna-admin-page.php:32
+msgid ""
+"Sorry, you are not allowed to edit questions / answers for this product."
+msgstr ""
+
+#: includes/qna/cr-qna-admin-page.php:86 includes/qna/cr-qna-admin-page.php:92
+msgid "Edit question / answer"
+msgstr ""
+
+#: includes/qna/cr-qna-admin-page.php:105
+msgid "Search Q & A"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:46
+msgid "Sync the order with CR Cron"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:52
+msgid "Send review reminder now"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:108
+#: includes/reminders/class-cr-manual.php:214
+msgid "No reminders sent"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:112
+msgid " reminder(s) sent"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:114
+#: includes/reminders/class-cr-manual.php:193
+#: includes/reminders/class-cr-manual.php:203
+msgid "No reminders sent yet"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:138
+msgid "Successfully synced with CR Cron"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:144
+msgid "Error: maximum number of reminders per order is limited to one."
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:146
+msgid ""
+"Error: the order does not contain any products for which review reminders "
+"are enabled in the settings."
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:148
+msgid ""
+"Error: the order was placed by a customer who doesn't have a role for which "
+"review reminders are enabled."
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:150
+msgid "Error: could not save the secret key to DB. Please try again."
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:152
+msgid "Error: the customer's email is invalid."
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:154
+msgid "Error: reminders are disabled for guests."
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:162
+#: includes/settings/class-cr-settings-review-reminder.php:51
+msgid "Review Reminder"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:177
+msgid "%d review(s) received"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:184
+msgid "A review reminder was scheduled via CR Cron"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:191
+#: includes/reminders/class-cr-manual.php:200
+#: includes/reminders/class-cr-manual.php:212
+msgid "No customer consent received"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:209
+msgid "%d reminder(s) sent"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:224
+msgid "A reminder is scheduled for "
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:226
+msgid "WP Cron error"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:246
+#, fuzzy
+msgid "Sending..."
+msgstr "Käsitellään…"
+
+#: includes/reminders/class-cr-manual.php:247
+#, fuzzy
+msgid "Syncing..."
+msgstr "Käsitellään…"
+
+#: includes/reminders/class-cr-manual.php:248
+msgid "Error code 1"
+msgstr ""
+
+#: includes/reminders/class-cr-manual.php:249
+msgid "Error code 2 (%s)."
+msgstr ""
+
+#: includes/reviews/class-cr-ajax-reviews.php:439
+msgid "Search customer reviews"
+msgstr ""
+
+#: includes/reviews/class-cr-ajax-reviews.php:446
+msgid "Search"
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:191
+msgid "No reviews found."
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:373
+msgid "Review"
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:374
+#: includes/tags/class-cr-admin-menu-tags.php:53 js/blocks.js:448
+msgid "Tags"
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:667
+msgid ""
+"A verified copy of this reply was published on %1$s. If this reply is "
+"deleted, the verified copy will remain published. If this reply is edited, "
+"the verified copy will be updated. The page with verified copies of reviews "
+"and replies to reviews for your shop on CusRev portal can be completely "
+"hidden by disabling Trust Badges in the %2$s."
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:672
+#: includes/reviews/class-cr-reviews-list-table.php:723
+msgid "A copy of this reply was published on CusRev portal"
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:684
+#: includes/reviews/class-cr-reviews-list-table.php:701
+msgid ""
+"This reply was originally posted on %1$s. If this copy of the reply is "
+"deleted, the original on CusRev portal will remain published. If this copy "
+"is edited, the original reply will NOT be updated. Only the customer can "
+"edit the original reply on CusRev portal. The page with verified copies of "
+"reviews and replies to reviews for your shop on CusRev portal can be "
+"completely hidden by disabling Trust Badges in the %2$s."
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:686
+msgid ""
+"This reply was originally posted on %s. If this copy of the reply is edited, "
+"the original reply will NOT be updated. Only the customer can edit the "
+"original reply on CusRev portal."
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:689
+#: includes/reviews/class-cr-reviews-list-table.php:706
+msgid "This reply was originally posted on CusRev portal"
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:703
+msgid ""
+"This reply was originally posted on %s. This copy of the reply was modified "
+"and might be different from the original published on CusRev portal."
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:718
+msgid ""
+"A verified copy of this reply was published on %1$s. If this reply is "
+"deleted, the verified copy will remain published. The page with verified "
+"copies of reviews and replies to reviews for your shop on CusRev portal can "
+"be completely hidden by disabling Trust Badges in the %2$s."
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:726
+msgid "Reply could not be published to CusRev portal. Error "
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-list-table.php:749
+msgid "via CR"
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-media-meta-box.php:25
+msgid "Uploaded Media"
+msgstr ""
+
+#: includes/reviews/class-cr-reviews-media-meta-box.php:105
+msgid "Upload images (GIF, PNG, JPG, JPEG)"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:57
+#: includes/settings/class-cr-settings-review-discount.php:87
+msgid "Review for Discount"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:72
+#: includes/settings/class-cr-settings-review-reminder.php:148
+msgid "'Email Body' field cannot be empty"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:82
+msgid ""
+"Customize CusRev settings for sending discount coupons to customers who left "
+"reviews. By enabling and using this feature, you agree to the <a href=\"%s\" "
+"target=\"_blank\">terms and conditions</a>."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:93
+msgid "Enable Review for Discount"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:94
+msgid ""
+"Enable generation of discount coupons for customers who provide reviews."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:100
+msgid "Coupon to Use"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:102
+msgid ""
+"Choose if an individual unique coupon will be generated foreach customer or "
+"the same existing coupon configured in WooCommercewill be sent to all "
+"customers."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:108
+#: includes/settings/class-cr-settings-review-discount.php:167
+msgid "Existing Coupon"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:109
+msgid "Generate a Unique Coupon"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:114
+msgid "BCC Address"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:116
+msgid ""
+"Add a BCC recipient for emails with discount coupon. It can be useful to "
+"verify that emails are being sent properly."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:123
+#: includes/settings/class-cr-settings-review-reminder.php:433
+msgid "Reply-To Address"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:125
+msgid ""
+"Add a Reply-To address for emails with discount coupons. If customers decide "
+"to reply to automatic emails, their replies will be sent to this address."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:132
+#: includes/settings/class-cr-settings-review-reminder.php:310
+msgid "Enable for Roles"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:134
+msgid ""
+"Define if discount coupons will be send for all or only specific roles of "
+"users."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:141
+#: includes/settings/class-cr-settings-review-reminder.php:319
+msgid "All Roles"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:142
+#: includes/settings/class-cr-settings-review-reminder.php:320
+msgid "Specific Roles"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:146
+#: includes/settings/class-cr-settings-review-reminder.php:324
+msgid "Roles"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:148
+msgid ""
+"If discount coupons are enabled only for specific user roles, this field "
+"enables you to choose these roles."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:159
+msgid "Existing Coupon to Use"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:161
+msgid ""
+"Choose one the existing coupons to be sent to customers who provided reviews."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:169
+msgid "This coupon code will be sent to customers who provide reviews."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:177
+msgid "Generation of Individual Coupons"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:179
+msgid ""
+"Settings for automatic generation of unique coupons for each customer and "
+"order. When a customer submits a review, a new, unique discount code will be "
+"generated according to these settings and sent to the customer."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:210
+msgid "Validity"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:212
+msgid ""
+"Number of days during which the coupon will be valid from the moment of "
+"submission of a review or set to 0 for unlimited validity."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:267
+msgid "Product categories"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:269
+msgid ""
+"A product must be in this category for the coupon to remain valid or, for "
+"\"Product Discounts\", products in these categories will be discounted."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:276
+msgid "Exclude categories"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:278
+msgid ""
+"Product must not be in this category for the coupon to remain valid or, for "
+"\"Product Discounts\", products in these categories will not be discounted."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:299
+msgid "Coupon prefix"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:301
+msgid "A prefix that will be added to coupon codes generated by the plugin."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:311
+#: includes/settings/class-cr-settings-review-reminder.php:475
+msgid "Email Template"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:313
+msgid ""
+"Adjust template of the email that will be sent to customers. If you enable "
+"<b>advanced</b> email templates in your account on <a href=\"https://www."
+"cusrev.com/login.html\" target=\"_blank\" rel=\"noopener noreferrer\">CR "
+"website</a>, they will <b>override</b> the email template below."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:317
+#: includes/settings/class-cr-settings-review-reminder.php:481
+msgid "Email Subject"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:319
+#: includes/settings/class-cr-settings-review-reminder.php:483
+msgid "Subject of the email that will be sent to customers."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:326
+#: includes/settings/class-cr-settings-review-reminder.php:490
+msgid "Email Heading"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:328
+#: includes/settings/class-cr-settings-review-reminder.php:492
+msgid "Heading of the email that will be sent to customers."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:335
+#: includes/settings/class-cr-settings-review-reminder.php:499
+msgid "Email Body"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:337
+#: includes/settings/class-cr-settings-review-reminder.php:501
+msgid "Body of the email that will be sent to customers."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:342
+#: includes/settings/class-cr-settings-review-reminder.php:516
+msgid "Email Color 1"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:346
+#: includes/settings/class-cr-settings-review-reminder.php:520
+msgid "Background color for heading of the email and review button."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:350
+#: includes/settings/class-cr-settings-review-reminder.php:524
+msgid "Email Color 2"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:354
+#: includes/settings/class-cr-settings-review-reminder.php:528
+msgid "Text color for heading of the email and review button."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:358
+#: includes/settings/class-cr-settings-review-reminder.php:627
+msgid "Send Test"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:360
+#: includes/settings/class-cr-settings-review-reminder.php:629
+msgid ""
+"Send a test email to this address. You must save changes before sending a "
+"test email."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:396
+msgid ""
+"Discounts for customers who provide reviews are enabled. Don’t forget to "
+"mention it in this email to increase the number of reviews.</span>"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:699
+msgid "You can use the following variables in the email:"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:704
+msgid "The code of coupon for discount."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:705
+msgid ""
+"Amount of the coupon (e.g., $10 or 11% depending on type of the coupon)."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-discount.php:751
+msgid "Manually Published"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:80
+#: includes/settings/class-cr-settings-review-reminder.php:85
+#: includes/settings/class-cr-settings-review-reminder.php:90
+#: includes/settings/class-cr-settings-review-reminder.php:869
+#: includes/settings/class-cr-settings-review-reminder.php:870
+#: includes/settings/class-cr-settings-review-reminder.php:871
+#: includes/settings/class-cr-settings-review-reminder.php:872
+#: includes/settings/class-cr-settings-review-reminder.php:873
+msgid "Checking license..."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:134
+msgid "'Form Header' field cannot be empty"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:141
+msgid "'Form Body' field cannot be empty"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:167
+msgid ""
+"It was not possible to enable 'Shop Rating' option because no 'Shop page' is "
+"set in WooCommerce settings (WooCommerce > Settings) on 'Products' tab. "
+"Please configure a 'Shop page' in WooCommerce settings first."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:176
+msgid ""
+"Choose language that will be used for various elements of emails and review "
+"forms."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:179
+msgid "Arabic"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:180
+msgid "Bulgarian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:181
+msgid "Chinese"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:182
+msgid "Croatian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:183
+msgid "Czech"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:184
+msgid "Danish"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:185
+msgid "Dutch"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:186
+msgid "English"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:187
+msgid "Estonian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:188
+msgid "Persian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:189
+msgid "Finnish"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:190
+msgid "French"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:191
+msgid "Georgian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:192
+msgid "German"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:193
+msgid "German (Formal)"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:194
+msgid "Greek"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:195
+msgid "Hebrew"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:196
+msgid "Hungarian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:197
+msgid "Icelandic"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:198
+msgid "Indonesian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:199
+msgid "Italian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:200
+msgid "Japanese"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:201
+msgid "Korean"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:202
+msgid "Latvian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:203
+msgid "Lithuanian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:204
+msgid "Macedonian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:205
+msgid "Norwegian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:206
+msgid "Polish"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:207
+msgid "Portuguese"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:208
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:209
+msgid "Romanian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:210
+msgid "Russian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:211
+msgid "Serbian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:212
+msgid "Slovak"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:213
+msgid "Slovenian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:214
+msgid "Spanish"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:215
+msgid "Swedish"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:216
+msgid "Thai"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:217
+msgid "Turkish"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:218
+msgid "Ukrainian"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:219
+msgid "Vietnamese"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:224
+msgid ""
+"It looks like you have qTranslate-X plugin activated. You might want to "
+"choose \"qTranslate-X Automatic\" option to enable automatic selection of "
+"language."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:225
+msgid "qTranslate-X Automatic"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:230
+msgid ""
+"It looks like you have WPML plugin activated. You might want to choose "
+"\"WPML Automatic\" option to enable automatic selection of language."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:231
+msgid "WPML Automatic"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:248
+msgid ""
+"Check here to receive an invitation from CusRev (an independent third-party "
+"organization) to review your order. Once the review is published, you will "
+"receive a coupon to use for your next purchase."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:250
+msgid ""
+"Check here to receive an invitation from CusRev (an independent third-party "
+"organization) to review your order"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:255
+msgid "Reminders for Customer Reviews"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:257
+msgid ""
+"Configure the plugin to use %1$sCusRev (Customer Reviews)%2$s service for "
+"sending automatic or manual follow-up emails (reminders) that gather shop "
+"and product reviews. Review reminders are sent via an independent service "
+"because people commonly consider reviews managed by shops themselves to be "
+"biased or fake. Independent collection of customer feedback also enables "
+"other optional features such as trust badges or verification of reviews."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:257
+msgid ""
+"Before enabling this feature you MUST update your terms and conditions and "
+"make sure that your customers consent to receive an invitation to review "
+"their order. Depending on the location of your customers, it might also be "
+"necessary to receive an explicit consent to send review reminders. In this "
+"case, it is mandatory to enable the 'Customer Consent' option below. By "
+"enabling and using this service, you agree to the %1$sterms and conditions"
+"%2$s."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:261
+msgid "Enable Automatic Reminders"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:262
+msgid ""
+"Enable the service of automatic follow-up emails with an invitation to "
+"submit a review. I confirm that I have updated terms and conditions on this "
+"website to inform customers about review invitations."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:268
+msgid "Sending Delay (Days)"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:270
+msgid ""
+"Emails will be sent N days after order status is changed to the value "
+"specified in the field below. N is a sending delay that needs to be defined "
+"in this field."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:276
+msgid "Order Status"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:278
+msgid ""
+"Review reminders will be sent N days after this order status. It is "
+"recommended to use 'Completed' status."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:287
+msgid "Enable for"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:289
+msgid ""
+"Define if reminders will be send for all or only specific categories of "
+"products."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:296
+msgid "All Categories"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:297
+msgid "Specific Categories"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:301
+msgid "Categories"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:303
+msgid ""
+"If reminders are enabled only for specific categories of products, this "
+"field enables you to choose these categories."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:312
+msgid ""
+"Define if reminders will be send for all or only specific roles of users."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:326
+msgid ""
+"If reminders are enabled only for specific user roles, this field enables "
+"you to choose these roles."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:333
+msgid "Enable for Guests"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:334
+msgid ""
+"Enable sending of review reminders to customers who place orders without an "
+"account (guest checkout). It is recommended to enable this checkbox, if you "
+"allow customers to place orders without creating an account on your site."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:340
+msgid "Reminders Scheduler"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:342
+msgid ""
+"Define which scheduler the plugin will use to schedule automatic review "
+"reminders. The default option is to use WordPress Cron (WP-Cron) for "
+"scheduling automatic reminders. If your hosting limits WordPress Cron "
+"functionality and automatic reminders are not sent as expected, try CR Cron. "
+"CR Cron is an external service that requires a license key (free or pro)."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:349
+msgid "WordPress Cron"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:350
+msgid "CR Cron"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:354
+msgid "Enable Manual Reminders"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:355
+msgid ""
+"Enable manual sending of follow-up emails with a reminder to submit a "
+"review. Manual reminders can be sent for completed orders from %1$sOrders"
+"%2$s page after enabling this option."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:361
+msgid "Limit Number of Reminders"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:362
+msgid ""
+"Enable this checkbox to make sure that no more than one review reminder is "
+"sent for each order."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:368
+msgid "Customer Consent"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:369
+msgid ""
+"If this option is enabled, customers will be asked to tick a checkbox on the "
+"checkout page to indicate that they would like to receive an invitation to "
+"review their order."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:375
+msgid "Customer Consent Text"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:376
+msgid ""
+"Text of the message shown to customers next to the consent checkbox on the "
+"checkout page."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:385
+msgid "Registered Customers"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:386
+msgid ""
+"By default, review reminders are sent to billing emails provided by "
+"customers during checkout. If you enable this option, the plugin will check "
+"if customers have accounts on your website, and review reminders will be "
+"sent to emails associated with their accounts. It is recommended to keep "
+"this option disabled."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:392
+msgid "Moderation of Reviews"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:393
+msgid ""
+"Enable manual moderation of reviews submitted by your verified customers. "
+"This setting applies only to reviews submitted in response to reminders sent "
+"by this plugin."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:399
+msgid "Exclude Free Products"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:400
+msgid "Enable this checkbox to exclude free products from review invitations."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:406
+msgid "Shop Name"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:408
+msgid ""
+"Specify your shop name that will be used in emails and review forms "
+"generated by this plugin."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:415
+msgid "From Address"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:417
+msgid ""
+"Emails will be sent from the email address specified in this field. "
+"Modification of this field is possible with the professional license."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:424
+msgid "From Name"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:426
+msgid ""
+"Name that will be used together with From Address to send emails. "
+"Modification of this field is possible with the professional license."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:435
+msgid ""
+"Add a Reply-To address for emails with reminders. If customers decide to "
+"reply to automatic emails, their replies will be sent to this address. It is "
+"recommended to use an email address associated with the domain of your site. "
+"If you use a free email address (e.g., Gmail or Hotmail), it will increase "
+"probability of emails being marked as SPAM."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:442
+msgid "Email for Notifications"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:444
+msgid ""
+"Specify an email to receive notifications about new reviews and errors. It "
+"is recommended to provide an email address that you regularly check."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:455
+#: includes/settings/class-cr-settings-review-reminder.php:461
+msgid "Language"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:463
+msgid "Choose one of the available languages."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:477
+msgid ""
+"Adjust template of the email that will be sent to customers. If you enable "
+"<b>advanced</b> email templates in your account on %1$sCusRev website%2$s, "
+"they will <b>override</b> the email template below."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:506
+msgid "Email Footer"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:508
+msgid ""
+"Footer of the email that will be sent to customers. Modification of this "
+"field is possible with the professional license."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:536
+msgid "Review Form Template"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:538
+msgid ""
+"Adjust template of the aggregated review forms that will be created and sent "
+"to customers by CusRev. Modifications will be applied to the next review "
+"form created after saving settings. If you enable <b>advanced</b> form "
+"templates in your account on %1$sCusRev website%2$s, they will <b>override</"
+"b> the settings below."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:542
+msgid "Form Header"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:544
+msgid "Header of the review form that will be sent to customers."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:551
+msgid "Form Body"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:553
+msgid "Body of the review form that will be sent to customers."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:561
+msgid "Shop Rating"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:565
+msgid ""
+"Enable this option if you would like to include a separate question for a "
+"general shop review in addition to questions for product reviews."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:568
+msgid "Comment Required"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:572
+msgid ""
+"Enable this option if you would like to make it mandatory for your customers "
+"to write something in their review. This option applies only to aggregated "
+"review forms."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:575
+msgid "Attach Media"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:579
+msgid ""
+"Enable attachment of pictures and videos on aggregated review forms. "
+"Uploaded media files are stored on Amazon S3. The storage is free and "
+"sponsored by professional licenses. This option applies only to aggregated "
+"review forms. If you would like to enable attachment of pictures to reviews "
+"submitted on WooCommerce product pages, this can be done %1$shere%2$s."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:582
+msgid "Rating Bar"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:586
+msgid "Visual style of rating bars on review forms."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:588
+msgid "Smiley and frowny faces"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:589 js/blocks.js:907
+#: js/blocks.js:1340
+msgid "Stars"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:594
+msgid "Geolocation"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:598
+msgid ""
+"Enable geolocation on aggregated review forms. Customers will have an option "
+"to indicate where they are from. For example, \"England, United Kingdom\"."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:599
+msgid "Automatic geolocation on review forms."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:603
+msgid "Form Color 1"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:607
+msgid "Background color for heading of the form and product names."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:611
+msgid "Form Color 2"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:615
+msgid "Text color for product names."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:619
+msgid "Form Color 3"
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:623
+msgid "Color of control elements (buttons, rating bars)."
+msgstr ""
+
+#: includes/settings/class-cr-settings-review-reminder.php:955
+msgid ""
+"<strong>CR Cron could not be enabled because no license key was entered. A "
+"license key (free or pro) is required to use CR Cron.</strong>"
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:38
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:56
+msgid "Shortcodes and Blocks"
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:58
+msgid ""
+"The plugin provides several shortcodes and Gutenberg blocks that you can use "
+"to display reviews in various places on your website. You can find the list "
+"of available shortcodes and their parameters below."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:62
+msgid "Reviews Shortcodes"
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:63
+msgid "Enable shortcodes and Gutenberg blocks"
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:85
+msgid ""
+"Use this shortcode to display a list of all reviews on any page or post. "
+"Here are the default parameters of the shortcode:"
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:88
+#: includes/settings/class-cr-settings-shortcodes.php:113
+#: includes/settings/class-cr-settings-shortcodes.php:143
+#: includes/settings/class-cr-settings-shortcodes.php:172
+#: includes/settings/class-cr-settings-shortcodes.php:181
+msgid "Parameters:"
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:90
+msgid ""
+"%1s argument defines how reviews are sorted. Possible values are %2s and %3s."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:91
+msgid ""
+"%1s argument accepts %2s to sort reviews by date and %3s to sort reviews by "
+"upvotes."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:92
+msgid "%1s argument defines how many reviews will be shown at once."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:93
+msgid ""
+"%1s argument defines the total number of product reviews to show. If you set "
+"%2s to %3s, then all product reviews will be shown."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:94
+#: includes/settings/class-cr-settings-shortcodes.php:135
+msgid ""
+"%1s argument accepts %2s or %3s and specifies if a summary bar should be "
+"shown on top of the reviews."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:95
+msgid ""
+"%1s argument accepts %2s or %3s and specifies if pictures uploaded to "
+"reviews will be shown."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:96
+msgid ""
+"%1s argument accepts %2s or %3s and specifies if product names along with "
+"product thumbnails should be shown for each review."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:97
+msgid ""
+"%1s argument accepts a comma-separated list of product categories IDs. Use "
+"this argument to show reviews only from particular categories of products."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:98
+#: includes/settings/class-cr-settings-shortcodes.php:121
+#: includes/settings/class-cr-settings-shortcodes.php:152
+msgid ""
+"%1s argument accepts a comma-separated list of product tags. Use this "
+"argument to show reviews from products associated with specific tags only."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:99
+msgid ""
+"%1s argument accepts a comma-separated list of product IDs. Use this "
+"argument to show reviews only from particular products."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:100
+#: includes/settings/class-cr-settings-shortcodes.php:129
+#: includes/settings/class-cr-settings-shortcodes.php:158
+msgid ""
+"%1s argument accepts %2s or %3s and specifies if general shop reviews will "
+"be shown."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:101
+msgid ""
+"%1s argument defines the total number of shop reviews to show. If you set "
+"%2s to %3s, then all shop reviews will be shown."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:102
+#: includes/settings/class-cr-settings-shortcodes.php:131
+#: includes/settings/class-cr-settings-shortcodes.php:160
+msgid ""
+"%1s argument accepts %2s or %3s and specifies if reviews corresponding to "
+"unpublished products will be shown."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:103
+msgid ""
+"%1s argument accepts %2s or %3s and specifies if replies to reviews will be "
+"shown."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:104
+msgid ""
+"%1s argument defines the number of additional reviews to display after a "
+"user presses the 'Show more' button. If this argument is %2s, then 'Show "
+"more' button will be hidden and the standard WordPress pagination will be "
+"used."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:105
+#: includes/settings/class-cr-settings-shortcodes.php:134
+#: includes/settings/class-cr-settings-shortcodes.php:164
+msgid ""
+"%1s argument defines the minimum number of characters that a review must "
+"have to be displayed. If this argument is %2s, then all reviews (including "
+"rating-only reviews) will be displayed."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:109
+msgid ""
+"Use this shortcode to display a grid of reviews on any page or post. Here "
+"are the default parameters of the shortcode:"
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:115
+msgid ""
+"%1s argument defines the number of product reviews to show. It is "
+"recommended to keep it between %2s and %3s."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:116
+#: includes/settings/class-cr-settings-shortcodes.php:147
+msgid ""
+"%1s argument accepts %2s or %3s and defines if pictures and names of "
+"products corresponding to the review will be shown below the review."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:117
+#: includes/settings/class-cr-settings-shortcodes.php:148
+msgid ""
+"%1s argument accepts %2s or %3s and defines if product names will include "
+"links to product pages."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:118
+#: includes/settings/class-cr-settings-shortcodes.php:149
+msgid ""
+"%1s argument accepts %2s to sort reviews by date and %3s to sort reviews by "
+"rating."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:119
+#: includes/settings/class-cr-settings-shortcodes.php:150
+msgid ""
+"%1s argument defines how reviews are sorted. Possible values are %2s, %3s "
+"and %4s."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:120
+#: includes/settings/class-cr-settings-shortcodes.php:151
+msgid ""
+"%1s argument accepts a comma-separated list of product categories IDs to "
+"show only reviews corresponding to specified categories of products."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:122
+#: includes/settings/class-cr-settings-shortcodes.php:153
+msgid ""
+"%1s argument accepts a comma-separated list of product IDs to show only "
+"reviews corresponding to specified products."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:123
+msgid ""
+"%1s argument is a hex color code of the external border around the grid of "
+"reviews."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:124
+#: includes/settings/class-cr-settings-shortcodes.php:154
+msgid "%1s argument is a hex color code of the border around review cards."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:125
+msgid ""
+"%1s argument is a hex color code of the external background of the grid."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:126
+#: includes/settings/class-cr-settings-shortcodes.php:155
+msgid "%1s argument is a hex color code of the background of review cards."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:127
+#: includes/settings/class-cr-settings-shortcodes.php:156
+msgid ""
+"%1s argument is a hex color code of the background color of product areas on "
+"review cards."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:128
+#: includes/settings/class-cr-settings-shortcodes.php:157
+msgid "%1s argument is a hex color code of rating stars on review cards."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:130
+#: includes/settings/class-cr-settings-shortcodes.php:159
+msgid ""
+"%1s argument defines the total number of shop reviews to show. It is "
+"recommended to keep it between %2s and %3s."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:132
+msgid ""
+"%1s argument accepts %2s or %3s and defines if reviews will include avatars "
+"of customers."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:133
+msgid ""
+"%1s argument defines the number of additional reviews to display after a "
+"user presses the 'Show more' button. If this argument is %2s, then 'Show "
+"more' button will be hidden."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:137
+msgid ""
+"%1s shortcode is also available as <strong>Reviews Grid</strong> block in "
+"the new WordPress Gutenberg page editor (blocks require WordPress 5.0 or "
+"newer)."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:140
+msgid ""
+"Use this shortcode to display a slider with reviews on any page or post. "
+"Here are the default parameters of the shortcode:"
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:145
+msgid ""
+"%1s argument defines the number of product reviews to show. It is "
+"recommended to keep it between %2s and %3s. If you do not want to show "
+"product reviews, set it to %4s and enable shop reviews (see the parameters "
+"below)."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:146
+msgid ""
+"%1s argument defines the number of slides to show. It is recommended to keep "
+"it between %2s and %3s."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:161
+msgid ""
+"%1s argument accepts %2s or %3s and defines if the slider will slide "
+"automatically."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:162
+msgid ""
+"%1s argument accepts %2s or %3s and defines if the slider will show avatars "
+"of customers."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:163
+msgid ""
+"%1s argument limits the number of characters that are displayed by default "
+"for each review. A 'Show More' button will be added to display the remaining "
+"content for reviews that exceed this limit. If you do not want to limit the "
+"number of characters to display, set this argument to %2s."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:165
+msgid ""
+"%1s argument accepts %2s or %3s and specifies if dot indicators will be "
+"shown."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:167
+msgid ""
+"%1s shortcode is also available as <strong>Reviews Slider</strong> block in "
+"the new WordPress Gutenberg page editor (blocks require WordPress 5.0 or "
+"newer)."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:170
+msgid ""
+"Use this shortcode to display a block with Questions and Answers on any page "
+"or post. Here are the default parameters of the shortcode:"
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:174
+msgid ""
+"%1s parameter accepts a comma-separated list of product IDs or %2s. If "
+"product IDs are provided, the block will display Q & A linked to the "
+"corresponding products. If the parameter is equal to %3s, the block will "
+"display Q & A for all products in the store."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:175
+msgid ""
+"%1s parameter accepts a comma-separated list of non-product pages (e.g., "
+"regular WordPress pages or posts) or %2s. If non-product page IDs are "
+"provided, the block will display Q & A linked to the corresponding non-"
+"product pages. If the parameter is equal to %3s, the block will display Q & "
+"A for all non-product pages in the store."
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:179
+msgid ""
+"Use this shortcode to display reviews at different locations on product "
+"pages. This shortcode works ONLY on WooCommerce single product pages. Here "
+"are the default parameters of the shortcode:"
+msgstr ""
+
+#: includes/settings/class-cr-settings-shortcodes.php:183
+msgid ""
+"%1s is an optional argument. If you have a custom comment template file, you "
+"should specify it here."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:50
+#: includes/settings/class-cr-settings-trust-badges.php:74
+#: includes/settings/class-cr-settings-trust-badges.php:80
+msgid "Trust Badges"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:76
+msgid ""
+"<p>Increase your store's conversion rate by placing a \"trust badge\" on the "
+"home, checkout or any other page(s). Let customers feel more confident about "
+"shopping on your site by featuring a trust badge that shows a summary of "
+"verified customer reviews. Trust badges can be enabled using shortcodes or "
+"blocks in the page editor (blocks require WordPress 5.0 or newer).</"
+"p><p>Reviews are considered to be verified when they are collected via an "
+"independent third-party website (www.cusrev.com) integrated with this "
+"plugin. Reviews submitted directly on your site cannot be considered as "
+"verified. Each trust badge contains a nofollow link to a dedicated page at "
+"<b>www.cusrev.com</b> with all verified reviews for your store. You can "
+"configure URL of the page with verified reviews for your store below.</p>"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:81
+msgid ""
+"Enable this option to display trust badges and additional %1s icons for "
+"individual reviews on product pages in your store. Each %2s icon will "
+"contain a nofollow link to a verified copy of the review on <strong>www."
+"cusrev.com</strong>."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:88
+msgid "Verified Reviews Page"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:89
+msgid ""
+"Specify name of the page with verified reviews. This will be a base URL for "
+"reviews related to your shop. You can use alphanumeric symbols and '.' in "
+"the name of the page."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:97
+msgid "Small Light Badge"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:99
+msgid "Shortcode and preview of the small light trust badge."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:105
+msgid "Small Light Badge (with Store Rating)"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:107
+msgid "Shortcode and preview of the small light trust badge with store rating."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:113
+msgid "Small Dark Badge"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:115
+msgid "Shortcode and preview of the small dark trust badge."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:121
+msgid "Small Dark Badge (with Store Rating)"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:123
+msgid "Shortcode and preview of the small dark trust badge with store rating."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:129
+msgid "Wide Light Badge"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:131
+msgid ""
+"Shortcode and preview of the wide light trust badge. The wide badge has a "
+"version for small screens that will be automatically shown when a website is "
+"viewed from phones."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:137
+msgid "Wide Light Badge (with Store Rating)"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:139
+msgid ""
+"Shortcode and preview of the wide light trust badge with store rating. The "
+"wide badge has a version for small screens that will be automatically shown "
+"when a website is viewed from phones."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:145
+msgid "Wide Dark Badge"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:147
+msgid ""
+"Shortcode and preview of the wide dark trust badge. The wide badge has a "
+"version for small screens that will be automatically shown when a website is "
+"viewed from phones."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:153
+msgid "Wide Dark Badge (with Store Rating)"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:155
+msgid ""
+"Shortcode and preview of the wide dark trust badge with store rating. The "
+"wide badge has a version for small screens that will be automatically shown "
+"when a website is viewed from phones."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:161
+msgid "Compact Light Badge"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:163
+msgid "Shortcode and preview of the compact light trust badge."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:169
+msgid "Compact Dark Badge"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:171
+msgid "Shortcode and preview of the compact dark trust badge."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:181
+msgid "Floating Trust Badge"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:183
+msgid ""
+"Settings to display a floating badge with a summary of verified reviews."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:187
+msgid "Floating Badge"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:189
+msgid ""
+"Enable this checkbox to display a floating trust badge on public pages of "
+"the website."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:194
+msgid "Floating Badge Style"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:196
+msgid "Choose one of the styles for the floating trust badge."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:200 js/blocks.js:92
+msgid "Light"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:201 js/blocks.js:96
+msgid "Dark"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:206
+msgid "Floating Badge Location"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:208
+msgid "Choose one of the locations for the floating trust badge."
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:212
+msgid "Bottom right"
+msgstr ""
+
+#: includes/settings/class-cr-settings-trust-badges.php:213
+msgid "Bottom left"
+msgstr ""
+
+#: includes/tags/class-cr-admin-menu-tags.php:38
+#: includes/tags/class-cr-admin-menu-tags.php:39
+msgid "Review Tagging"
+msgstr ""
+
+#: includes/tags/class-cr-admin-menu-tags.php:133
+#, fuzzy
+msgid "An error has occurred. Please reload the page and try again."
+msgstr ""
+"Palautteesi lähettämisen aikana tapahtui virhe. Päivitä sivu ja yritä "
+"uudelleen, kiitos."
+
+#: includes/tags/class-cr-tags.php:22
+msgctxt "taxonomy general name"
+msgid "Tags for Reviews"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:23
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:24
+msgid "Search Tags"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:25
+msgid "Popular Tags"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:26
+msgid "All Tags"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:29
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:30
+msgid "Update Tag"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:31
+msgid "Create New Tag"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:32
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:33
+msgid "Separate tags with commas"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:34
+msgid "Add or remove tags"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:35
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:36
+msgid "No tags found"
+msgstr ""
+
+#: includes/tags/class-cr-tags.php:37 includes/tags/class-cr-tags.php:43
+msgid "Tags for Reviews"
+msgstr ""
+
+#: includes/trust-badge/class-cr-floating-trust-badge.php:113
+#: includes/trust-badge/class-cr-trust-badge.php:89
+#: includes/trust-badge/class-cr-trust-badge.php:94
+#: includes/trust-badge/class-cr-trust-badge.php:99
+#: includes/trust-badge/class-cr-trust-badge.php:104
+#: includes/trust-badge/class-cr-trust-badge.php:107
+#: includes/trust-badge/class-cr-trust-badge.php:109
+#: includes/trust-badge/class-cr-trust-badge.php:111
+#: includes/trust-badge/class-cr-trust-badge.php:216 js/blocks.js:23
+msgid "Trust Badge"
+msgstr ""
+
+#: ivole.php:124
+msgid ""
+"It looks like this site has moved or is a duplicate site. %1$sCustomer "
+"Reviews for WooCommerce%2$s has disabled sending automatic review reminder "
+"emails on this site to prevent duplicate reminders from a staging or test "
+"environment."
+msgstr ""
+
+#: ivole.php:126
+msgid "Hide this message (but don't enable automatic review reminders)"
+msgstr ""
+
+#: ivole.php:127
+msgid "Enable automatic review reminders"
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:7
+msgid "Reviews for &#8220;%s&#8221;"
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:15
+msgid "All Reviews"
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:41
+msgid "Invalid Review ID."
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:44
+msgid "Sorry, you are not allowed to edit reviews for this product."
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:98
+#: templates/all-reviews-admin-page.php:104
+msgid "Edit Review"
+msgstr ""
+
+#: templates/all-reviews-admin-page.php:117
+msgid "Search Reviews"
+msgstr ""
+
+#: templates/cr-ajax-product-reviews.php:77
+msgid "Sorry, no reviews match your current selections"
+msgstr ""
+
+#: templates/cr-rating.php:44
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/cr-rating.php:52
+msgid "%s answered question"
+msgid_plural "%s answered questions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/qna-list.php:15
+msgid "%s asked on %s"
+msgstr ""
+
+#: templates/qna-list.php:38
+msgid "%s answered on %s"
+msgstr ""
+
+#: templates/qna-list.php:42 templates/qna-list.php:43
+#: templates/review-meta.php:43
+msgid "store manager"
+msgstr ""
+
+#: templates/qna-list.php:63
+msgid "Answer the question"
+msgstr ""
+
+#: templates/qna-list.php:65
+msgid "Upvote the question"
+msgstr ""
+
+#: templates/qna-list.php:72
+msgid "Downvote the question"
+msgstr ""
+
+#: templates/qna-tab.php:28
+msgid "Search answers"
+msgstr ""
+
+#: templates/qna-tab.php:35 templates/qna-tab.php:59
+msgid "Ask a question"
+msgstr ""
+
+#: templates/qna-tab.php:46
+msgid "Sorry, no questions were found"
+msgstr ""
+
+#: templates/qna-tab.php:50
+msgid "There are no questions yet"
+msgstr ""
+
+#: templates/qna-tab.php:60
+msgid ""
+"Your question will be answered by a store representative or other customers."
+msgstr ""
+
+#: templates/qna-tab.php:61
+msgid "Start your question with 'What', 'How', 'Why', etc."
+msgstr ""
+
+#: templates/qna-tab.php:62 templates/qna-tab.php:97
+msgid "Your name"
+msgstr ""
+
+#: templates/qna-tab.php:63 templates/qna-tab.php:98
+msgid "Your email"
+msgstr ""
+
+#: templates/qna-tab.php:67 templates/qna-tab.php:102
+msgid ""
+"This site is protected by reCAPTCHA and the Google %1$sPrivacy Policy%2$s "
+"and %3$sTerms of Service%4$s apply."
+msgstr ""
+
+#: templates/qna-tab.php:70 templates/qna-tab.php:105
+msgid "Submit"
+msgstr ""
+
+#: templates/qna-tab.php:75
+msgid "Thank you for the question!"
+msgstr ""
+
+#: templates/qna-tab.php:77
+msgid ""
+"Your question has been received and will be answered soon. Please do not "
+"submit the same question again."
+msgstr ""
+
+#: templates/qna-tab.php:79 templates/qna-tab.php:114
+msgid "OK"
+msgstr ""
+
+#: templates/qna-tab.php:83 templates/qna-tab.php:118
+msgid "Error"
+msgstr ""
+
+#: templates/qna-tab.php:86 templates/qna-tab.php:120
+msgid ""
+"An error occurred when saving your question. Please report it to the website "
+"administrator. Additional information:"
+msgstr ""
+
+#: templates/qna-tab.php:94
+msgid "Add an answer"
+msgstr ""
+
+#: templates/qna-tab.php:96
+msgid "Write your answer"
+msgstr ""
+
+#: templates/qna-tab.php:110
+msgid "Thank you for the answer!"
+msgstr ""
+
+#: templates/qna-tab.php:112
+msgid ""
+"Your answer has been received and will be published soon. Please do not "
+"submit the same answer again."
+msgstr ""
+
+#: templates/reminders-admin-page.php:2
+msgid "Scheduled Review Reminders"
+msgstr ""
+
+#: templates/reminders-admin-page.php:17
+msgid ""
+"A list of review reminders scheduled by the plugin to be sent in the future."
+msgstr ""
+
+#: templates/reminders-admin-page.php:32
+msgid "Search Reminders"
+msgstr ""
+
+#: templates/reminders-admin-page.php:48
+msgid "Are you sure you want to cancel the review reminder(s)?"
+msgstr ""
+
+#: templates/reminders-admin-page.php:52
+msgid "Are you sure you want to send the review reminder(s) now?"
+msgstr ""
+
+#: templates/reviews-grid.php:30 templates/reviews-slider.php:22
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: templates/reviews-slider.php:57 js/blocks.js:594
+msgid "Show More"
+msgstr ""
+
+#: templates/reviews-slider.php:58
+msgid "Show Less"
+msgstr ""
+
+#: js/blocks.js:25
+msgid "Block showing a trust badge generated by CR plugin."
+msgstr ""
+
+#: js/blocks.js:40
+msgid "You need to enable Trust Badges in Reviews -> Settings -> Trust Badges"
+msgstr ""
+
+#: js/blocks.js:56
+msgid "Trust Badge Settings"
+msgstr ""
+
+#: js/blocks.js:62
+msgid "Badge Size"
+msgstr ""
+
+#: js/blocks.js:66
+msgid "Small"
+msgstr ""
+
+#: js/blocks.js:70
+msgid "Wide"
+msgstr ""
+
+#: js/blocks.js:74
+msgid "Compact"
+msgstr ""
+
+#: js/blocks.js:88
+msgid "Badge Style"
+msgstr ""
+
+#: js/blocks.js:110
+msgid "Show Store Rating"
+msgstr ""
+
+#: js/blocks.js:112
+msgid "Include store rating"
+msgstr ""
+
+#: js/blocks.js:112
+msgid "Exclude store rating"
+msgstr ""
+
+#: js/blocks.js:123
+msgid "Show Border"
+msgstr ""
+
+#: js/blocks.js:125
+msgid "Display badge border"
+msgstr ""
+
+#: js/blocks.js:125
+msgid "No badge border"
+msgstr ""
+
+#: js/blocks.js:138
+msgid "Background color"
+msgstr ""
+
+#: js/blocks.js:139
+msgid "Set a custom background color for the badge"
+msgstr ""
+
+#: js/blocks.js:266
+msgid "Clear all product categories"
+msgstr ""
+
+#: js/blocks.js:268
+msgid "Your store doesn't have any product categories."
+msgstr ""
+
+#: js/blocks.js:272
+msgid "Search for product categories"
+msgstr ""
+
+#: js/blocks.js:278
+msgid "%d category selected"
+msgid_plural "%d categories selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: js/blocks.js:287
+msgid "Category search results updated."
+msgstr ""
+
+#: js/blocks.js:316
+msgid "Display products matching"
+msgstr ""
+
+#: js/blocks.js:317
+msgid "Pick at least two categories to use this setting."
+msgstr ""
+
+#: js/blocks.js:322
+msgid "Any selected categories"
+msgstr ""
+
+#: js/blocks.js:326
+msgid "All selected categories"
+msgstr ""
+
+#: js/blocks.js:447
+msgid "Clear all tags"
+msgstr ""
+
+#: js/blocks.js:449
+msgid "Your store doesn't have any product tags."
+msgstr ""
+
+#: js/blocks.js:453
+msgid "Search for tags to display"
+msgstr ""
+
+#: js/blocks.js:459
+msgid "%d tag selected"
+msgid_plural "%d tags selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: js/blocks.js:468
+msgid "Tag search results updated."
+msgstr ""
+
+#: js/blocks.js:508
+msgid "Reviews Grid"
+msgstr ""
+
+#: js/blocks.js:510
+msgid "Block showing a grid with WooCommerce product reviews."
+msgstr ""
+
+#: js/blocks.js:544 js/blocks.js:977
+msgid ""
+"You need to enable \"Reviews Shortcodes\" checkbox in Reviews > Settings > "
+"Review Extensions"
+msgstr ""
+
+#: js/blocks.js:560
+msgid "Review Grid Settings"
+msgstr ""
+
+#: js/blocks.js:566 js/blocks.js:999
+msgid "Number of Reviews"
+msgstr ""
+
+#: js/blocks.js:580 js/blocks.js:1027
+msgid "Number of Shop Reviews"
+msgstr ""
+
+#: js/blocks.js:608 js/blocks.js:1055
+msgid "Minimum Number of Characters in a Review (0 = Display All Reviews)"
+msgstr ""
+
+#: js/blocks.js:622 js/blocks.js:1069
+msgid "Show Products"
+msgstr ""
+
+#: js/blocks.js:634 js/blocks.js:1081
+msgid "Product Links"
+msgstr ""
+
+#: js/blocks.js:646 js/blocks.js:1093
+msgid "Shop Reviews"
+msgstr ""
+
+#: js/blocks.js:658 js/blocks.js:1105
+msgid "Inactive Products"
+msgstr ""
+
+#: js/blocks.js:670 js/blocks.js:1129
+msgid "Avatars"
+msgstr ""
+
+#: js/blocks.js:682
+msgid "Show Rating Bars"
+msgstr ""
+
+#: js/blocks.js:694 js/blocks.js:1153
+msgid "Sort By"
+msgstr ""
+
+#: js/blocks.js:698 js/blocks.js:1157
+msgid "Date"
+msgstr ""
+
+#: js/blocks.js:702 js/blocks.js:1161
+msgid "Rating"
+msgstr ""
+
+#: js/blocks.js:716 js/blocks.js:1175
+msgid "Sort Order"
+msgstr ""
+
+#: js/blocks.js:720 js/blocks.js:1179
+msgid "Ascending"
+msgstr ""
+
+#: js/blocks.js:724 js/blocks.js:1183
+msgid "Descending"
+msgstr ""
+
+#: js/blocks.js:728 js/blocks.js:1187
+msgid "Random"
+msgstr ""
+
+#: js/blocks.js:751 js/blocks.js:1210
+msgid "Select which product categories to show reviews for."
+msgstr ""
+
+#: js/blocks.js:774 js/blocks.js:1233
+msgid "Products"
+msgstr ""
+
+#: js/blocks.js:781 js/blocks.js:1240
+msgid "Select which products to show reviews for."
+msgstr ""
+
+#: js/blocks.js:804 js/blocks.js:1263
+msgid "Product Tags"
+msgstr ""
+
+#: js/blocks.js:811 js/blocks.js:1270
+msgid "Select which product tags to show reviews for."
+msgstr ""
+
+#: js/blocks.js:834 js/blocks.js:1293
+msgid "Colors"
+msgstr ""
+
+#: js/blocks.js:842
+msgid "External Border"
+msgstr ""
+
+#: js/blocks.js:855 js/blocks.js:1301
+msgid "Review Card Border"
+msgstr ""
+
+#: js/blocks.js:868
+msgid "Background"
+msgstr ""
+
+#: js/blocks.js:881 js/blocks.js:1314
+msgid "Review Card Background"
+msgstr ""
+
+#: js/blocks.js:894 js/blocks.js:1327
+msgid "Product Area Background"
+msgstr ""
+
+#: js/blocks.js:942
+msgid "Reviews Slider"
+msgstr ""
+
+#: js/blocks.js:944
+msgid "Block showing a slider with WooCommerce product reviews."
+msgstr ""
+
+#: js/blocks.js:993
+msgid "Reviews Slider Settings"
+msgstr ""
+
+#: js/blocks.js:1013
+msgid "Number of Slides to Show"
+msgstr ""
+
+#: js/blocks.js:1041
+msgid "Maximum Number of Characters to Display (0 = Unlimited)"
+msgstr ""
+
+#: js/blocks.js:1117
+msgid "Autoplay"
+msgstr ""
+
+#: js/blocks.js:1141
+msgid "Show Dots"
+msgstr ""

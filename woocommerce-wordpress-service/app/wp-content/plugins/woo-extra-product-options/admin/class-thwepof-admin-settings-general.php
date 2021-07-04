@@ -147,7 +147,7 @@ class THWEPOF_Admin_Settings_General extends THWEPOF_Admin_Settings {
 			$s_class = $current_section == $name ? 'current' : '';
 			
 			?>
-			<li><a href="<?php echo esc_url($url); ?>" class="<?php echo $s_class; ?>"><?php esc_html_e($section->get_property('title'), 'woo-extra-product-options'); ?></a></li>
+			<li><a href="<?php echo esc_url($url); ?>" class="<?php echo $s_class; ?>"><?php echo sanitize_text_field($section->get_property('title')); ?></a></li>
             <li>
             	<form id="section_prop_form_<?php echo esc_attr($name); ?>" method="post" action="">
                     <input type="hidden" name="f_rules[<?php echo $i; ?>]" class="f_rules" value="<?php echo $rules_json; ?>" />

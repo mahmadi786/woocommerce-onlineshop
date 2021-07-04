@@ -1,0 +1,43 @@
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,
+.woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit:disabled[disabled], .woocommerce a.button.disabled, .woocommerce a.button:disabled, .woocommerce a.button:disabled[disabled], .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], .woocommerce input.button.disabled, .woocommerce input.button:disabled, .woocommerce input.button:disabled[disabled]{
+    border: none;
+    box-sizing: border-box;
+    font-weight: 700;
+    outline: none;
+    text-decoration: none;
+    vertical-align: bottom;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:visited {
+        text-decoration: none;
+    }
+
+    &:focus {
+        outline: thin dotted;
+        outline-offset: -4px;
+    }
+}
+
+.button.alt,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+    &:hover {
+
+    }
+
+    &:visited {
+
+    }
+
+    &:focus {
+
+    }
+}

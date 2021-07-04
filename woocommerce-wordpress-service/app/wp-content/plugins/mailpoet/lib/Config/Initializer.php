@@ -187,7 +187,13 @@ class Initializer {
   }
 
   public function runActivator() {
-    return $this->activator->activate();
+    try {
+      $this->activator->activate();
+    } catch (InvalidStateException $e) {
+      return $this->handleRunningMigration($e);
+    } catch (\Exception $e) {
+      return $this->handleFailedInitialization($e);
+    }
   }
 
   public function preInitialize() {
@@ -249,7 +255,7 @@ class Initializer {
 
     // if current db version and plugin version differ
     if (version_compare($currentDbVersion, Env::$version) !== 0) {
-      $this->runActivator();
+      $this->activator->activate();
     }
   }
 
@@ -380,11 +386,9 @@ class Initializer {
   private function setupWoocommerceTransactionalEmails() {
     $wcEnabled = $this->wcHelper->isWooCommerceActive();
     $optInEnabled = $this->settings->get('woocommerce.use_mailpoet_editor', false);
-    if ($wcEnabled) {
-      $this->wcTransactionalEmails->enableEmailSettingsSyncToWooCommerce();
-      if ($optInEnabled) {
-        $this->wcTransactionalEmails->useTemplateForWoocommerceEmails();
-      }
+    if ($wcEnabled && $optInEnabled) {
+      $this->wcTransactionalEmails->overrideStylesForWooEmails();
+      $this->wcTransactionalEmails->useTemplateForWoocommerceEmails();
     }
   }
 }

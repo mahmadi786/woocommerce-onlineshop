@@ -3,7 +3,7 @@ Contributors: mailpoet
 Tags: email, email marketing, post notification, woocommerce emails, email automation, newsletter, newsletter builder, newsletter subscribers
 Requires at least: 5.3
 Tested up to: 5.7
-Stable tag: 3.62.0
+Stable tag: 3.64.1
 Requires PHP: 7.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -183,6 +183,33 @@ Check our [Knowledge Base](https://kb.mailpoet.com) or contact us through our [s
 6. WooCommerce emails
 
 == Changelog ==
+
+= 3.64.1 - 2021-06-22 =
+* Added: create complex segments using multiple conditions;
+* Fixed: error when WooCommerce transactional emails template is deleted.
+
+= 3.64.0 - 2021-06-15 =
+* Fixed: rare error when activating MailPoet;
+* Fixed: missing column in DBs running old MySQL;
+* Fixed: WooCommerce emails stay the same when MailPoet customizer is disabled;
+* Fixed: big margins in WooCommerce emails.
+
+= 3.63.0 - 2021-06-07 =
+* Improved: Subscribers page load time for sites with higher number of lists;
+* Improved: unified typography with WordPress admin styles;
+* Improved: unified buttons with WordPress admin styles;
+* Improved: new segment form layout;
+* Changed: removed list migration assistance;
+* Changed: removed PHP migration assistance;
+* Fixed: incorrect form image width in some themes;
+* Fixed: emoji in Subject line not visible in the last step of email creation.
+
+= 3.62.1 - 2021-06-01 =
+* Added: logging for failed curl requests;
+* Improved: email editor to gracefully highlight unsupported email blocks;
+* Fixed: missing MailPoet logo in stats emails and MSS setup email;
+* Fixed: Media post type doesn't show results in Automatic Latest Content;
+* Fixed: 1px horizontal line in Outlook 2016.
 
 = 3.62.0 - 2021-05-25 =
 * Added: new segment for MailPoet's custom fields;

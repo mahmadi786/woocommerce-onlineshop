@@ -64,7 +64,9 @@ class ContactFormSevenPluginHandler extends BaseContactFormPluginHandler
             $contactModel->setBirthday($birthday);
         }
 
-        $contactModel->setOptIn(false);
+        $contactModel->setOptIn(true);
+        $contactModel->setOptOut(false);
+        $contactModel->setOptActionBy(OptActionBy::Visitor);
         $contactModel->setEventType(CE4WP_CF7_EVENTTYPE);
 
         return $contactModel;

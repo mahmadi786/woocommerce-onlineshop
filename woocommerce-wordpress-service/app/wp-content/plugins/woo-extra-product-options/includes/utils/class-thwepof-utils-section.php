@@ -95,7 +95,12 @@ class THWEPOF_Utils_Section {
 		
 		foreach( self::$SECTION_PROPS as $pname => $property ){
 			$iname  = 'i_'.$pname;
-			$pvalue = isset($posted[$iname]) ? wc_clean(wp_unslash($posted[$iname])) : $property['value'];
+
+			if($pname === 'title'){
+				$pvalue = isset($posted[$iname]) ? wp_unslash(wp_filter_post_kses($posted[$iname])) : $property['value'];
+			}else{
+				$pvalue = isset($posted[$iname]) ? wc_clean(wp_unslash($posted[$iname])) : $property['value'];
+			}
 			
 			if($pname === 'show_title'){
 				$pvalue = !empty($pvalue) && $pvalue === 'yes' ? 1 : 0;
@@ -332,7 +337,7 @@ class THWEPOF_Utils_Section {
 			$title_style = $section->get_property('title_color') ? 'style="color:'. esc_attr($section->get_property('title_color')) .';"' : '';
 			
 			$title_html .= '<'.$title_type.' class="'. esc_attr($title_class) .'" '.$title_style.'>';
-			$title_html .= esc_html__($section->get_property('title'), 'woo-extra-product-options');
+			$title_html .= wp_kses_post($section->get_property('title'));
 			$title_html .= '</'.$title_type.'>';
 		}
 				

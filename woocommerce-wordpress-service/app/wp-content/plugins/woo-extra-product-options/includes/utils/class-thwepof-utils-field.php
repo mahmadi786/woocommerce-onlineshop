@@ -372,6 +372,11 @@ class THWEPOF_Utils_Field {
 
 	private static function get_html_inputtext($name, $field, $section, $value){
 		$props = self::prepare_field_props($field, $name, $value);
+		$minlength = $field->get_property('minlength');
+		$maxlength = $field->get_property('maxlength');
+
+		$props .= is_numeric($minlength) ? ' minlength="'. absint($minlength).'"' : '';
+		$props .= is_numeric($maxlength) ? ' maxlength="'. absint($maxlength).'"' : '';
 		$input_html = '<input type="text" '.$props.' >';
 
 		$html = self::prepare_field_html_input($field, $section, $input_html);

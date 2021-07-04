@@ -169,6 +169,8 @@ function restaurant_zone_scripts() {
 
 	wp_enqueue_style( 'restaurant-zone-style', get_stylesheet_uri() );
 
+	wp_style_add_data('restaurant-zone-style', 'rtl', 'replace');
+
 	// fontawesome
 	wp_enqueue_style( 'fontawesome-css', esc_url(get_template_directory_uri()).'/assets/css/fontawesome/css/all.css' );
 
@@ -185,6 +187,30 @@ function restaurant_zone_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'restaurant_zone_scripts' );
+
+/**
+ * Enqueue theme color style.
+ */
+function restaurant_zone_theme_color() {
+
+    $theme_color_css = '';
+    $restaurant_zone_theme_color = get_theme_mod('restaurant_zone_theme_color');
+
+	$theme_color_css = '
+		.sticky .entry-title::before,.main-navigation .menu > li > a:hover,.main-navigation .sub-menu,#button,.sidebar input[type="submit"],.comment-respond input#submit,.post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover,.woocommerce .woocommerce-ordering select,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.pro-button a, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.wp-block-button__link,.woocommerce-account .woocommerce-MyAccount-navigation ul li,.btn-primary,.reservation-btn a,.slide-btn a:hover,.toggle-nav button {
+			background: '.esc_attr($restaurant_zone_theme_color).';
+		}
+		a,.sidebar a:hover,#colophon a:hover, #colophon a:focus,p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price,.woocommerce-message::before, .woocommerce-info::before,.navbar-brand p,.sidebar p a, .entry-content a, .entry-summary a, .comment-content a,.top-info i,.slider-inner-box h2,#items-section h3 {
+			color: '.esc_attr($restaurant_zone_theme_color).';
+		}
+		.woocommerce-message, .woocommerce-info,.wp-block-pullquote,.wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .wp-block-pullquote,.btn-primary,.slide-btn a:hover,.post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover{
+			border-color: '.esc_attr($restaurant_zone_theme_color).';
+		}
+	';
+    wp_add_inline_style( 'restaurant-zone-style',$theme_color_css );
+
+}
+add_action( 'wp_enqueue_scripts', 'restaurant_zone_theme_color' );
 
 function restaurant_zone_font_url(){
 	$font_url = '';

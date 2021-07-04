@@ -72,10 +72,12 @@ class WooCommercePluginHandler extends BaseContactFormPluginHandler
 
             if (!is_null($checkbox_value)) {
                 $contactModel->setOptActionBy(1);
-                $contactModel->setOptIn((bool)$checkbox_value);
-                $contactModel->setOptOut(!(bool)$checkbox_value);
+                if ($checkbox_value === true){
+                    $contactModel->setOptIn(true);
+                } elseif ($checkbox_value === false){
+                    $contactModel->setOptIn(false);
+                }
             }
-
         }
         return $contactModel;
     }

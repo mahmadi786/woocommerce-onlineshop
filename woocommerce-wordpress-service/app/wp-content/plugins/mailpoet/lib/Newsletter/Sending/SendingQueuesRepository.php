@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types = 1);
 
 namespace MailPoet\Newsletter\Sending;
 
@@ -8,11 +8,24 @@ if (!defined('ABSPATH')) exit;
 use MailPoet\Doctrine\Repository;
 use MailPoet\Entities\NewsletterEntity;
 use MailPoet\Entities\SendingQueueEntity;
+use MailPoet\Entities\SubscriberEntity;
+use MailPoetVendor\Doctrine\ORM\EntityManager;
 
 /**
  * @extends Repository<SendingQueueEntity>
  */
 class SendingQueuesRepository extends Repository {
+  /** @var ScheduledTaskSubscribersRepository */
+  private $scheduledTaskSubscribersRepository;
+
+  public function __construct(
+    EntityManager $entityManager,
+    ScheduledTaskSubscribersRepository $scheduledTaskSubscribersRepository
+  ) {
+    parent::__construct($entityManager);
+    $this->scheduledTaskSubscribersRepository = $scheduledTaskSubscribersRepository;
+  }
+
   protected function getEntityClassName() {
     return SendingQueueEntity::class;
   }
@@ -28,5 +41,11 @@ class SendingQueuesRepository extends Repository {
       ->setParameter('newsletter', $newsletter)
       ->getQuery()
       ->getOneOrNullResult();
+  }
+
+  public function isSubscriberProcessed(SendingQueueEntity $queue, SubscriberEntity $subscriber): bool {
+    $task = $queue->getTask();
+    if (is_null($task)) return false;
+    return $this->scheduledTaskSubscribersRepository->isSubscriberProcessed($task, $subscriber);
   }
 }

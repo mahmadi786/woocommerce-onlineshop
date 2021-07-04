@@ -198,3 +198,14 @@ form.cart table.thwepo-extra-options input.thwepof-colorpicker {
     cursor: pointer;
     z-index: 1;
 }
+
+/* Oxygen builder compatibility CSS */
+.theme-oxygen-is-not-a-theme form.cart table.thwepo-extra-options input[type=radio] {
+    width: 24px;
+}
+.theme-oxygen-is-not-a-theme table.thwepo-extra-options td {
+    padding: 10px;
+}
+.theme-oxygen-is-not-a-theme.woocommerce-cart .woocommerce td.product-name dl.variation dd p {
+    margin-top: 0px;
+}

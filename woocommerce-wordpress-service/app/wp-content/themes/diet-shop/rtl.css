@@ -1,0 +1,47 @@
+/*
+Theme Name: Diet Shop
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+	text-align:right;
+}
+
+.theme-main-header .logo.mr-auto{
+	margin-right:0px!important;
+	margin-left:auto!important;
+}
+.diet-shop-main-menu li ul.sub-menu li a{
+	padding-left:15px;
+	padding-right:15px;	
+}
+.diet-shop-main-menu li ul.sub-menu{
+	left:auto;
+	right:10px;	
+}
+.diet-shop-main-menu li ul.sub-menu ul{
+	right:100%;	
+}
+.blog-list .single-blog-post .post{
+	text-align:right;
+}
+.post-meta li:first-child {
+	padding-left:15px;	
+}
+.post-meta li::after {
+	right:auto;
+	left:-8px;	
+}
+#main {
+    margin-right: 00px;
+	margin-left: 30px;
+}

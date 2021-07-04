@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'CreativeMail\\Blocks\\LoadBlock' => $baseDir . '/src/blocks/LoadBlock.php',
     'CreativeMail\\Clients\\CreativeMailClient' => $baseDir . '/src/clients/CreativeMailClient.php',
     'CreativeMail\\Constants\\EnvironmentNames' => $baseDir . '/src/constants/EnvironmentNames.php',
     'CreativeMail\\CreativeMail' => $baseDir . '/src/CreativeMail.php',
@@ -22,6 +23,7 @@ return array(
     'CreativeMail\\Managers\\CheckoutManager' => $baseDir . '/src/managers/CheckoutManager.php',
     'CreativeMail\\Managers\\DatabaseManager' => $baseDir . '/src/managers/DatabaseManager.php',
     'CreativeMail\\Managers\\EmailManager' => $baseDir . '/src/managers/EmailManager.php',
+    'CreativeMail\\Managers\\FormManager' => $baseDir . '/src/managers/FormManager.php',
     'CreativeMail\\Managers\\InstanceManager' => $baseDir . '/src/managers/InstanceManager.php',
     'CreativeMail\\Managers\\IntegrationManager' => $baseDir . '/src/managers/IntegrationManager.php',
     'CreativeMail\\Managers\\RaygunManager' => $baseDir . '/src/managers/RaygunManager.php',
@@ -34,6 +36,7 @@ return array(
     'CreativeMail\\Modules\\Contacts\\Handlers\\BlueHostBuilderPluginHandler' => $baseDir . '/src/modules/contacts/Handlers/BlueHostBuilderPluginHandler.php',
     'CreativeMail\\Modules\\Contacts\\Handlers\\CalderaPluginHandler' => $baseDir . '/src/modules/contacts/Handlers/CalderaPluginHandler.php',
     'CreativeMail\\Modules\\Contacts\\Handlers\\ContactFormSevenPluginHandler' => $baseDir . '/src/modules/contacts/Handlers/ContactFormSevenPluginHandler.php',
+    'CreativeMail\\Modules\\Contacts\\Handlers\\CreativeMailPluginHandler' => $baseDir . '/src/modules/contacts/Handlers/CreativeMailPluginHandler.php',
     'CreativeMail\\Modules\\Contacts\\Handlers\\ElementorPluginHandler' => $baseDir . '/src/modules/contacts/Handlers/ElementorPluginHandler.php',
     'CreativeMail\\Modules\\Contacts\\Handlers\\FormidablePluginHandler' => $baseDir . '/src/modules/contacts/Handlers/FormidablePluginHandler.php',
     'CreativeMail\\Modules\\Contacts\\Handlers\\GravityFormsPluginHandler' => $baseDir . '/src/modules/contacts/Handlers/GravityFormsPluginHandler.php',

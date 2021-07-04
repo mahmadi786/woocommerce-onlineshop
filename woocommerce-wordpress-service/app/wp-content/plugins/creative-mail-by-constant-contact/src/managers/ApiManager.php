@@ -290,11 +290,45 @@ class ApiManager
                     return true;
                 }
             ),
+            array (
+                self::ROUTE_PATH                => '/get_pages_with_ce_forms',
+                self::ROUTE_METHODS             => 'GET',
+                self::ROUTE_CALLBACK            => function ($request) {
+                    if (version_compare($GLOBALS['wp_version'], '5.5', '<')) {
+                        // This is to prevent CE from making the Gutenberg recommendation when Gutenberg isn't supported
+                        return $this->modify_response(
+                            new WP_REST_Response(
+                                array(array( 'page_id' => 1, 'post_title' => '', 'post_status' => 'published' )),
+                                200
+                            )
+                        );
+                    }
+
+                    $blocks = $this->find_pages_by_content_tag("wp:ce4wp/subscribe");
+                    return $this->modify_response(new WP_REST_Response($blocks, 200));
+                }
+            )
         );
 
         foreach ($routes as $route) {
             $this->register_route($route);
         }
+    }
+
+    private function find_pages_by_content_tag($tag){
+        $pagesWithTag = array();
+        $pages = get_pages(); //defaults are type=page, status=published
+        if (empty($pages)){
+            return null;
+        }
+
+        foreach ($pages as $page){
+            $post_content = $page->post_content;
+            if (strpos($post_content, $tag) !== false){
+                array_push($pagesWithTag, ['page_id' => $page->ID, 'post_title' => $page->post_title, 'post_status' => $page->post_status]);
+            }
+        }
+        return $pagesWithTag;
     }
 
     private function get_plugin_info($onlyActivePlugins)
@@ -402,7 +436,7 @@ class ApiManager
             $permission_callback = array( $this, 'validate_wp_admin' );
         }
         else {
-            $permission_callback = array( $this, 'validate_api_key' );
+            $permission_callback = array($this, 'validate_api_key' );
         }
 
         // Make sure we at least have a path
@@ -610,7 +644,6 @@ class ApiManager
 
         return $key;
     }
-
 
     /**
      * Gets the configured WC REST API key ID.

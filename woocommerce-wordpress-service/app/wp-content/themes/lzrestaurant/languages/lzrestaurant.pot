@@ -1,0 +1,452 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LZRestaurant\n"
+"Last-Translator: \n"
+"Language-Team: Luzuk <support@luzuk.com>\n"
+"Language: English\n"
+"MIME-Version: 1.2.4\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:17
+msgid 'Oops! That page can&rsquo;t be found.'
+msgstr ""
+
+#: 404.php:19
+msgid 'Return to home page'
+msgstr ""
+
+#: 404.php:23
+msgid 'It looks like nothing was found at this location. Maybe try a search?'
+msgstr ""
+
+#: comments.php:24
+msgid 'One thought on &ldquo;%s&rdquo;'
+msgstr ""
+
+#: comments.php:34
+msgid 'comments title'
+msgstr ""
+
+#: comments.php:63
+msgid 'Comments are closed.'
+msgstr ""
+
+#: template-parts/footer/site-info.php:12
+msgid 'By Luzuk'
+msgstr ""
+
+#: header.php:26
+msgid 'Skip to content'
+msgstr ""
+
+#: header.php:66
+msgid 'Open Menu'
+msgstr ""
+
+#: header.php:69
+msgid 'Top Menu'
+msgstr ""
+
+#: header.php:79
+msgid 'Close Menu'
+msgstr ""
+
+#: header.php:88
+msgid 'Facebook'
+msgstr ""
+
+#: header.php:91
+msgid 'Twitter'
+msgstr ""
+
+#: header.php:94
+msgid 'Instagram'
+msgstr ""
+
+#: header.php:97
+msgid 'Pinterest'
+msgstr ""
+
+#: header.php:100
+msgid 'Tumblr'
+msgstr ""
+
+#: searchform.php:16
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:17
+#: searchform.php:19
+msgid "Search"
+msgstr ""
+
+#: searchform.php:17
+msgid 'placeholder'
+msgstr ""
+
+#: searchform.php:19
+msgid 'submit button'
+msgstr ""
+
+#: archive.php:49
+#: archive.php:82
+#: archive.php:114
+#: archive.php:146
+#: archive.php:180
+#: archive.php:215
+#: archive.php:249
+#: index.php:50
+#: index.php:85
+#: index.php:119
+#: index.php:154
+#: index.php:190
+#: index.php:226
+#: index.php:260
+#: search.php:52
+#: search.php:88
+#: search.php:123
+#: search.php:158
+#: search.php:195
+#: search.php:234
+#: search.php:271
+msgid 'Previous page'
+msgstr ""
+
+#: archive.php:50
+#: archive.php:83
+#: archive.php:115
+#: archive.php:147
+#: archive.php:181
+#: archive.php:216
+#: archive.php:250
+#: index.php:51
+#: index.php:86
+#: index.php:120
+#: index.php:155
+#: index.php:191
+#: index.php:227
+#: index.php:261
+#: search.php:53
+#: search.php:89
+#: search.php:124
+#: search.php:159
+#: search.php:196
+#: search.php:235
+#: search.php:272
+msgid 'Next page'
+msgstr ""
+
+#: archive.php:51
+#: archive.php:84
+#: archive.php:116
+#: archive.php:148
+#: archive.php:182
+#: archive.php:217
+#: archive.php:251
+#: index.php:52
+#: index.php:87
+#: index.php:121
+#: index.php:156
+#: index.php:192
+#: index.php:228
+#: index.php:262
+#: search.php:54
+#: search.php:90
+#: search.php:125
+#: search.php:160
+#: search.php:197
+#: search.php:236
+#: search.php:273
+msgid 'Page'
+msgstr ""
+
+#: index.php:19
+msgid 'Posts'
+msgstr ""
+
+#: search.php:16
+msgid 'Search Results for: %s'
+msgstr ""
+
+#: search.php:18
+msgid 'Nothing Found'
+msgstr ""
+
+#: search.php:42
+#: search.php:78
+#: search.php:113
+#: search.php:148
+#: search.php:185
+#: search.php:224
+#: search.php:261
+msgid 'Sorry, but nothing matched your search terms. Please try again with some different keywords.'
+msgstr ""
+
+#: single.php:35
+#: single.php:61
+#: single.php:87
+#: single.php:113
+#: single.php:140
+#: single.php:168
+#: single.php:195
+msgid 'Previous Post'
+msgstr ""
+
+#: single.php:35
+#: single.php:61
+#: single.php:87
+#: single.php:113
+#: single.php:140
+#: single.php:168
+#: single.php:195
+msgid 'Previous'
+msgstr ""
+
+#: single.php:36
+#: single.php:62
+#: single.php:88
+#: single.php:114
+#: single.php:141
+#: single.php:169
+#: single.php:196
+msgid 'Next Post'
+msgstr ""
+
+#: single.php:36
+#: single.php:62
+#: single.php:88
+#: single.php:114
+#: single.php:141
+#: single.php:169
+#: single.php:196
+msgid 'Next'
+msgstr ""
+
+#: functions.php:39
+msgid 'Primary Menu'
+msgstr ""
+
+#: functions.php:94
+msgid 'Welcome to Luzuk!!'
+msgstr ""
+
+#: functions.php:95
+msgid 'Thank you for choosing LZ Restaurant theme. It will be our pleasure to have you on our Welcome page to serve you better.'
+msgstr ""
+
+#: functions.php:96
+msgid 'GET STARTED'
+msgstr ""
+
+#: functions.php:102
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:104
+msgid 'Add widgets here to appear in your sidebar on blog posts and archive pages.'
+msgstr ""
+
+#: functions.php:114
+#: functions.php:124
+msgid 'Add widgets here to appear in your pages and posts'
+msgstr ""
+
+#: functions.php:112
+msgid 'Sidebar 2'
+msgstr ""
+
+#: functions.php:122
+msgid 'Sidebar 3'
+msgstr ""
+
+#: functions.php:132
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:142
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:152
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:162
+msgid "Footer 4"
+msgstr ""
+
+#: functions.php:134
+#: functions.php:144
+#: functions.php:154
+#: functions.php:164
+msgid 'Add widgets here to appear in your footer.'
+msgstr ""
+
+#: functions.php:176
+msgid 'Libre Franklin font: on or off'
+msgstr ""
+
+#: functions.php:204
+msgid 'Continue reading<span class="screen-reader-text"> "%s"</span>'
+msgstr ""
+
+#: functions.php:271
+msgid 'Restaurant WordPress Theme'
+msgstr ""
+
+#: template-parts/post/content-audio.php:63
+#: template-parts/post/content-gallery.php:50
+#: template-parts/post/content-image.php:44
+#: template-parts/post/content-video.php:63
+#: template-parts/post/content.php:44
+#: template-parts/post/grid-layout.php:41
+#: template-parts/page/content-page.php:23
+msgid 'Pages:'
+msgstr ""
+
+#: page-template/custom-home-page.php:39
+msgid 'READ MORE'
+msgstr ""
+
+#: page-template/custom-home-page.php:54
+msgid 'Prev'
+msgstr ""
+
+#: page-template/custom-home-page.php:58
+msgid 'Next'
+msgstr ""
+
+#: page-template/custom-home-page.php:73
+msgid 'Product Title Image'
+msgstr ""
+
+#: inc/customizer.php:17
+msgid 'Show / Hide Site Title'
+msgstr ""
+
+#: inc/customizer.php:27
+msgid 'Show / Hide Site Tagline'
+msgstr ""
+
+#: inc/customizer.php:35
+msgid 'Theme Settings'
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Description of what this panel does."
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:52
+msgid 'Do you want this section'
+msgstr ""
+
+#: inc/customizer.php:55
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer.php:47
+#: inc/customizer.php:56
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "One Column"
+msgstr ""
+
+#: inc/customizer.php:58
+msgid "Three Columns"
+msgstr ""
+
+#: inc/customizer.php:59
+msgid "Four Columns"
+msgstr ""
+
+#: inc/customizer.php:60
+msgid "Grid Layout"
+msgstr ""
+
+#: inc/customizer.php:66
+msgid 'Social Icon Section'
+msgstr ""
+
+#: inc/customizer.php:67
+msgid 'Add Social Link here'
+msgstr ""
+
+#: inc/customizer.php:77
+msgid 'Add Facebook link'
+msgstr ""
+
+#: inc/customizer.php:88
+msgid 'Add Twitter link'
+msgstr ""
+
+#: inc/customizer.php:99
+msgid 'Add Instagram link'
+msgstr ""
+
+#: inc/customizer.php:110
+msgid 'Add Pintrest link'
+msgstr ""
+
+#: inc/customizer.php:121
+msgid 'Add Tumblr link'
+msgstr ""
+
+#: inc/customizer.php:129
+msgid 'Slider Settings'
+msgstr ""
+
+#: inc/customizer.php:140
+msgid 'Show / Hide slider'
+msgstr ""
+
+#: inc/customizer.php:150
+msgid 'Select Slide Image Page'
+msgstr ""
+
+#: inc/customizer.php:159
+msgid 'Feature Products'
+msgstr ""
+
+#: inc/customizer.php:169
+msgid 'Section Short Title'
+msgstr ""
+
+#: inc/customizer.php:180
+msgid 'Section Title'
+msgstr ""
+
+#: inc/customizer.php:191
+msgid 'Select Product Page'
+msgstr ""
+
+#: inc/customizer.php:198
+#: inc/customizer.php:208
+msgid 'Footer Text'
+msgstr ""
+
+#: inc/customizer.php:239
+msgid 'Front Page Section %d Content'
+msgstr ""
+
+#: inc/customizer.php:240
+msgid 'Select pages to feature in each area from the dropdowns. Add an image to a section by setting a featured image in the page editor. Empty sections will not be displayed.'
+msgstr ""
+
+#: inc/customizer.php:350
+msgid 'LZ Restaurant Pro'
+msgstr ""
+
+#: inc/customizer.php:351
+msgid 'Upgrade Pro'
+msgstr ""

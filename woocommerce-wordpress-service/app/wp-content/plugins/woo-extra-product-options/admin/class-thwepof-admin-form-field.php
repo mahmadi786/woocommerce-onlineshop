@@ -57,10 +57,10 @@ class THWEPOF_Admin_Form_Field extends THWEPOF_Admin_Form{
 			'input_class'    => array('type'=>'text', 'name'=>'input_class', 'label'=>'Input Class', 'placeholder'=>'separate classes with comma'),
 			'position' 	  => array('type'=>'select', 'name'=>'position', 'label'=>'Position', 'options'=>$positions),
 			
-			'minlength'   => array('type'=>'text', 'name'=>'minlength', 'label'=>'Min. Length', 'hint_text'=>'The minimum number of characters allowed'),
-			'maxlength'   => array('type'=>'text', 'name'=>'maxlength', 'label'=>'Max. Length', 'hint_text'=>'The maximum number of characters allowed'),
+			'minlength'   => array('type'=>'number', 'name'=>'minlength', 'label'=>'Min. Length', 'min'=>0, 'hint_text'=>'The minimum number of characters allowed'),
+			'maxlength'   => array('type'=>'number', 'name'=>'maxlength', 'label'=>'Max. Length', 'min'=>0, 'hint_text'=>'The maximum number of characters allowed'),
 
-			'step'   => array('type'=>'text', 'name'=>'step', 'label'=>'Step. Value', 'hint_text'=>'Specifies the legal number intervals'),
+			'step'   => array('type'=>'number', 'name'=>'step', 'label'=>'Step. Value', 'min'=>0, 'hint_text'=>'Specifies the legal number intervals'),
 
 			'cols' => array('type'=>'text', 'name'=>'cols', 'label'=>'Cols', 'hint_text'=>'The visible width of a text area'),
 			'rows' => array('type'=>'text', 'name'=>'rows', 'label'=>'Rows', 'hint_text'=>'The visible height of a text area'),
@@ -262,6 +262,8 @@ class THWEPOF_Admin_Form_Field extends THWEPOF_Admin_Form{
 			//$this->render_form_elm_row($this->field_props['title_position']);
 			$this->render_form_elm_row($this->field_props['value']);
 			$this->render_form_elm_row($this->field_props['placeholder']);
+			$this->render_form_elm_row($this->field_props['minlength']);
+			$this->render_form_elm_row($this->field_props['maxlength']);
 			//$this->render_form_elm_row($this->field_props['cssclass']);
 			//$this->render_form_elm_row($this->field_props['title_class']);
 			$this->render_form_elm_row($this->field_props['validator']);

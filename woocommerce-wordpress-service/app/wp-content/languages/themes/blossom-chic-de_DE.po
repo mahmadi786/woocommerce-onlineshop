@@ -1,0 +1,147 @@
+# Translation of Themes - Blossom Chic in German
+# This file is distributed under the same license as the Themes - Blossom Chic package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-20 00:41:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Themes - Blossom Chic\n"
+
+#. Theme Name of the theme
+msgid "Blossom Chic"
+msgstr "Blossom Chic"
+
+#: functions.php:960
+msgid " Blossom Chic | Developed By "
+msgstr "Blossom Chic | Entwickelt von"
+
+#: functions.php:102
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr "Link zur Dokumentation: %1$sHier klicken.%2$s"
+
+#: functions.php:87
+msgid "Demo & Documentation"
+msgstr "Demo und Dokumentation"
+
+#: functions.php:100
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr "Link zur Demo: %1$sHier klicken.%2$s"
+
+#: functions.php:129
+msgid "Typography"
+msgstr "Typografie"
+
+#: functions.php:458
+msgid "Navigation"
+msgstr "Navigation"
+
+#: functions.php:194
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+#: functions.php:227
+msgid "Primary Color"
+msgstr "Primäre Farbe"
+
+#: functions.php:172
+msgid "Secondary font of the site."
+msgstr "Sekundäre Schrift der Website."
+
+#: functions.php:171
+msgid "Secondary Font"
+msgstr "Sekundäre Schrift"
+
+#: functions.php:150
+msgid "Primary font of the site."
+msgstr "Primäre Schrift der Website."
+
+#: functions.php:149
+msgid "Primary Font"
+msgstr "Primäre Schrift"
+
+#: functions.php:120
+msgid "Appearance Settings"
+msgstr "Design-Einstellungen"
+
+#: functions.php:121
+msgid "Customize Typography, Header Image & Background Image"
+msgstr "Typografie, Header-Bild und Hintergrund-Bild anpassen"
+
+#: functions.php:195
+msgid "Change the font size of your site."
+msgstr "Ändere die Schriftgröße deiner Website."
+
+#: functions.php:228
+msgid "Primary color of the theme."
+msgstr "Primäre Farbe des Themes."
+
+#: functions.php:304 functions.php:325
+msgid "Home Page Layout"
+msgstr "Layout der Homepage"
+
+#: functions.php:339 functions.php:360
+msgid "Slider Layout"
+msgstr "Slider-Layout"
+
+#: functions.php:260
+msgid "Layout Settings"
+msgstr "Layout-Einstellungen"
+
+#: functions.php:269 functions.php:290
+msgid "Header Layout"
+msgstr "Header-Layout"
+
+#: functions.php:361
+msgid "Choose the layout of the slider for your site."
+msgstr "Wähle das Layout für den Slider deiner Website."
+
+#: functions.php:326
+msgid "This is the layout for blog index page."
+msgstr "Dies ist das Layout für die Blog-Index-Seite."
+
+#: functions.php:963
+msgid " Powered by %s"
+msgstr " Bereitgestellt von %s"
+
+#: functions.php:569
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "ein"
+
+#: functions.php:568
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "ein"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:567
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "ein"
+
+#: functions.php:291
+msgid "This is the layout for header."
+msgstr "Das ist das Layout für den Header."
+
+#: functions.php:963
+msgid "https://wordpress.org/"
+msgstr "https://de.wordpress.org/"
+
+#. Author URI of the theme
+msgid "https://blossomthemes.com/"
+msgstr "https://blossomthemes.com/"
+
+#. Author of the theme
+#: functions.php:961
+msgid "Blossom Themes"
+msgstr "Blossom Themes"
+
+#. Theme URI of the theme
+msgid "https://blossomthemes.com/themes/blossom-chic-free-wordpress-theme"
+msgstr "https://blossomthemes.com/themes/blossom-chic-free-wordpress-theme"

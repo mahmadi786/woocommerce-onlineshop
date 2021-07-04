@@ -1,0 +1,94 @@
+.finedine-cat-lists input[type='number'] {
+    width: 60px;
+}
+
+.finedine-cat-lists li:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.finedine-cat-lists input {
+    float: left;
+    margin-top: 1px;
+}
+
+.finedine-cat-lists label {
+    float: left;
+    width: 175px;
+}
+
+#customize-control-widgetText_heading_label .customize-control-title,
+#customize-control-widgetText_label .customize-control-title,
+#customize-control-footerText_heading_label .customize-control-title,
+#customize-control-footerText_label .customize-control-title {
+    background: #fff;
+    padding: 5px 13px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#customize-control-widgetText_heading_label .customize-control-title,
+#customize-control-footerText_heading_label .customize-control-title {
+    margin-top: 0;
+}
+
+.customize-partial-edit-shortcut-button {
+    left: -5px !important;
+}
+
+.btn-wrap {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.customize-control-finedine-important-links p a {
+    border: 1px solid #57B94A;
+    border-radius: 30px;
+    color: #57B94A;
+    transition: all 0.2s ease;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 6px 0 rgba(111, 111, 111, 0.05);
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    min-width: 160px;
+    display: inline-block;
+}
+
+.customize-control-finedine-important-links p a:hover {
+    background-color: #57B94A;
+    color: #fff;
+}
+
+#accordion-section-finedine_important_links {
+    background: #008ec2;
+}
+
+.customize-partial-edit-shortcut, .widget .customize-partial-edit-shortcut {
+    margin-left: 30px;
+}
+
+#customize-control-select_post_feature_slider ul {
+    background: #fbfbfb;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 100px;
+}
+
+#customize-preview html {
+    margin: 0 30px;
+}
+
+#available-widgets [class*=finedine_block_widget] .widget-title:before {
+    content: "\f135";
+    color: #B94A48;
+}
+
+#customize-control-header_image .customizer-section-intro {
+    display: none;
+}
+
+.cfa-sample, .feature-sample {
+    display: none;
+}

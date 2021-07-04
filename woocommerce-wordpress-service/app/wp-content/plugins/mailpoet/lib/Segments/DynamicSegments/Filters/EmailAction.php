@@ -11,6 +11,7 @@ use MailPoet\Entities\StatisticsClickEntity;
 use MailPoet\Entities\StatisticsNewsletterEntity;
 use MailPoet\Entities\StatisticsOpenEntity;
 use MailPoet\Entities\SubscriberEntity;
+use MailPoet\Util\Security;
 use MailPoetVendor\Doctrine\DBAL\Query\QueryBuilder;
 use MailPoetVendor\Doctrine\ORM\EntityManager;
 
@@ -48,6 +49,7 @@ class EmailAction implements Filter {
     $action = $filterData->getParam('action');
     $newsletterId = (int)$filterData->getParam('newsletter_id');
     $linkId = $filterData->getParam('link_id') ? (int)$filterData->getParam('link_id') : null;
+    $parameterSuffix = (string)$filter->getId() ?? Security::generateRandomString();
 
     $statsSentTable = $this->entityManager->getClassMetadata(StatisticsNewsletterEntity::class)->getTableName();
     $subscribersTable = $this->entityManager->getClassMetadata(SubscriberEntity::class)->getTableName();
@@ -65,13 +67,13 @@ class EmailAction implements Filter {
         $subscribersTable,
         $statsSentTable,
         'statssent',
-        "$subscribersTable.id = statssent.subscriber_id AND statssent.newsletter_id = :newsletter" . $filter->getId()
+        "$subscribersTable.id = statssent.subscriber_id AND statssent.newsletter_id = :newsletter" . $parameterSuffix
       )->leftJoin(
         'statssent',
         $statsTable,
         'stats',
-        $this->createNotStatsJoinCondition($filter, $action, $linkId)
-      )->setParameter('newsletter' . $filter->getId(), $newsletterId);
+        $this->createNotStatsJoinCondition($filter, $action, $linkId, $parameterSuffix)
+      )->setParameter('newsletter' . $parameterSuffix, $newsletterId);
       $where .= ' AND stats.id IS NULL';
     } else if ($action === self::ACTION_CLICKED_ANY) {
       $excludedLinks = [
@@ -96,24 +98,24 @@ class EmailAction implements Filter {
         $subscribersTable,
         $statsTable,
         'stats',
-        "stats.subscriber_id = $subscribersTable.id AND stats.newsletter_id = :newsletter" . $filter->getId()
-      )->setParameter('newsletter' . $filter->getId(), $newsletterId);
+        "stats.subscriber_id = $subscribersTable.id AND stats.newsletter_id = :newsletter" . $parameterSuffix
+      )->setParameter('newsletter' . $parameterSuffix, $newsletterId);
     }
     if ($action === EmailAction::ACTION_CLICKED && $linkId) {
-      $where .= ' AND stats.link_id = :link' . $filter->getId();
+      $where .= ' AND stats.link_id = :link' . $parameterSuffix;
     }
     $queryBuilder = $queryBuilder->andWhere($where);
     if (in_array($action, [EmailAction::ACTION_CLICKED, EmailAction::ACTION_NOT_CLICKED]) && $linkId) {
       $queryBuilder = $queryBuilder
-        ->setParameter('link' . $filter->getId(), $linkId);
+        ->setParameter('link' . $parameterSuffix, $linkId);
     }
     return $queryBuilder;
   }
 
-  private function createNotStatsJoinCondition(DynamicSegmentFilterEntity $filter, string $action, int $linkId = null): string {
-    $clause = "statssent.subscriber_id = stats.subscriber_id AND stats.newsletter_id = :newsletter" . $filter->getId();
+  private function createNotStatsJoinCondition(DynamicSegmentFilterEntity $filter, string $action, int $linkId = null, string $parameterSuffix): string {
+    $clause = "statssent.subscriber_id = stats.subscriber_id AND stats.newsletter_id = :newsletter" . $parameterSuffix;
     if ($action === EmailAction::ACTION_NOT_CLICKED && $linkId) {
-      $clause .= ' AND stats.link_id = :link' . $filter->getId();
+      $clause .= ' AND stats.link_id = :link' . $parameterSuffix;
     }
     return $clause;
   }

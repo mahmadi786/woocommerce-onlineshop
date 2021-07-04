@@ -5,6 +5,7 @@ namespace MailPoet\Segments\DynamicSegments;
 if (!defined('ABSPATH')) exit;
 
 
+use MailPoet\Entities\DynamicSegmentFilterData;
 use MailPoet\Entities\SegmentEntity;
 use MailPoet\Entities\SubscriberEntity;
 use MailPoet\Segments\SegmentDependencyValidator;
@@ -61,11 +62,9 @@ class FilterHandler {
   private function joinSubqueries(QueryBuilder $queryBuilder, SegmentEntity $segment, array $subQueries): QueryBuilder {
     $filter = $segment->getDynamicFilters()->first();
     if (!$filter) return $queryBuilder;
-    $filterData = $filter->getFilterData();
-    $data = $filterData->getData();
     $subscribersTable = $this->entityManager->getClassMetadata(SubscriberEntity::class)->getTableName();
 
-    if (!isset($data['connect']) || $data['connect'] === 'or') {
+    if ($segment->getFiltersConnectOperator() === DynamicSegmentFilterData::CONNECT_TYPE_OR) {
       // the final query: SELECT * FROM subscribers INNER JOIN (filter_select1 UNION filter_select2) filtered_subscribers ON filtered_subscribers.inner_subscriber_id = id
       $queryBuilder->innerJoin(
         $subscribersTable,

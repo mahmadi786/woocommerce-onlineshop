@@ -1,0 +1,21 @@
+#customize-controls #accordion-panel-hq_general_settings .accordion-section-title,
+#customize-controls #accordion-panel-hq_general_settings .accordion-section-title:focus,
+#customize-controls #accordion-panel-hq_general_settings .accordion-section-title:hover{
+    color: #fff;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(244,11,61,1) 42%, rgba(250,166,1,1) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    -moz-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    letter-spacing: normal;
+}
+#customize-controls #accordion-panel-hq_general_settings .accordion-section-title:focus,
+#customize-controls #accordion-panel-hq_general_settings .accordion-section-title:hover {
+    letter-spacing: 1px;
+}
+
+#customize-theme-controls #accordion-panel-hq_general_settings .accordion-section-title:focus:after,
+#customize-theme-controls #accordion-panel-hq_general_settings .accordion-section-title:hover:after{
+    color: #fff;
+}

@@ -1,0 +1,201 @@
+# <!=Copyright (C) 2020 Blossom Themes
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Blossom Chic 1.0.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/blossom-chic\n"
+"POT-Creation-Date: 2020-07-03 08:04:33+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: functions.php:87
+msgid "Demo & Documentation"
+msgstr ""
+
+#: functions.php:100
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:102
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr ""
+
+#: functions.php:120
+msgid "Appearance Settings"
+msgstr ""
+
+#: functions.php:121
+msgid "Customize Typography, Header Image & Background Image"
+msgstr ""
+
+#: functions.php:129
+msgid "Typography"
+msgstr ""
+
+#: functions.php:149
+msgid "Primary Font"
+msgstr ""
+
+#: functions.php:150
+msgid "Primary font of the site."
+msgstr ""
+
+#: functions.php:171
+msgid "Secondary Font"
+msgstr ""
+
+#: functions.php:172
+msgid "Secondary font of the site."
+msgstr ""
+
+#: functions.php:194
+msgid "Font Size"
+msgstr ""
+
+#: functions.php:195
+msgid "Change the font size of your site."
+msgstr ""
+
+#: functions.php:227
+msgid "Primary Color"
+msgstr ""
+
+#: functions.php:228
+msgid "Primary color of the theme."
+msgstr ""
+
+#: functions.php:248
+msgid "Secondary Color"
+msgstr ""
+
+#: functions.php:249
+msgid "Secondary color of the theme."
+msgstr ""
+
+#: functions.php:260
+msgid "Layout Settings"
+msgstr ""
+
+#: functions.php:269 functions.php:290
+msgid "Header Layout"
+msgstr ""
+
+#: functions.php:291
+msgid "This is the layout for header."
+msgstr ""
+
+#: functions.php:304 functions.php:325
+msgid "Home Page Layout"
+msgstr ""
+
+#: functions.php:326
+msgid "This is the layout for blog index page."
+msgstr ""
+
+#: functions.php:339 functions.php:360
+msgid "Slider Layout"
+msgstr ""
+
+#: functions.php:361
+msgid "Choose the layout of the slider for your site."
+msgstr ""
+
+#: functions.php:393
+#. translators: used between list items, there is a space after the comma
+msgid "secondary menu toggle button"
+msgstr ""
+
+#: functions.php:401 functions.php:462
+msgid "Mobile"
+msgstr ""
+
+#: functions.php:417 functions.php:478
+msgid "search toggle button"
+msgstr ""
+
+#: functions.php:458
+msgid "primary menu toggle button"
+msgstr ""
+
+#: functions.php:458
+msgid "Navigation"
+msgstr ""
+
+#: functions.php:461
+msgid "Close"
+msgstr ""
+
+#: functions.php:960
+msgid " Blossom Chic | Developed By "
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Blossom Themes"
+msgstr ""
+
+#: functions.php:963
+msgid " Powered by %s"
+msgstr ""
+
+#: functions.php:963
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Blossom Chic"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://blossomthemes.com/themes/blossom-chic-free-wordpress-theme"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Blossom Chic is a child theme of Blossom Feminine WordPress blog theme to "
+"create stunning, lively and eye catching website. Whether you want to share "
+"your expert fashion tips, your favorite recipes or create a lifestyle, "
+"travel, food, beauty, make-up, coaching, wedding, portfolio, personal, "
+"girly, parenting or cooking blog, Blossom Chic is an ideal choice for you. "
+"You can easily customize your website using the typography and color "
+"features. You can change the color to pink, purple, or any color you like. "
+"Blossom Chic is mobile friendly and fully responsive to ensure your website "
+"looks great in different sized devices. Beautifully placed Instagram "
+"section can be used to show your Instagram account and increase your "
+"followers. The advertisement widget in the theme will help you easily "
+"monetize your blog. The well placed Newsletter section will help you to "
+"grow your email list and keep in touch with your visitors. Blossom Chic is "
+"SEO friendly and speed optimized. The theme is translation ready and "
+"supports RTL and WooCommerce plugin for your utmost benefit. In addition, "
+"Blossom Chic is backed by world class, one-on-one support, and a super "
+"active team of developers and designers ready to help! Check demo: "
+"https://blossomthemes.com/theme-demo/?theme=blossom-chic, read "
+"documentation: https://docs.blossomthemes.com/docs/blossom-chic/, and get "
+"support: https://blossomthemes.com/support-ticket/."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://blossomthemes.com/"
+msgstr ""
+
+#: functions.php:567
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:568
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:569
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr ""

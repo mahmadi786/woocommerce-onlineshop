@@ -13,5 +13,6 @@ return array(
     'CreativeMail\\Integrations\\' => array($baseDir . '/src/integrations'),
     'CreativeMail\\Helpers\\' => array($baseDir . '/src/helpers'),
     'CreativeMail\\Constants\\' => array($baseDir . '/src/constants'),
+    'CreativeMail\\Blocks\\' => array($baseDir . '/src/blocks'),
     'CreativeMail\\' => array($baseDir . '/src'),
 );

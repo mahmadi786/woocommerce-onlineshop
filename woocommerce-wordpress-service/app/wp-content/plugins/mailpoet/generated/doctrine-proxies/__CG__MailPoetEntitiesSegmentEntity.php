@@ -327,6 +327,17 @@ class SegmentEntity extends \MailPoet\Entities\SegmentEntity implements \MailPoe
     /**
      * {@inheritDoc}
      */
+    public function getFiltersConnectOperator(): string
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getFiltersConnectOperator', []);
+
+        return parent::getFiltersConnectOperator();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
     public function getId()
     {
         if ($this->__isInitialized__ === false) {

@@ -18,6 +18,7 @@ class ContactModel
     public $contactAddresses;
     public $eventType;
     private $birthday;
+    private $listId;
 
     function __construct()
     {
@@ -153,6 +154,16 @@ class ContactModel
         $this->birthday = $birthday;
     }
 
+    public function getListId()
+    {
+        return $this->listId;
+    }
+
+    public function setListId($listId)
+    {
+        $this->listId = $listId;
+    }
+
     function toArray()
     {
         $result = array(
@@ -166,7 +177,8 @@ class ContactModel
             "opt_in" => $this->getOptIn(),
             "opt_out" => $this->getOptOut(),
             "opt_action_by" => $this->getOptActionBy(),
-            "event_type" => $this->getEventType()
+            "event_type" => $this->getEventType(),
+            "list_id" => $this->getListId()
         );
 
         $address = $this->getContactAddress();

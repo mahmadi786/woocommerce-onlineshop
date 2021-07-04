@@ -23,14 +23,6 @@ class Subscribers {
     return ScheduledTaskSubscriber::where('task_id', $this->task->id);
   }
 
-  public function isSubscriberProcessed($subscriberId) {
-    $subscriber = $this->getSubscribers()
-      ->where('subscriber_id', $subscriberId)
-      ->where('processed', ScheduledTaskSubscriber::STATUS_PROCESSED)
-      ->findOne();
-    return !empty($subscriber);
-  }
-
   public function removeSubscribers(array $subscribersToRemove) {
     $this->getSubscribers()
       ->whereIn('subscriber_id', $subscribersToRemove)

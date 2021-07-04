@@ -5,7 +5,7 @@ Tags: page builder, Gutenberg blocks, WordPress blocks, gutenberg, blocks
 Requires at least: 5.0
 Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 2.11.2
+Stable tag: 2.12.1
 License: GPL-2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -115,5 +115,6 @@ Developers can also apply minor style touch-ups to their themes if necessary. If
 
 == Changelog ==
 
-### Enhancements
-* Enhance readability of Offset Gallery block previews [#1903](https://github.com/godaddy-wordpress/coblocks/pull/1903)
+### Bug Fixes
+* Fix accordion items background color override [#1920](https://github.com/godaddy-wordpress/coblocks/pull/1920)
+* Fix image link controls for Services block [#1917](https://github.com/godaddy-wordpress/coblocks/pull/1917)

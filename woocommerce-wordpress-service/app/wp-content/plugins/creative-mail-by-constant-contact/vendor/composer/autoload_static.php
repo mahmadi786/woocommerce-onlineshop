@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3bd42710fc65484e098479b31e8e3f23
+class ComposerStaticInit2db489663291a087b9625ad29c014f02
 {
     public static $prefixLengthsPsr4 = array (
         'F' => 
@@ -22,6 +22,7 @@ class ComposerStaticInit3bd42710fc65484e098479b31e8e3f23
             'CreativeMail\\Integrations\\' => 26,
             'CreativeMail\\Helpers\\' => 21,
             'CreativeMail\\Constants\\' => 23,
+            'CreativeMail\\Blocks\\' => 20,
             'CreativeMail\\' => 13,
         ),
     );
@@ -55,6 +56,10 @@ class ComposerStaticInit3bd42710fc65484e098479b31e8e3f23
         array (
             0 => __DIR__ . '/../..' . '/src/constants',
         ),
+        'CreativeMail\\Blocks\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/blocks',
+        ),
         'CreativeMail\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -72,6 +77,7 @@ class ComposerStaticInit3bd42710fc65484e098479b31e8e3f23
     );
 
     public static $classMap = array (
+        'CreativeMail\\Blocks\\LoadBlock' => __DIR__ . '/../..' . '/src/blocks/LoadBlock.php',
         'CreativeMail\\Clients\\CreativeMailClient' => __DIR__ . '/../..' . '/src/clients/CreativeMailClient.php',
         'CreativeMail\\Constants\\EnvironmentNames' => __DIR__ . '/../..' . '/src/constants/EnvironmentNames.php',
         'CreativeMail\\CreativeMail' => __DIR__ . '/../..' . '/src/CreativeMail.php',
@@ -88,6 +94,7 @@ class ComposerStaticInit3bd42710fc65484e098479b31e8e3f23
         'CreativeMail\\Managers\\CheckoutManager' => __DIR__ . '/../..' . '/src/managers/CheckoutManager.php',
         'CreativeMail\\Managers\\DatabaseManager' => __DIR__ . '/../..' . '/src/managers/DatabaseManager.php',
         'CreativeMail\\Managers\\EmailManager' => __DIR__ . '/../..' . '/src/managers/EmailManager.php',
+        'CreativeMail\\Managers\\FormManager' => __DIR__ . '/../..' . '/src/managers/FormManager.php',
         'CreativeMail\\Managers\\InstanceManager' => __DIR__ . '/../..' . '/src/managers/InstanceManager.php',
         'CreativeMail\\Managers\\IntegrationManager' => __DIR__ . '/../..' . '/src/managers/IntegrationManager.php',
         'CreativeMail\\Managers\\RaygunManager' => __DIR__ . '/../..' . '/src/managers/RaygunManager.php',
@@ -100,6 +107,7 @@ class ComposerStaticInit3bd42710fc65484e098479b31e8e3f23
         'CreativeMail\\Modules\\Contacts\\Handlers\\BlueHostBuilderPluginHandler' => __DIR__ . '/../..' . '/src/modules/contacts/Handlers/BlueHostBuilderPluginHandler.php',
         'CreativeMail\\Modules\\Contacts\\Handlers\\CalderaPluginHandler' => __DIR__ . '/../..' . '/src/modules/contacts/Handlers/CalderaPluginHandler.php',
         'CreativeMail\\Modules\\Contacts\\Handlers\\ContactFormSevenPluginHandler' => __DIR__ . '/../..' . '/src/modules/contacts/Handlers/ContactFormSevenPluginHandler.php',
+        'CreativeMail\\Modules\\Contacts\\Handlers\\CreativeMailPluginHandler' => __DIR__ . '/../..' . '/src/modules/contacts/Handlers/CreativeMailPluginHandler.php',
         'CreativeMail\\Modules\\Contacts\\Handlers\\ElementorPluginHandler' => __DIR__ . '/../..' . '/src/modules/contacts/Handlers/ElementorPluginHandler.php',
         'CreativeMail\\Modules\\Contacts\\Handlers\\FormidablePluginHandler' => __DIR__ . '/../..' . '/src/modules/contacts/Handlers/FormidablePluginHandler.php',
         'CreativeMail\\Modules\\Contacts\\Handlers\\GravityFormsPluginHandler' => __DIR__ . '/../..' . '/src/modules/contacts/Handlers/GravityFormsPluginHandler.php',
@@ -159,10 +167,10 @@ class ComposerStaticInit3bd42710fc65484e098479b31e8e3f23
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3bd42710fc65484e098479b31e8e3f23::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3bd42710fc65484e098479b31e8e3f23::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit3bd42710fc65484e098479b31e8e3f23::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit3bd42710fc65484e098479b31e8e3f23::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit2db489663291a087b9625ad29c014f02::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit2db489663291a087b9625ad29c014f02::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit2db489663291a087b9625ad29c014f02::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit2db489663291a087b9625ad29c014f02::$classMap;
 
         }, null, ClassLoader::class);
     }

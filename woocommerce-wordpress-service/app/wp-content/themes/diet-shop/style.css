@@ -1,0 +1,742 @@
+/*!
+Theme Name: Diet Shop
+Theme URI: https://www.athemeart.com/downloads/free-wordpress-gym-themes/
+Author: athemeart
+Author URI: https://athemeart.com/
+Description: Diet-shop is a unique and advanced WordPress e-commerce theme built with Bootstrap and Elementor Page Builder. Diet Shop is a wellness and nutrition WordPress theme that features many of functionality needed for gym/fitness, Health Clubs, Yoga Teacher, Gyms, Fitness Centers, Gym Trainers,  nutrition and dietitian websites, for weight loss programs , health supplements shop and diet specialists, personal fitness and weight loss trainers and wellness blogs. Work with the most popular plugins search as Smart Slider 3, Gutenberg, WooCommerce, WP Super Cache, automatic, Contact Form 7, Yoast SEO, SiteOrigin, etc. Diet-shop best friend of Woocommerce and Elementor . so, you could be built all niches and gym shop or fitness store in a matter of minutes, without having to write a line of code.
+Version: 1.1.6
+Requires at least: 5.0
+Tested up to: 5.7.2
+Requires PHP: 7.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: diet-shop
+Tags: one-column, two-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, featured-images, post-formats, flexible-header, custom-background, footer-widgets, blog, e-commerce, portfolio, rtl-language-support, translation-ready, custom-logo
+*/
+
+
+
+/* Document
+ ========================================================================== */
+
+
+.content-area-wrap{
+	display:block;
+	padding:50px 0px;	
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  right: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+
+/* ============================================================== 
+     # Comment
+=================================================================== */
+
+.comments-area {
+	background:#FFF;
+	
+	position:relative;
+}
+.details-page-inner-box.comment-form  {
+	padding:15px;
+}
+ul.comment-list {
+	display:block;
+	margin:0px;
+	padding:0px;
+}
+ul.comment-list li {
+	margin:0px;
+	list-style:none;
+	clear:both;	
+}
+ul.comment-list li ul {
+	margin-left:20px;
+}
+.comment-meta .single-comment img {width: 80px;height: 80px;border-radius: 50%;}
+.comment-meta .single-comment .comment {
+  width: calc(100% - 80px);
+  padding-left: 20px;
+  position: relative;
+}
+.comment-meta .single-comment .comment h6 a {
+  text-transform: uppercase;
+  color: #313131;
+  margin: 10px 0 8px 0;
+}
+.comment-meta .single-comment .comment .date {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.comment-meta .single-comment .comment-text {margin-top:10px;}
+.comment-meta .single-comment {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  position:relative;
+}
+.comment-meta .ellipse-left {
+	 position:relative;
+	
+}
+.comment-meta .single-comment.reply-comment {margin-left: 50px;}
+.comment-meta .single-comment:last-child {
+  margin: 0;
+  padding: 0;
+  border:none;
+}
+.comment-meta .single-comment .comment .reply {
+  position: absolute;
+  top:0;
+  right: 0;
+
+
+} 
+.comment-meta .single-comment .comment .reply a{
+	text-transform: uppercase;
+	line-height: 24px;
+	padding: 0 12px;
+	background: #f7f7f7;
+	font-size: 12px;
+	color: #777;
+	transition: all 0.3s ease-in-out;
+	display:block;
+	text-decoration:none;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.comment-meta .single-comment .comment .reply a:hover { color: #fff; background:var(--p-color); }
+h4.comments-title{
+	margin-bottom:30px;
+		
+}
+.comment-form form input,
+.content input {
+  width: 100%;
+  height: 48px;
+  padding: 0 15px;
+  font-size: 15px;
+  border:1px solid #E2E2E2;
+  margin-bottom: 25px;
+}
+.comment-form form textarea,
+.content textarea{
+  width: 100%;
+  max-width: 100%;
+  height: 175px;
+  max-height: 175px;
+  padding: 15px;
+  border:1px solid #E2E2E2;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+#main input:focus,
+#main input:focus,
+#main textarea:focus{
+	border: 1px solid var(--p-color);
+}
+.comment-form .col-xl-4{
+	position:relative;	
+}
+.comment-form .col-xl-4 span.required{
+	position:absolute;
+	right:30px;
+	top:15px;
+	color:#F00;
+}
+.form-allowed-tags div.text-wrp {
+	font-size:14px;
+	font-style:italic;
+	margin-bottom:20px;
+}
+.comment-notes {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.comment-form input[type="checkbox"],
+.content input[type="checkbox"],
+#main .content-wrap ul.wc_payment_methods li input[type="radio"],
+.validate-required input[type="checkbox"],
+#customer_details input[type="checkbox"]{
+    border-radius: 2px;
+    background: #DADADA;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 20px;
+    margin: -3px 4px 0 0;
+    outline: 0;
+    padding: 0 !important;
+    text-align: center;
+    vertical-align: middle;
+    width: 20px;
+    min-width: 20px;
+    -webkit-appearance: none;
+    -webkit-transition: .05s border-color ease-in-out;
+    transition: .05s border-color ease-in-out;
+	margin-right:10px;
+	
+}
+.comment-form input[type="checkbox"]:checked,
+.content input[type="checkbox"]:checked,
+#main .content-wrap ul.wc_payment_methods li input[type="radio"]:checked,
+.validate-required input[type="checkbox"]:checked,
+#customer_details input[type="checkbox"]:checked {
+    background: var(--p-color);
+}
+.comment-form input[type="checkbox"]:before,
+.content input[type="checkbox"]:before,
+#main .content-wrap ul.wc_payment_methods li input[type="radio"]:before,
+.validate-required input[type="checkbox"]:before,
+#customer_details input[type="checkbox"]:before{
+	opacity:0;
+}
+.comment-form input[type="checkbox"]:checked::before,
+.content input[type="checkbox"]:checked::before,
+#main .content-wrap ul.wc_payment_methods li input[type="radio"]:checked::before,
+.validate-required input[type="checkbox"]:checked::before,
+#customer_details input[type="checkbox"]:checked:before{
+    float: left;
+    color: #fff;
+    font-size:14px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    margin-top: 10px;
+    margin-left: 2px;
+	font-family: 'FontAwesome';
+	font-weight: 900;
+    content: "\f00c";
+    speak: none;
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	opacity:1;
+}
+.form-submit{
+	margin-left:15px;	
+}
+p.form-submit{
+	margin-top:15px;
+}
+
+ul.single-prev-next {
+	margin:0px;
+	padding:0px;
+    margin-bottom: 27px;
+	margin-top:-40px;
+	float:right;
+}
+ul.single-prev-next li{
+	list-style:none;
+	display:inline-block;	
+}
+
+
+.nav-links{
+	display:block;
+	padding:10px;	
+}
+.nav-links .nav-previous{
+	float:left;	
+}
+.nav-links .nav-next{
+	float:right;	
+}
+.nav-links a,
+.single-prev-next a{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	text-transform: uppercase;
+	min-width: 150px;
+	text-align: center;
+	padding:12px 15px;
+	transition: all 0.3s ease-in-out;	
+	background: var(--p-color);
+	color: #fff;
+	position:relative;
+	z-index:9;
+	
+}
+
+.nav-links a:before,
+.single-prev-next a:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #212121;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.nav-links a:hover:before, .nav-links a:focus:before, .nav-links a:active:before,
+.single-prev-next a:hover:before, .single-prev-next a:focus:before, .single-prev-next a:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.nav-previous a i,
+.single-prev-next li:first-child a i{
+	margin-right:15px;
+}
+.nav-next a i,
+.single-prev-next li:last-child a i{
+	margin-left:15px;
+}
+.single-prev-next li:first-child{
+	margin-right:20px;	
+}
+
+/* ============================================================== 
+     # Captions
+=================================================================== */
+
+.wp-caption {
+    margin-bottom: 1.5em;
+    max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+    margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+    text-align: center;
+}
+
+
+/* ============================================================== 
+     # Gallery
+=================================================================== */
+
+.gallery {
+	margin-bottom: 1.5em;
+	margin:0px -15px;
+}
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	padding:0px 13px;
+	
+}
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+.gallery-caption {
+	display: block;
+	clear:both;
+}
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+	border: 1px solid #333;
+	padding: 2px;
+}
+
+/*--------------------------------------------------------------
+# input, textarea
+--------------------------------------------------------------*/
+input,textarea{
+	display:block;
+	width:100%;
+	padding:9px;
+	border:1px solid #ccc;
+	box-shadow:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: solid 1px
+	#cfcfcf;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background:rgba(255,255,255,0.7);
+	-webkit-box-shadow: 0px;
+	-moz-box-shadow: 0px;
+	box-shadow: 0;
+}
+input:focus,textarea:focus{
+	border: 1px solid var(--p-color);
+}
+.search-form{
+	display:block;
+	margin:0px;
+	position:relative;	
+}
+.search-submit{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background: var(--p-color);
+    display: inline-block;
+    line-height: 24px;
+    text-align: center;
+    text-align: center;
+    font-weight: normal;
+	position:absolute;
+	right:0px;
+	width:70px;
+	border:none;
+	text-transform:uppercase;
+	cursor:pointer;
+}
+.search-submit:hover{
+	background: var(--button-bg);
+}
+.search-submit.normal-btn{
+	position:static;
+	width:auto;
+	display:inline-block;
+	line-height: 24px;
+	
+	letter-spacing:2px;
+	padding:10px 30px;
+}
+.search-submit.normal-btn:hover{
+	color:#FFF;	
+}
+.search-submit.normal-btn i{
+	margin-right:15px;	
+}
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+p.logged-in-as{
+	display:block;
+	padding:10px 15px; 	
+}
+p.logged-in-as a{
+	color:#000;	
+}
+.nav-links{
+	margin-left:-10px;
+	margin-right:-10px;	
+}
+ul.products{
+	display:block;
+	width:100%;	
+}
+table{
+	width:100%;	
+}
+table td,table th{
+	padding:5px;	
+}
+td.product-subtotal,
+th.product-subtotal,
+.woocommerce-cart .woocommerce table.shop_table.cart tr th.product-subtotal{
+	text-align:right;
+	font-weight:bold;
+	
+	
+}
+td.product-subtotal .woocommerce-Price-amount{
+	float:right;
+}
+p.has-large-font-size{
+	line-height:normal;	
+}
+code { 
+    background: hsl(220, 80%, 90%); 
+}
+
+pre {
+    white-space: pre-wrap;
+    background: hsl(30,80%,90%);
+	padding:15px;
+}
+#main .content-wrap ul,#main .content-wrap ol{
+	margin:0px;
+	padding:0px;
+	padding-left:20px;	
+}
+#main .content-wrap ul li{
+	list-style:disc;	
+}
+.theme-main-header .navbar-toggler:hover,
+.theme-main-header .navbar-toggler:focus{
+	background:var(--button-bg);
+}
+ul.navbar-nav {
+	margin-bottom:0px;
+	padding-bottom:0px;	
+}
+
+body.admin-bar #sticky-header-sticky-wrapper.is-sticky .theme-main-header{
+	margin-top:30px;
+}
+
+#main .content-wrap ul.wc_payment_methods{
+	list-style:none;
+	margin:0px;
+	padding-top:15px;
+}
+#main .content-wrap ul.wc_payment_methods li{
+	list-style:none;
+	padding-left:30px;
+	padding-bottom:25px;
+	position:relative;
+}
+#main .content-wrap ul.wc_payment_methods li p{
+	margin-bottom:0px;
+	padding-bottom:0px;	
+}
+#main .content-wrap ul.wc_payment_methods li label{
+	font-weight:bold;
+	display:block;	
+}
+#main .content-wrap ul.wc_payment_methods li input[type="radio"]{
+	position:absolute;
+	left:0px;
+	top:10px;	
+}
+
+.woocommerce-MyAccount-navigation{
+	width: 30%;
+	float: left;
+}
+.woocommerce-MyAccount-content{
+	width: 70%;
+	float: right;
+}
+.woocommerce-MyAccount-content label{
+	display: block;
+width: 100%;
+}
+
+.woocommerce-MyAccount-content .col-1,
+.woocommerce-MyAccount-content .col-2,
+.woocommerce-customer-details .col-1,
+.woocommerce-customer-details .col-2{
+	width: 50%;
+	float: left;
+	max-width: 50%;
+}
+
+.woocommerce-MyAccount-navigation ul{
+	margin:0px;
+	padding:0px;
+	margin-right:15%!important
+}
+
+.woocommerce-MyAccount-navigation li{
+	list-style:none;
+	display:block;	
+	padding-top: 12px;
+	padding-bottom: 12px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding-left:25px;
+	position:relative;
+	font-size:0.85rem;
+	position:relative;
+}
+.woocommerce-MyAccount-navigation li{
+	padding-left:20px;	
+}
+
+.woocommerce-MyAccount-navigation li:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+    background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+    background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
+}
+.woocommerce-MyAccount-navigation li:last-child:after{
+	display:none;
+}
+.woocommerce-MyAccount-navigation a{
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	font-weight: normal;
+	display: block;
+	color: var( --p-color );
+	text-decoration:none;
+} 
+.woocommerce-MyAccount-navigation li:hover{
+	background: var( --text-color );
+}
+@media only screen and (max-width: 768px) {
+	#customer_details .col-1, #customer_details .col-2{
+		-webkit-box-flex: 0!important;
+		-ms-flex: 0 0 100%!important;
+		flex: 0 0 100%!important;
+		max-width: 100%!important;
+		float:none!important;
+		display: block;
+		clear: both!important;
+	}
+	.woocommerce-MyAccount-navigation,
+	.woocommerce-MyAccount-content,
+	.woocommerce-MyAccount-content .col-1, .woocommerce-MyAccount-content .col-2,
+	.woocommerce-customer-details .col-1,
+	.woocommerce-customer-details .col-2{
+		width: 100%;
+		float: none;
+		clear: both;
+		max-width: 100%;
+	}
+}
+
+#dp-theme-banner .btn-wrp a,
+.checkout_coupon  button,
+.woocommerce-MyAccount-content [type="button"],
+ .woocommerce-MyAccount-content button{
+	background: rgba(255, 255, 255, 0) none repeat scroll 0 0;
+    text-decoration: none;
+	border: 1px solid var( --p-color );
+	color: var( --p-color );
+	text-align: center;
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding:15px;
+	min-width:150px;
+	text-align:center;
+	display:inline-block;
+	margin:5px 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	font-size:16px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+#dp-theme-banner .btn-wrp a:hover,
+.checkout_coupon  button:hover,
+.woocommerce-MyAccount-content button:hover,
+ .woocommerce-MyAccount-content [type="button"] [type="submit"]:hover{
+	background: var( --p-color );
+	text-decoration: none;
+	color:#FFF;
+}
+.checkout_coupon  button,
+.woocommerce-MyAccount-content button{
+	padding: 8px 15px;
+	margin: 0px!important;
+}
+
+.u-column1.col-1,
+.u-column2.col-2,
+#customer_login .col-1,
+#customer_login .col-2{
+	max-width: 50%!important;
+	float: left!important;
+}
+#primary.container blockquote {
+    background-color: #f5f5f5;
+    font-weight: 400;
+    color: #444;
+    border-left: 4px solid #37c092;
+    font-style: italic;
+    font-weight: 700;
+    margin: 3%;
+    padding: 15px;
+}

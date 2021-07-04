@@ -3,7 +3,7 @@ Contributors: TheMagnifico52
 Requires at least: 5.0
 Tested up to: 5.7
 Requires PHP: 7.2.14
-Stable tag: 0.1.8
+Stable tag: 0.1.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: custom-logo, one-column, two-columns, wide-blocks, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, block-styles, sticky-post, footer-widgets, editor-style, threaded-comments, rtl-language-support, left-sidebar, right-sidebar, blog, e-commerce, food-and-drink
@@ -12,7 +12,7 @@ Restaurant Zone is one elegant and sophisticated, clean and retina ready, beauti
 
 == Description ==
 
-Restaurant Zone is one elegant and sophisticated, clean and retina ready, beautiful and responsive multipurpose theme that is ideal for pizza shops, tea shops, coffee shops, cafeteria, bakery, burger shops, sushi restaurants, barbecues, any kind of restaurants like fast food, Italian, take away, burger joint, pizza parlour, doughnut shop, pretzl shop, barbeque, multi-cuisine, cooking compititions, fine dining, chef, cooking, culinary, reservation, Japanese, Chinese, bakers street, biscuite shop, ice cream parlor, Korean, culinary, food experts, urban, food delivering, food ordering platform, Thai restaurants, pizzerias, grill houses and other food-related business websites. It is also suitable for hotel, resort, lodge, cafe, diner, lunch, take away, icecream corner, pastry shop, snacks shop, online orders and local fast food, homestay business model or any hospitality business. If you are a crazy foodie who loves to discover new varieties of dishes and share with people as a food blogger then this theme is also suitable for you. This free theme is fully loaded with awesome features. You can fully customize your website with so many customization and personalization options available. The Restaurant zone theme is very user-friendly as well as SEO friendly which will help your website get indexed on search engines soon. You can add additional functionality to your website. It supports all Google fonts, image slider, threaded comments and as many features like these. The theme has optimized codes for faster page load times and is fully responsive with all devices. It is based on bootstrap framework and is translation ready.
+Restaurant Zone is one elegant and sophisticated, clean and retina ready, beautiful and responsive multipurpose theme that is ideal for pizza shops, tea shops, coffee shops, cafeteria, bakery, burger shops, sushi restaurants, barbecues, any kind of restaurants like fast food, Italian, take away, burger joint, pizza parlour, doughnut shop, pretzl shop, barbeque, multi-cuisine, cooking compititions, fine dining, chef, cooking, culinary, reservation, Japanese, Chinese, juice bars, pop-up restaurants, bakers street, biscuite shop, ice cream parlor, Korean, culinary, food experts, urban, food delivering, food ordering platform, Thai restaurants, pizzerias, grill houses and other food-related business websites. It is also suitable for hotel, resort, lodge, cafe, diner, lunch, take away, icecream corner, pastry shop, snacks shop, online orders and local fast food, homestay business model or any hospitality business. If you are a crazy foodie who loves to discover new varieties of dishes and share with people as a food blogger then this theme is also suitable for you. This free theme is fully loaded with awesome features. You can fully customize your website with so many customization and personalization options available. The Restaurant zone theme is very user-friendly as well as SEO friendly which will help your website get indexed on search engines soon. You can add additional functionality to your website. It supports all Google fonts, image slider, threaded comments and as many features like these. The theme has optimized codes for faster page load times and is fully responsive with all devices. It is based on bootstrap framework and is translation ready.
 
 == Installation ==
 
@@ -159,3 +159,7 @@ OwlCarousel
 = 0.1.8
 
 * Bugs Fixes.
+
+= 0.1.9
+
+* Added theme color option.

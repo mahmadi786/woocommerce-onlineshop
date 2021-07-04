@@ -8,8 +8,6 @@ if (!defined('ABSPATH')) exit;
 use MailPoet\Config\AccessControl;
 use MailPoet\Cron\Workers\StatsNotifications\NewsletterLinkRepository;
 use MailPoet\Entities\SendingQueueEntity;
-use MailPoet\Models\SendingQueue;
-use MailPoet\Models\Subscriber;
 use MailPoet\Newsletter\Links\Links;
 use MailPoet\Newsletter\NewslettersRepository;
 use MailPoet\Newsletter\Sending\SendingQueuesRepository;
@@ -52,6 +50,9 @@ class Track {
   /** @var NewsletterLinkRepository */
   private $newsletterLinkRepository;
 
+  /** @var Links */
+  private $links;
+
   public function __construct(
     Clicks $clicks,
     Opens $opens,
@@ -59,7 +60,8 @@ class Track {
     SubscribersRepository $subscribersRepository,
     NewslettersRepository $newslettersRepository,
     NewsletterLinkRepository $newsletterLinkRepository,
-    LinkTokens $linkTokens
+    LinkTokens $linkTokens,
+    Links $links
   ) {
     $this->clicks = $clicks;
     $this->opens = $opens;
@@ -68,6 +70,7 @@ class Track {
     $this->subscribersRepository = $subscribersRepository;
     $this->newslettersRepository = $newslettersRepository;
     $this->newsletterLinkRepository = $newsletterLinkRepository;
+    $this->links = $links;
   }
 
   public function click($data) {
@@ -79,7 +82,7 @@ class Track {
   }
 
   public function _processTrackData($data) {
-    $data = (object)Links::transformUrlDataObject($data);
+    $data = (object)$this->links->transformUrlDataObject($data);
     if (empty($data->queue_id) || // phpcs:ignore Squiz.NamingConventions.ValidVariableName.NotCamelCaps
       empty($data->subscriber_id) || // phpcs:ignore Squiz.NamingConventions.ValidVariableName.NotCamelCaps
       empty($data->subscriber_token) // phpcs:ignore Squiz.NamingConventions.ValidVariableName.NotCamelCaps
@@ -103,20 +106,16 @@ class Track {
 
   public function _validateTrackData($data) {
     if (!$data->subscriber || !$data->queue || !$data->newsletter) return false;
-    $subscriberModel = Subscriber::findOne($data->subscriber->getId());
-    $subscriberTokenMatch = $this->linkTokens->verifyToken($subscriberModel, $data->subscriber_token); // phpcs:ignore Squiz.NamingConventions.ValidVariableName.NotCamelCaps
+    $subscriberTokenMatch = $this->linkTokens->verifyToken($data->subscriber, $data->subscriber_token); // phpcs:ignore Squiz.NamingConventions.ValidVariableName.NotCamelCaps
     if (!$subscriberTokenMatch) {
       $this->terminate(403);
     }
     // return if this is a WP user previewing the newsletter
-    if ($subscriberModel->isWPUser() && $data->preview) {
+    if ($data->subscriber->isWPUser() && $data->preview) {
       return $data;
     }
     // check if the newsletter was sent to the subscriber
-    $queue = SendingQueue::findOne($data->queue_id); // phpcs:ignore Squiz.NamingConventions.ValidVariableName.NotCamelCaps
-    if (!$queue instanceof SendingQueue) return false;
-
-    return ($queue->isSubscriberProcessed($data->subscriber->getId())) ?
+    return ($this->sendingQueuesRepository->isSubscriberProcessed($data->queue, $data->subscriber)) ?
       $data :
       false;
   }
